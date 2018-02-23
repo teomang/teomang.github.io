@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim - Orkung</title><link>/</link><description></description><lastBuildDate>Fri, 23 Feb 2018 10:06:00 +0300</lastBuildDate><item><title>Pelican'la blog'luyorum</title><link>/pelicanla-blogluyorum.html</link><description>&lt;p&gt;Sluğ: ilk-yazı
-Authors: orkung
-Summary: kısaca neden pelican&lt;/p&gt;
-&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e
-çıkarttım, her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni
-aldığım makinaya ruby, gems, rvm, bundle ve bilumum konfigürasyonuyla
+<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Fri, 23 Feb 2018 10:06:00 +0300</lastBuildDate><item><title>Pelican'la blog'luyorum</title><link>/ilk-yaz%C4%B1.html</link><description>&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
+her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni aldığım
+makinaya ruby, gems, rvm, bundle kurmak ve bilumum konfigürasyonuyla
 uğraşmaktansa hazır gelen python'a 5 tane bileşen kurarak (pip,
 virtualenwrapper, markdown, pelican, ghp-import) daha rahat blog yazacağıma
-kanaat getirdim.&lt;/p&gt;
+kanaat getirdim. Her defasında gem'lerde yaşadığım çakışmalar, kramdown'u unutup tekrar dokümana bakmalar artık geride kaldı. &lt;/p&gt;
+&lt;p&gt;kurulum icin &lt;a href="https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html"&gt;bu yazidan&lt;/a&gt; faydalandim&lt;/p&gt;
 &lt;p&gt;bundan sonra daha sık yazacağım, en azından, bunun önündeki bir bahaneyi daha
-elimine ettim.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/pelicanla-blogluyorum.html</guid><category>first</category><category>misc</category></item></channel></rss>
+elimine ettim.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/ilk-yazı.html</guid><category>first</category><category>misc</category></item></channel></rss>
