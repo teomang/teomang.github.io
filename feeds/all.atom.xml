@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-02-23T09:44:00+03:00</updated><entry><title>My third post</title><link href="/My-third-post.html" rel="alternate"></link><published>2018-02-23T09:44:00+03:00</published><updated>2018-02-23T09:44:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-23:/My-third-post.html</id><summary type="html">&lt;p&gt;diger pc'den yaptigim son deneme&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the &lt;em&gt;third post&lt;/em&gt; from my Pelican blog. &lt;strong&gt;YAY!&lt;/strong&gt;&lt;/p&gt;</content><category term="third"></category><category term="misc"></category></entry><entry><title>My second post</title><link href="/My-second-post.html" rel="alternate"></link><published>2018-02-22T23:47:00+03:00</published><updated>2018-02-22T21:53:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-22:/My-second-post.html</id><summary type="html">&lt;p&gt;What does your post talk about? Write here.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the &lt;em&gt;second post&lt;/em&gt; from my Pelican blog. &lt;strong&gt;YAY!&lt;/strong&gt;&lt;/p&gt;</content><category term="second"></category><category term="misc"></category></entry><entry><title>My first post</title><link href="/My-first-post.html" rel="alternate"></link><published>2018-02-22T21:53:00+03:00</published><updated>2018-02-22T21:53:00+03:00</updated><author><name>Your name</name></author><id>tag:None,2018-02-22:/My-first-post.html</id><summary type="html">&lt;p&gt;What does your post talk about? Write here.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the &lt;em&gt;first post&lt;/em&gt; from my Pelican blog. &lt;strong&gt;YAY!&lt;/strong&gt;&lt;/p&gt;</content><category term="first"></category><category term="misc"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-02-23T10:06:00+03:00</updated><entry><title>Pelican'la blog'luyorum</title><link href="/pelicanla-blogluyorum.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-02-23T10:06:00+03:00</updated><author><name>Orkung</name></author><id>tag:None,2018-02-23:/pelicanla-blogluyorum.html</id><summary type="html">&lt;p&gt;Sluğ: ilk-yazı
+Authors: orkung
+Summary: kısaca neden pelican&lt;/p&gt;
+&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e
+çıkarttım, her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni
+aldığım makinaya ruby, gems, rvm, bundle ve bilumum konfigürasyonuyla
+uğraşmaktansa hazır gelen python'a 5 tane bileşen kurarak (pip,
+virtualenwrapper, markdown …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Sluğ: ilk-yazı
+Authors: orkung
+Summary: kısaca neden pelican&lt;/p&gt;
+&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e
+çıkarttım, her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni
+aldığım makinaya ruby, gems, rvm, bundle ve bilumum konfigürasyonuyla
+uğraşmaktansa hazır gelen python'a 5 tane bileşen kurarak (pip,
+virtualenwrapper, markdown, pelican, ghp-import) daha rahat blog yazacağıma
+kanaat getirdim.&lt;/p&gt;
+&lt;p&gt;bundan sonra daha sık yazacağım, en azından, bunun önündeki bir bahaneyi daha
+elimine ettim.&lt;/p&gt;</content><category term="first"></category><category term="misc"></category></entry></feed>
