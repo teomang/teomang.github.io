@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-02-23T10:06:00+03:00</updated><entry><title>Pelican'la blog'luyorum</title><link href="/ilk-yaz%C4%B1.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-02-23T10:06:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-23:/ilk-yazı.html</id><summary type="html">&lt;p&gt;kısaca neden pelican&lt;/p&gt;</summary><content type="html">&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-02-23T10:06:00+03:00</updated><entry><title>Pelican'la blog'luyorum</title><link href="/bir-dosta-cevaben.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-02-23T10:06:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-23:/bir-dosta-cevaben.html</id><summary type="html">&lt;p&gt;tureticilik neden kucuk gorulur ve dar goruslu bulunur&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu yazida, donusumun tek yolunun, bireylerin, tercihlerinin sorumlulugunu
+almalari oldugunu savunacagim. Kollektif donusum konusunu tartismayacagim, o
+konudaki fikrim, bireylerin sorumluluk alma imkanlarini ve bilinclerini
+genislettigi olcude faydali, aksi durumda zararli oldugudur.&lt;/p&gt;
+&lt;p&gt;temel kaynaklarim, bugday dernegi'nin yayinladigi turetici olmak kitabi ve
+hatirladigim kadariyla Ursula'nin Mulksuzler'i.&lt;/p&gt;
+&lt;p&gt;Insanlarla biraradayken, cogu zaman karsilikli hicbir empatinin olusamayacagi
+bir yabancilasma durumlarda kalirim, yasam tarzlarimiz birbirine cok uzaktir.
+Ben vakit arttirabildigim zamanlarda turetici olmaya calisiyorum. Hayatimda
+buldugum en degerli anlam, dogaya en az zararla varolabilmek, ayrica katkida
+bulunabilmek. Bu caba icerisindeyken, giderek eskisinden daha fazla sorumluluk
+alabiliyorum. Ornegin ofiste birisi cope 1 kez kullanilmis bir poset attiginda,
+o gider gitmez poseti copten alip evime goturuyorum, cunku o poset, veya kese
+kagidi henuz cop degil. kullanilabilir. Ofiste arkadasla, hayata dair genel
+fikirlerimizi aktariyoruz, acikcasi kendisini hos sohbet buluyor ve
+paylasimlarimi arttirmaya cabaliyordum, ta ki ucuncu bir kisinin de bulundugu
+bir yemek sofrasindaki tartismaya kadar. &lt;/p&gt;
+&lt;p&gt;Kendisinin mukemmeliyetci ve pasif konumda bir yapisi oldugunu biliyordum,
+fakat daha once fikirlerimizi birbirimize karsi uc noktalara kadar goturerek
+tartismamistik, once fikri duzeydeki durumu kendi cephemden savunmak istiyorum,&lt;/p&gt;
+&lt;p&gt;Tureticilik bir evrim yolculugudur, her seferinde biraz daha fazlasini
+turetebilecegini, baska neler turetebilecegini dusundurur insana. Tureticiligin
+asil kazanimi tuketimi azaltmasindan veya alternatif tuketim mecralarina
+yoneltmesinden kaynaklanan ekonomik etki degildir. Kisinin yaptigi her
+alisverisin bir tercih ve iki tarafi da onurlandirma islevi tasidigini
+farketmesini, mecbur kaldigi tuketim durumlarini reddetmesini ve yaratici
+yollar bulmaya calismasini saglamasidir.&lt;/p&gt;
+&lt;p&gt;fikirlerin duygulardan bagimsiz olmadigini dusunuyorum, kendisine ayrica
+kirildim, benim gibi, fikirlerinin yasam tarziyla uyumlu olmasi icin cabalayan
+birisini, basitce elestirmek, cabalarini sig ve faydasiz bulmak, hem de bunu
+ilk kez boyle yikici bir sekilde ifade etmesi bende ciddi bir tepki dogurdu,
+kendisine kirilmak disinda kizdim da. Bugun kedim icin kurdugum bir cumleyi, bu
+olaya da uyarladim. "kizsam ne olacak, anlayacak mi ki..." Bu cumleyle
+kizginligim yatisti. &lt;/p&gt;
+&lt;p&gt;Yakin biriyle bu kadar uzak dusmem bende fikirlerimi daha iyi savunmam
+gerektigini hissettirdi. insanlar ilgili oldugu muddetce onlarla paylasarak.&lt;/p&gt;</content><category term="tureticilik"></category><category term="elestiri"></category></entry><entry><title>Pelican'la blog'luyorum</title><link href="/ilk-yaz%C4%B1.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-02-23T10:06:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-23:/ilk-yazı.html</id><summary type="html">&lt;p&gt;kısaca neden pelican&lt;/p&gt;</summary><content type="html">&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
 her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni aldığım
 makinaya ruby, gems, rvm, bundle kurmak ve bilumum konfigürasyonuyla
 uğraşmaktansa hazır gelen python'a 5 tane bileşen kurarak (pip,
