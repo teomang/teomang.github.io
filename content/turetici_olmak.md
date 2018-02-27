@@ -1,7 +1,7 @@
 Title: Türetici Olmak
 Date: 2018-02-23 10:06
 Modified: 2018-02-23 10:06
-Category: misc, yasam
+Category: yasam
 Tags: tureticilik, elestiri
 Slug: bir-dosta-cevaben
 Authors: orkung
