@@ -16,14 +16,11 @@ temel kaynaklarım, buğday derneği'nin yayınladığı türetici olmak kitabı
 hatırladığım kadarıyla Ursula'nın Mülksüzler'i.
 
 İnsanlarla biraradayken, çoğu zaman karşılıklı hiçbir empatinin oluşamayacağı
-bir yabancılaşma durumlarda kalırım, yaşam tarzlarımız birbirine çok uzaktır.
+bir yabancılaşma durumunda kalırım, yaşam tarzlarımız birbirine çok uzaktır.
 Ben vakit arttırabildiğim zamanlarda türetici olmaya çalışıyorum. Hayatımda
 bulduğum en değerli anlam; doğaya en az zararla varolabilmek, ayrıca katkıda
 bulunabilmek. Bu çaba içerisindeyken, giderek eskisinden daha fazla sorumluluk
-alabiliyorum. Örneğin ofiste birisi çöpe 1 kez kullanılmış bir şey attığında, o
-gider gitmez poşeti çöpten alıp evime götürüyorum, çünkü o poşet veya kese
-kağıdı henüz çöp değil. kullanılabilir. Ancak bu durumu henüz onu yapan kişiyle
-konuşamıyorum, çünkü deli olduğumu düşünebilirler. Çünkü ezberlerle yaşıyorlar. 
+alabiliyorum. 
 
 Şimdi bu yazıyı yazmama sebep olan konuya geliyorum; ofiste anlaşabildiğim bir
 arkadaşım var, onunla hayata dair bir şeyler konuşabiliyorum, açıkçası
@@ -53,8 +50,9 @@ anlayacak mı ki..." Bu cümleyle kızgınlığım yatıştı. Sonra bunu yaşad
 tartışmaya da uyarladım.
 
 Yakın biriyle bu kadar uzak düşmem bende fikirlerimi daha iyi savunmam ve
-fikirlerimle onlardan tepki görsem de, kızmamam gerektiğini hissettirdi. Bence
-türeticilik ve bireyin kendi sorumluluğunu alması, deneyimle gelişen bir bilinç
-meselesi. Yapabileceğim tek şey, bu deneyimleri edinmelerini sağlayacak
-imkanları onlara hatırlatmak, bunun için de sakin olmam ve bana yaptıkları
-eleştirileri, kedime yaklaşır gibi almam lazım. 
+fikirlerimle onlardan tepki görsem de, kızmamam gerektiğini öğretti. Bence
+türeticilik ve bireyin kendi sorumluluğunu alması, deneyimle gelişen
+bilinçlenme meselesi. Önceleri yapması zor veya çok uzak gelen şeyleri zamanla,
+denemeler yaparak uygulanabilir hale sokuyor insan. İnsanları eleştirmektense,
+bu deneyimleri edinmelerini sağlayacak imkanları onlara hatırlatmak, bunun için
+de sakin olmam ve bana yapacakları eleştirilere bağışık olmak gerekiyor.
