@@ -48,7 +48,7 @@ swapon -s
 
 &lt;h4&gt;Ram swap&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;zRam: Cpu cache'inde kullanilmayan alan buyukse tercih edilebilir. 
+&lt;li&gt;zRam: Cpu cache'inde kullanılmayan alan büyükse tercih edilebilir. 
 Kaynak: https://wiki.voidlinux.eu/Zram&lt;/li&gt;
 &lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 14 Mar 2018 17:10:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-14:/linux swap.html</guid><category>swap</category></item><item><title>Türetici Olmak</title><link>/bir-dosta-cevaben.html</link><description>&lt;p&gt;Bu yazıda, dönüşümün tek yolunun, bireylerin, tercihlerinin sorumluluğunu
 almaları olduğunu savunacağım. Kollektif dönüşüm konusunu tartışmayacağım, o

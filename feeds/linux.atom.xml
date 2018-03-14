@@ -48,6 +48,6 @@ swapon -s
 
 &lt;h4&gt;Ram swap&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;zRam: Cpu cache'inde kullanilmayan alan buyukse tercih edilebilir. 
+&lt;li&gt;zRam: Cpu cache'inde kullanılmayan alan büyükse tercih edilebilir. 
 Kaynak: https://wiki.voidlinux.eu/Zram&lt;/li&gt;
 &lt;/ul&gt;</content><category term="swap"></category></entry></feed>
