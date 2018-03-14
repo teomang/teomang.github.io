@@ -104,24 +104,28 @@ türeticilik ve bireyin kendi sorumluluğunu alması, deneyimle gelişen
 bilinçlenme meselesi. Önceleri yapması zor veya çok uzak gelen şeyleri zamanla,
 denemeler yaparak uygulanabilir hale sokuyor insan. İnsanları eleştirmektense,
 bu deneyimleri edinmelerini sağlayacak imkanları onlara hatırlatmak, bunun için
-de sakin olmam ve bana yapacakları eleştirilere bağışık olmak gerekiyor.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/bir-dosta-cevaben.html</guid><category>tureticilik</category><category>elestiri</category></item><item><title>Pelican'la blog'luyorum</title><link>/ilk-yaz%C4%B1.html</link><description>&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
+de sakin olmam ve bana yapacakları eleştirilere bağışık olmak gerekiyor.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/bir-dosta-cevaben.html</guid><category>tureticilik</category><category>elestiri</category></item><item><title>Pelican'la blog'luyorum</title><link>/ilk-yazi.html</link><description>&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
 her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni aldığım
 makinaya ruby, gems, rvm, bundle kurmak ve bilumum konfigürasyonuyla
 uğraşmaktansa python'a 5 tane bileşen kurarak daha rahat blog yazacağıma kanaat getirdim. Her defasında
 gem'lerde yaşadığım çakışmalar, kramdown'u unutup tekrar dokümana bakmalar
 artık geride kaldı. &lt;/p&gt;
-&lt;p&gt;Pelican için gerekli bileşenler;
-&lt;em&gt; markdown 
-&lt;/em&gt; pelican
-&lt;em&gt; ghp-import
-&lt;/em&gt; disqus-python {mecburi değil, &lt;a href="https://disqus.com"&gt;disqus yorum uygulamasını&lt;/a&gt; ekleyebilmek için}&lt;/p&gt;
+&lt;p&gt;Pelican için gerekli bileşenler;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;markdown &lt;/li&gt;
+&lt;li&gt;pelican&lt;/li&gt;
+&lt;li&gt;ghp-import&lt;/li&gt;
+&lt;li&gt;disqus-python {mecburi değil, &lt;a href="https://disqus.com"&gt;disqus yorum uygulamasını&lt;/a&gt; ekleyebilmek için}&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;kurulum için &lt;a href="https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html"&gt;bu yazıdan&lt;/a&gt; faydalandım.&lt;/p&gt;
-&lt;p&gt;Neden blog tutuyorum sorusunu da biraz açmak istiyorum; insanoğlununun bir şeyi anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;
-&lt;em&gt; Konuyu başkasına ifade edebilecek kadar anlamak.
-&lt;/em&gt; Konuyu hikayeleştirmek
-Ayrıca iyi anlamayı sağlayan bir imkanı daha barındırıyor.
-* Konuyu görselleştirmek
-her ne kadar ben henüz kullanamasam da...&lt;/p&gt;
+&lt;p&gt;Neden blog tutuyorum sorusunu da biraz açmak istiyorum; insanoğlununun bir şeyi anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Konuyu başkasına ifade edebilecek kadar anlamak.&lt;/li&gt;
+&lt;li&gt;Konuyu hikayeleştirmek
+Ayrıca iyi anlamayı sağlayan bir imkanı daha barındırıyor.&lt;/li&gt;
+&lt;li&gt;Konuyu görselleştirmek
+her ne kadar ben henüz kullanamasam da...&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Ayrıca çalışmanın sonucunda, kişinin çevresine de verdiği bir değer oluşuyor.
 Kısacası, harcanan emeğe değiyor. bundan sonra daha sık yazacağım, en azından,
-bunun önündeki bir bahaneyi daha elimine ettim.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/ilk-yazı.html</guid><category>misc</category></item></channel></rss>
+bunun önündeki bir bahaneyi daha elimine ettim.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/ilk-yazi.html</guid><category>misc</category></item></channel></rss>
