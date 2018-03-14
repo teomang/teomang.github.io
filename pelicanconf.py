@@ -35,6 +35,7 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
+THEME = "/home/orkung/Git_Repolari/diger/pelican-themes/nikhil-theme"
 PLUGIN_PATHS = ['/home/orkung/Git_Repolari/diger/pelican-plugins']
 PLUGINS = [
     'sitemap',
