@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2018-03-14T15:58:05-00:00</lastmod>
+<lastmod>2018-03-14T17:20:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2018-03-14T15:58:05-00:00</lastmod>
+<lastmod>2018-03-14T17:20:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2018-03-14T15:58:05-00:00</lastmod>
+<lastmod>2018-03-14T17:20:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2018-03-14T15:58:05-00:00</lastmod>
+<lastmod>2018-03-14T17:20:11-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/linux swap.html</loc>
+<lastmod>2018-03-14T17:10:00+03:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -46,6 +53,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/category/linux.html</loc>
+<lastmod>2018-03-14T17:10:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/category/misc.html</loc>
 <lastmod>2018-02-23T10:06:00+01:56</lastmod>
 <changefreq>daily</changefreq>
@@ -60,7 +74,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/tag/first.html</loc>
+<lastmod>2018-02-23T10:06:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/tag/misc.html</loc>
+<lastmod>2018-02-23T10:06:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/swap.html</loc>
+<lastmod>2018-03-14T17:10:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/tureticilik.html</loc>
 <lastmod>2018-02-23T10:06:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -74,22 +109,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/tureticilik.html</loc>
-<lastmod>2018-02-23T10:06:00+01:56</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>/tag/first.html</loc>
-<lastmod>2018-02-23T10:06:00+01:56</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>/author/orkung.html</loc>
-<lastmod>2018-02-23T10:06:00+01:56</lastmod>
+<lastmod>2018-03-14T17:10:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
