@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2018-03-14T17:10:00+03:00</updated><entry><title>Linux Swap Alanı Yönetimi</title><link href="/linux%20swap.html" rel="alternate"></link><published>2018-03-14T17:10:00+03:00</published><updated>2018-03-14T17:10:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/linux swap.html</id><summary type="html">&lt;p&gt;Swap alanı kullanımı&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Swap alanı ne işe yarar, gerekli mi?&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2018-03-14T17:14:00+03:00</updated><entry><title>Pomodoro nun Pratik Kullanımı</title><link href="/pomodoro%20crontab.html" rel="alternate"></link><published>2018-03-14T17:14:00+03:00</published><updated>2018-03-14T17:14:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/pomodoro crontab.html</id><summary type="html">&lt;p&gt;Pomodoro en kolay nasıl hayata dahil edilir&lt;/p&gt;</summary><content type="html">&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
+terminal'den çalışan bir app aradım, python/zsh/nodejs app'larını denedim,
+hiçbirisi istediğim verimlilikte değildi, sonunda kendim hazırladım, son derece
+de basit oldu, crontab'ı şu şekilde düzenledim;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;*/30 * * * *      /usr/bin/notify-send &amp;quot;Work&amp;quot;
+25 * * * *      /usr/bin/notify-send &amp;quot;Break&amp;quot;
+55 * * * *      /usr/bin/notify-send &amp;quot;Break&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Her yarım saatte bir Work, saati her 25 ve 55 geçtiğinde ise Break gönderiyor.
+böylece pomodoro döngüsü sağlanıyor.&lt;/p&gt;
+&lt;p&gt;Kısacası, eğer işiniz basit gibi duruyorsa, önce yapılmısına bakmak yerine
+kendiniz yaptığınızda daha verimli oluyormuş.&lt;/p&gt;</content><category term="pomodoro"></category></entry><entry><title>Linux Swap Alanı Yönetimi</title><link href="/linux%20swap.html" rel="alternate"></link><published>2018-03-14T17:10:00+03:00</published><updated>2018-03-14T17:10:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/linux swap.html</id><summary type="html">&lt;p&gt;Swap alanı kullanımı&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Swap alanı ne işe yarar, gerekli mi?&lt;/h3&gt;
 &lt;p&gt;Linux fiziksel RAM'i page adındaki yığınlara bölerek kullanır. Swap işlemi, bu
 page'lerin diske kopyalanması ve page'lerin boşaltılması işlemine denir. &lt;/p&gt;
 &lt;h3&gt;Swap işlemi 2 sebepten ötürü gereklidir&lt;/h3&gt;
