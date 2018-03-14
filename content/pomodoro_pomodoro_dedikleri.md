@@ -1,9 +1,9 @@
-Title: Pomodoro'nun Pratik Kullanımı
+Title: Pomodoro nun Pratik Kullanımı
 Date: 2018-03-14 17:14
 Modified: 2018-03-14 17:14
 Category: araçlar
 Tags: pomodoro
-Slug: pomodoro crontab
+Slug: pomodoro-crontab
 Authors: orkung
 Summary: Pomodoro en kolay nasıl hayata dahil edilir
 

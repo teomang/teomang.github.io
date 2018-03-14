@@ -50,5 +50,5 @@ swapon -s
 ```
 
 #### Ram swap
-- zRam: Cpu cache'inde kullanilmayan alan buyukse tercih edilebilir. 
+- zRam: Cpu cache'inde kullanılmayan alan büyükse tercih edilebilir. 
 Kaynak: https://wiki.voidlinux.eu/Zram
