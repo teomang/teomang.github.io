@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Wed, 14 Mar 2018 17:14:00 +0300</lastBuildDate><item><title>Pomodoro nun Pratik Kullanımı</title><link>/pomodoro-crontab.html</link><description>&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
+<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Wed, 14 Mar 2018 17:50:51 +0300</lastBuildDate><item><title>Pomodoro nun Pratik Kullanımı</title><link>/pomodoro-crontab.html</link><description>&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
 terminal'den çalışan bir app aradım, python/zsh/nodejs app'larını denedim,
 hiçbirisi istediğim verimlilikte değildi, sonunda kendim hazırladım, son derece
 de basit oldu, crontab'ı şu şekilde düzenledim;&lt;/p&gt;
@@ -107,10 +107,21 @@ bu deneyimleri edinmelerini sağlayacak imkanları onlara hatırlatmak, bunun i�
 de sakin olmam ve bana yapacakları eleştirilere bağışık olmak gerekiyor.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/bir-dosta-cevaben.html</guid><category>tureticilik</category><category>elestiri</category></item><item><title>Pelican'la blog'luyorum</title><link>/ilk-yaz%C4%B1.html</link><description>&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
 her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni aldığım
 makinaya ruby, gems, rvm, bundle kurmak ve bilumum konfigürasyonuyla
-uğraşmaktansa python'a 5 tane bileşen kurarak (pip, virtualenwrapper, markdown,
-pelican, ghp-import) daha rahat blog yazacağıma kanaat getirdim. Her defasında
+uğraşmaktansa python'a 5 tane bileşen kurarak daha rahat blog yazacağıma kanaat getirdim. Her defasında
 gem'lerde yaşadığım çakışmalar, kramdown'u unutup tekrar dokümana bakmalar
 artık geride kaldı. &lt;/p&gt;
-&lt;p&gt;kurulum için &lt;a href="https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html"&gt;bu yazidan&lt;/a&gt; faydalandım.&lt;/p&gt;
-&lt;p&gt;bundan sonra daha sık yazacağım, en azından, bunun önündeki bir bahaneyi daha
-elimine ettim.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/ilk-yazı.html</guid><category>misc</category></item></channel></rss>
+&lt;p&gt;Pelican için gerekli bileşenler;
+&lt;em&gt; markdown 
+&lt;/em&gt; pelican
+&lt;em&gt; ghp-import
+&lt;/em&gt; disqus-python {mecburi değil, &lt;a href="https://disqus.com"&gt;disqus yorum uygulamasını&lt;/a&gt; ekleyebilmek için}&lt;/p&gt;
+&lt;p&gt;kurulum için &lt;a href="https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html"&gt;bu yazıdan&lt;/a&gt; faydalandım.&lt;/p&gt;
+&lt;p&gt;Neden blog tutuyorum sorusunu da biraz açmak istiyorum; insanoğlununun bir şeyi anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;
+&lt;em&gt; Konuyu başkasına ifade edebilecek kadar anlamak.
+&lt;/em&gt; Konuyu hikayeleştirmek
+Ayrıca iyi anlamayı sağlayan bir imkanı daha barındırıyor.
+* Konuyu görselleştirmek
+her ne kadar ben henüz kullanamasam da...&lt;/p&gt;
+&lt;p&gt;Ayrıca çalışmanın sonucunda, kişinin çevresine de verdiği bir değer oluşuyor.
+Kısacası, harcanan emeğe değiyor. bundan sonra daha sık yazacağım, en azından,
+bunun önündeki bir bahaneyi daha elimine ettim.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/ilk-yazı.html</guid><category>misc</category></item></channel></rss>
