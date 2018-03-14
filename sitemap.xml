@@ -5,34 +5,34 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2018-03-14T17:25:08-00:00</lastmod>
+<lastmod>2018-03-14T17:27:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2018-03-14T17:25:08-00:00</lastmod>
+<lastmod>2018-03-14T17:27:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2018-03-14T17:25:08-00:00</lastmod>
+<lastmod>2018-03-14T17:27:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2018-03-14T17:25:08-00:00</lastmod>
+<lastmod>2018-03-14T17:27:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/pomodoro crontab.html</loc>
+<loc>/pomodoro-crontab.html</loc>
 <lastmod>2018-03-14T17:14:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -88,13 +88,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/swap.html</loc>
-<lastmod>2018-03-14T17:10:00+01:56</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>/tag/misc.html</loc>
 <lastmod>2018-02-23T10:06:00+01:56</lastmod>
 <changefreq>daily</changefreq>
@@ -109,13 +102,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/tureticilik.html</loc>
-<lastmod>2018-02-23T10:06:00+01:56</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>/tag/pomodoro.html</loc>
 <lastmod>2018-03-14T17:14:00+01:56</lastmod>
 <changefreq>daily</changefreq>
@@ -123,8 +109,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/first.html</loc>
+<loc>/tag/tureticilik.html</loc>
 <lastmod>2018-02-23T10:06:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/swap.html</loc>
+<lastmod>2018-03-14T17:10:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-03-14T17:14:00+03:00</updated><entry><title>Pomodoro nun Pratik Kullanımı</title><link href="/pomodoro%20crontab.html" rel="alternate"></link><published>2018-03-14T17:14:00+03:00</published><updated>2018-03-14T17:14:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/pomodoro crontab.html</id><summary type="html">&lt;p&gt;Pomodoro en kolay nasıl hayata dahil edilir&lt;/p&gt;</summary><content type="html">&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-03-14T17:14:00+03:00</updated><entry><title>Pomodoro nun Pratik Kullanımı</title><link href="/pomodoro-crontab.html" rel="alternate"></link><published>2018-03-14T17:14:00+03:00</published><updated>2018-03-14T17:14:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/pomodoro-crontab.html</id><summary type="html">&lt;p&gt;Pomodoro en kolay nasıl hayata dahil edilir&lt;/p&gt;</summary><content type="html">&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
 terminal'den çalışan bir app aradım, python/zsh/nodejs app'larını denedim,
 hiçbirisi istediğim verimlilikte değildi, sonunda kendim hazırladım, son derece
 de basit oldu, crontab'ı şu şekilde düzenledim;&lt;/p&gt;
@@ -107,9 +107,10 @@ bu deneyimleri edinmelerini sağlayacak imkanları onlara hatırlatmak, bunun i�
 de sakin olmam ve bana yapacakları eleştirilere bağışık olmak gerekiyor.&lt;/p&gt;</content><category term="tureticilik"></category><category term="elestiri"></category></entry><entry><title>Pelican'la blog'luyorum</title><link href="/ilk-yaz%C4%B1.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-02-23T10:06:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-23:/ilk-yazı.html</id><summary type="html">&lt;p&gt;kısaca neden pelican&lt;/p&gt;</summary><content type="html">&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
 her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni aldığım
 makinaya ruby, gems, rvm, bundle kurmak ve bilumum konfigürasyonuyla
-uğraşmaktansa hazır gelen python'a 5 tane bileşen kurarak (pip,
-virtualenwrapper, markdown, pelican, ghp-import) daha rahat blog yazacağıma
-kanaat getirdim. Her defasında gem'lerde yaşadığım çakışmalar, kramdown'u unutup tekrar dokümana bakmalar artık geride kaldı. &lt;/p&gt;
-&lt;p&gt;kurulum icin &lt;a href="https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html"&gt;bu yazidan&lt;/a&gt; faydalandim&lt;/p&gt;
+uğraşmaktansa python'a 5 tane bileşen kurarak (pip, virtualenwrapper, markdown,
+pelican, ghp-import) daha rahat blog yazacağıma kanaat getirdim. Her defasında
+gem'lerde yaşadığım çakışmalar, kramdown'u unutup tekrar dokümana bakmalar
+artık geride kaldı. &lt;/p&gt;
+&lt;p&gt;kurulum için &lt;a href="https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html"&gt;bu yazidan&lt;/a&gt; faydalandım.&lt;/p&gt;
 &lt;p&gt;bundan sonra daha sık yazacağım, en azından, bunun önündeki bir bahaneyi daha
-elimine ettim.&lt;/p&gt;</content><category term="first"></category><category term="misc"></category></entry></feed>
+elimine ettim.&lt;/p&gt;</content><category term="misc"></category></entry></feed>
