@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-02-23T10:06:00+03:00</updated><entry><title>Türetici Olmak</title><link href="/bir-dosta-cevaben.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-02-23T10:06:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-23:/bir-dosta-cevaben.html</id><summary type="html">&lt;p&gt;türeticilik neden küçük görülür ve dar görüşlü bulunur&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu yazıda, dönüşümün tek yolunun, bireylerin, tercihlerinin sorumluluğunu
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-03-14T17:10:00+03:00</updated><entry><title>Linux Swap Alanı Yönetimi</title><link href="/linux%20swap.html" rel="alternate"></link><published>2018-03-14T17:10:00+03:00</published><updated>2018-03-14T17:10:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/linux swap.html</id><summary type="html">&lt;p&gt;Swap alanı kullanımı&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Swap alanı ne işe yarar, gerekli mi?&lt;/h3&gt;
+&lt;p&gt;Linux fiziksel RAM'i page adındaki yığınlara bölerek kullanır. Swap işlemi, bu
+page'lerin diske kopyalanması ve page'lerin boşaltılması işlemine denir. &lt;/p&gt;
+&lt;h3&gt;Swap işlemi 2 sebepten ötürü gereklidir&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Sistem fiziksel ram miktarından fazlasına ihtiyaç duyduğunda, kernel RAM'deki
+  az kullanılan page'leri swap alanına yazar ve ihtiyaç olan hafızayı
+  uygulamaya tahsis eder.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Uygulamalar ayağa kalkarken yüksek miktarda page'e ihtiyaç duyar, ancak bu
+  alanlara sonrasında ihtiyaç duymaz. Sistem bunları swap'a atar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Swap Türleri&lt;/h3&gt;
+&lt;h4&gt;Disk Swap&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Disk bölümü (Partition)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Fdisk ile&lt;/span&gt;
+fdisk /dev/hdb
+Command: a
+Partition number &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;-4&lt;span class="o"&gt;)&lt;/span&gt;: &lt;span class="m"&gt;1&lt;/span&gt;
+&lt;span class="c1"&gt;#And I make the second partition of type swap:&lt;/span&gt;
+Command: t
+Partition number &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;-4&lt;span class="o"&gt;)&lt;/span&gt;: &lt;span class="m"&gt;2&lt;/span&gt;
+Hex code: &lt;span class="m"&gt;82&lt;/span&gt;
+&lt;span class="c1"&gt;#Changed system type of partition 2 to 82 (Linux swap)      &lt;/span&gt;
+Command: p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Dosya&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;fallocate -l 1G /mnt/1GB.swap
+dd &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/dev/zero &lt;span class="nv"&gt;of&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/mnt/1GB.swap &lt;span class="nv"&gt;bs&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1024&lt;/span&gt; &lt;span class="nv"&gt;count&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1048576&lt;/span&gt;
+mkswap /mnt/1GB.swap
+swapon /mnt/1GB.swap
+vi /etc/fstab 
+/mnt/1GB.swap  none  swap  sw &lt;span class="m"&gt;0&lt;/span&gt;  &lt;span class="m"&gt;0&lt;/span&gt;
+&lt;span class="c1"&gt;# Check that the swap file was created.&lt;/span&gt;
+swapon -s
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Ram swap&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;zRam: Cpu cache'inde kullanilmayan alan buyukse tercih edilebilir. 
+Kaynak: https://wiki.voidlinux.eu/Zram&lt;/li&gt;
+&lt;/ul&gt;</content><category term="swap"></category></entry><entry><title>Türetici Olmak</title><link href="/bir-dosta-cevaben.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-02-23T10:06:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-23:/bir-dosta-cevaben.html</id><summary type="html">&lt;p&gt;türeticilik neden küçük görülür ve dar görüşlü bulunur&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu yazıda, dönüşümün tek yolunun, bireylerin, tercihlerinin sorumluluğunu
 almaları olduğunu savunacağım. Kollektif dönüşüm konusunu tartışmayacağım, o
 konudaki fikrim, bireylerin sorumluluk alma imkanlarını ve bilinçlerini
 genişlettiği ölçüde faydalı, aksi durumda zararlı olduğudur.&lt;/p&gt;
