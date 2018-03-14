@@ -36,7 +36,11 @@ DEFAULT_PAGINATION = 10
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
 PLUGIN_PATHS = ['/home/orkung/Git_Repolari/diger/pelican-plugins']
-PLUGINS = ['sitemap']
+PLUGINS = [
+    'sitemap',
+    'feed_summary',
+    'disqus_static'
+]
 SITEMAP = {
     'format': 'xml',
     'priorities': {
@@ -50,3 +54,6 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+DISQUS_SITENAME = 'orkungunay'
+DISQUS_SECRET_KEY = 'gEpV4X6QFbJrPisSAAt7aN1OWqCLntciqKsmtOMpCE78HtE4P40BXcRZKLGSWqXy'
+# DISQUS_PUBLIC_KEY = u'YOUR_PUBLIC_KEY'
