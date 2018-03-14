@@ -1,21 +1,36 @@
 Title: Pelican'la blog'luyorum
 Date: 2018-02-23 10:06
-Modified: 2018-02-23 10:06
+Modified: 2018-03-14 17:50:51
 Category: misc
 Tags: misc
-Slug: ilk-yazı
+Slug: ilk-yazi
 Authors: orkung
 Summary: kısaca neden pelican
 
 Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
 her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni aldığım
 makinaya ruby, gems, rvm, bundle kurmak ve bilumum konfigürasyonuyla
-uğraşmaktansa python'a 5 tane bileşen kurarak (pip, virtualenwrapper, markdown,
-pelican, ghp-import) daha rahat blog yazacağıma kanaat getirdim. Her defasında
+uğraşmaktansa python'a 5 tane bileşen kurarak daha rahat blog yazacağıma kanaat getirdim. Her defasında
 gem'lerde yaşadığım çakışmalar, kramdown'u unutup tekrar dokümana bakmalar
 artık geride kaldı. 
 
-kurulum için [bu yazidan](https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html) faydalandım.
+Pelican için gerekli bileşenler;
 
-bundan sonra daha sık yazacağım, en azından, bunun önündeki bir bahaneyi daha
-elimine ettim.
+* markdown 
+* pelican
+* ghp-import
+* disqus-python {mecburi değil, [disqus yorum uygulamasını](https://disqus.com) ekleyebilmek için}
+
+kurulum için [bu yazıdan](https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html) faydalandım.
+
+Neden blog tutuyorum sorusunu da biraz açmak istiyorum; insanoğlununun bir şeyi anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;
+
+* Konuyu başkasına ifade edebilecek kadar anlamak.
+* Konuyu hikayeleştirmek
+Ayrıca iyi anlamayı sağlayan bir imkanı daha barındırıyor.
+* Konuyu görselleştirmek
+her ne kadar ben henüz kullanamasam da...
+
+Ayrıca çalışmanın sonucunda, kişinin çevresine de verdiği bir değer oluşuyor.
+Kısacası, harcanan emeğe değiyor. bundan sonra daha sık yazacağım, en azından,
+bunun önündeki bir bahaneyi daha elimine ettim.
