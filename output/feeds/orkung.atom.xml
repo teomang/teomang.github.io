@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-03-14T17:50:51+03:00</updated><entry><title>Pomodoro nun Pratik Kullanımı</title><link href="/pomodoro-crontab.html" rel="alternate"></link><published>2018-03-14T17:14:00+03:00</published><updated>2018-03-14T17:14:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/pomodoro-crontab.html</id><summary type="html">&lt;p&gt;Pomodoro en kolay nasıl hayata dahil edilir&lt;/p&gt;</summary><content type="html">&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-03-16T17:11:00+03:00</updated><entry><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link href="/lvm-root-diskini-fsck-ile-kurtarma.html" rel="alternate"></link><published>2018-03-16T17:11:00+03:00</published><updated>2018-03-16T17:11:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-16:/lvm-root-diskini-fsck-ile-kurtarma.html</id><summary type="html">&lt;p&gt;Root diski read-only bağlıyken kurtarma&lt;/p&gt;</summary><content type="html">&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
+&lt;p&gt;Elektrik kesintisi vb. beklenmedik olayların, sunucunun / diskinde soruna yol
+açarak yazma iznine engel olduğu aşağıdaki durumda ne yapılabileceğini
+göstermeye çalışacağım.
+Sunucuda dosya oluşturmayı denedim böylece sorun olduğunu farkettim.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;touch dosya
+touch: cannot touch dosya: Read-only file system
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;ilk olarak rw olarak remount etmeyi denedim&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mount -o remount,rw /
+mount: cannot remount block device /dev/mapper/VolGroup-lv_root read-write, is write-protected
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Belki düzelir umuduyla restart ettim. Fakat aşağıdaki hatalarla karşılaştım&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/dev/mapper/VolGroup-lv_root contains a file system with errors, check forced.
+/dev/mapper/VolGroup-lv_root Inodes that were part of a corrupted orphan linked list found.
+/dev/mapper/VolGroup-lv_root: UNEXPECTED INCONSISTENCY&lt;span class="p"&gt;;&lt;/span&gt; RUN fsck MANUALLY
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;fstab'ta / partition'u için fsck default aktif. Fakat burada -y flag'i
+kullanılmıyor, sistem fsck'yı deniyor, ilk FİXED'tan sonra, disk'te halen 
+hata mevcutsa process'i durduruyor. Bu durumda fsck'yi aşağıdaki gibi 
+manuel çalıştırdım.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;vgchange --ignorelockingfailure -ay
+lvscan --ignorelockingfailure
+fsck -y /dev/mapper/VolGroup-lv_root
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;İşlem bitiminde sunucuyu reboot etmek gerekiyor, reboot sonrası disk rw
+olarak bağlandı&lt;/p&gt;</content><category term="recovery"></category><category term="kurtarma"></category></entry><entry><title>Pomodoro nun Pratik Kullanımı</title><link href="/pomodoro-crontab.html" rel="alternate"></link><published>2018-03-14T17:14:00+03:00</published><updated>2018-03-14T17:14:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/pomodoro-crontab.html</id><summary type="html">&lt;p&gt;Pomodoro en kolay nasıl hayata dahil edilir&lt;/p&gt;</summary><content type="html">&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
 terminal'den çalışan bir app aradım, python/zsh/nodejs app'larını denedim,
 hiçbirisi istediğim verimlilikte değildi, sonunda kendim hazırladım, son derece
 de basit oldu, crontab'ı şu şekilde düzenledim;&lt;/p&gt;

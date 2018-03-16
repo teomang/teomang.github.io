@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim</title><link>/</link><description></description><lastBuildDate>Wed, 14 Mar 2018 17:50:51 +0300</lastBuildDate><item><title>Pomodoro nun Pratik Kullanımı</title><link>/pomodoro-crontab.html</link><description>&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
+<rss version="2.0"><channel><title>Anlatabildiklerim</title><link>/</link><description></description><lastBuildDate>Fri, 16 Mar 2018 17:11:00 +0300</lastBuildDate><item><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link>/lvm-root-diskini-fsck-ile-kurtarma.html</link><description>&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
+&lt;p&gt;Elektrik kesintisi vb. beklenmedik olayların, sunucunun / diskinde soruna yol
+açarak yazma iznine engel olduğu aşağıdaki durumda ne yapılabileceğini
+göstermeye çalışacağım.
+Sunucuda dosya oluşturmayı denedim böylece sorun olduğunu farkettim.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;touch dosya
+touch: cannot touch dosya: Read-only file system
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;ilk olarak rw olarak remount etmeyi denedim&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mount -o remount,rw /
+mount: cannot remount block device /dev/mapper/VolGroup-lv_root read-write, is write-protected
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Belki düzelir umuduyla restart ettim. Fakat aşağıdaki hatalarla karşılaştım&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/dev/mapper/VolGroup-lv_root contains a file system with errors, check forced.
+/dev/mapper/VolGroup-lv_root Inodes that were part of a corrupted orphan linked list found.
+/dev/mapper/VolGroup-lv_root: UNEXPECTED INCONSISTENCY&lt;span class="p"&gt;;&lt;/span&gt; RUN fsck MANUALLY
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;fstab'ta / partition'u için fsck default aktif. Fakat burada -y flag'i
+kullanılmıyor, sistem fsck'yı deniyor, ilk FİXED'tan sonra, disk'te halen 
+hata mevcutsa process'i durduruyor. Bu durumda fsck'yi aşağıdaki gibi 
+manuel çalıştırdım.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;vgchange --ignorelockingfailure -ay
+lvscan --ignorelockingfailure
+fsck -y /dev/mapper/VolGroup-lv_root
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;İşlem bitiminde sunucuyu reboot etmek gerekiyor, reboot sonrası disk rw
+olarak bağlandı&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 16 Mar 2018 17:11:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-16:/lvm-root-diskini-fsck-ile-kurtarma.html</guid><category>recovery</category><category>kurtarma</category></item><item><title>Pomodoro nun Pratik Kullanımı</title><link>/pomodoro-crontab.html</link><description>&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
 terminal'den çalışan bir app aradım, python/zsh/nodejs app'larını denedim,
 hiçbirisi istediğim verimlilikte değildi, sonunda kendim hazırladım, son derece
 de basit oldu, crontab'ı şu şekilde düzenledim;&lt;/p&gt;
