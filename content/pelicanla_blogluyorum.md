@@ -1,6 +1,6 @@
 Title: Pelican'la blog'luyorum
 Date: 2018-02-23 10:06
-Modified: 2018-03-14 17:50:51
+Modified: 2018-03-17 00:40
 Category: misc
 Tags: misc
 Slug: ilk-yazi
@@ -23,14 +23,12 @@ Pelican için gerekli bileşenler;
 
 kurulum için [bu yazıdan](https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html) faydalandım.
 
-Neden blog tutuyorum sorusunu da biraz açmak istiyorum; insanoğlununun bir şeyi anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;
+Neden blog tutuyorum sorusunu da biraz açmak istiyorum; insanoğlununun bir şeyi
+anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;
 
-* Konuyu başkasına ifade edebilecek kadar anlamak.
-* Konuyu hikayeleştirmek
-Ayrıca iyi anlamayı sağlayan bir imkanı daha barındırıyor.
-* Konuyu görselleştirmek
-her ne kadar ben henüz kullanamasam da...
-
-Ayrıca çalışmanın sonucunda, kişinin çevresine de verdiği bir değer oluşuyor.
-Kısacası, harcanan emeğe değiyor. bundan sonra daha sık yazacağım, en azından,
-bunun önündeki bir bahaneyi daha elimine ettim.
+* Hayali de olsa, bir konuyu başka birisine anlatmak, onu daha iyi anlamayı sağlar.
+* Bir blog yazısı, bir wiki yazısından, bir sözlük kaydından farklı olarak,
+  konunun hikayeleştirilmesine gereksinir. Bir konuda ihtiyaç doğmuş ve
+  yaratıcı bir şekilde onunla uğraşılmış, sonucunda bir deneyim oluşmuşsa bundan
+  bir blog yazısı çıkar. Dolayısıyla diğer metinlerden farklı olarak, blog metni,
+  tecrübe aktarımını sağlaması bakımından, değer üretir, bu sebepten biriciktir.
