@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2018-03-17T00:30:55-00:00</lastmod>
+<lastmod>2018-03-17T00:43:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2018-03-17T00:30:55-00:00</lastmod>
+<lastmod>2018-03-17T00:43:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2018-03-17T00:30:55-00:00</lastmod>
+<lastmod>2018-03-17T00:43:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2018-03-17T00:30:55-00:00</lastmod>
+<lastmod>2018-03-17T00:43:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,7 +40,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/pomodoro-crontab.html</loc>
-<lastmod>2018-03-14T17:14:00+03:00</lastmod>
+<lastmod>2018-03-17T00:42:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -61,14 +61,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/ilk-yazi.html</loc>
-<lastmod>2018-03-14T17:50:51+03:00</lastmod>
+<lastmod>2018-03-17T00:40:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/category/araclar.html</loc>
-<lastmod>2018-03-14T17:14:00+01:56</lastmod>
+<lastmod>2018-03-17T00:42:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -82,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/misc.html</loc>
-<lastmod>2018-03-14T17:50:51+01:56</lastmod>
+<lastmod>2018-03-17T00:40:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -103,7 +103,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/misc.html</loc>
-<lastmod>2018-03-14T17:50:51+01:56</lastmod>
+<lastmod>2018-03-17T00:40:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -131,7 +131,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/pomodoro.html</loc>
-<lastmod>2018-03-14T17:14:00+01:56</lastmod>
+<lastmod>2018-03-17T00:42:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -145,7 +145,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/orkung.html</loc>
-<lastmod>2018-03-16T17:11:00+01:56</lastmod>
+<lastmod>2018-03-17T00:42:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
