@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Sat, 17 Mar 2018 00:42:00 +0300</lastBuildDate><item><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link>/lvm-root-diskini-fsck-ile-kurtarma.html</link><description>&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
+<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Sun, 18 Mar 2018 17:30:00 +0300</lastBuildDate><item><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link>/lvm-root-diskini-fsck-ile-kurtarma.html</link><description>&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
 &lt;p&gt;Elektrik kesintisi vb. beklenmedik olayların, sunucunun / disk bölümünde soruna
 yol açarak, sadece okuma modunda (ro) diski bağladığı durumda ne yapılabileceğini
 göstermeye çalışacağım.&lt;/p&gt;
@@ -23,8 +23,8 @@ mount: cannot remount block device /dev/mapper/VolGroup-lv_root read-write, is w
 
 
 &lt;p&gt;/etc/fstab dosyasında / disk bölümü için fsck öntanımlı olarak açık durumda.
-Fakat sistemi çalıştırdığı fsck'da -y flag'i kullanılmıyor, sistem fsck'yı
-deniyor, ilk FIXED'tan sonra, disk'te halen hata mevcutsa process'i durduruyor.
+Fakat sistemin çalıştırdığı fsck'da -y flag'i kullanılmıyor, sistem 
+ilk FIXED'tan sonra, disk'te halen hata mevcutsa process'i devam ettirmiyor.
 Bu durumda fsck'yi aşağıdaki gibi manuel çalıştırdım.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;vgchange --ignorelockingfailure -ay
 lvscan --ignorelockingfailure
