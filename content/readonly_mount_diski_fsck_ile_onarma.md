@@ -9,10 +9,11 @@ Summary: Root diski read-only bağlıyken kurtarma
 
 İşletim sistemi: CentOS 6.8
 
-Elektrik kesintisi vb. beklenmedik olayların, sunucunun / diskinde soruna yol
-açarak yazma iznine engel olduğu aşağıdaki durumda ne yapılabileceğini
+Elektrik kesintisi vb. beklenmedik olayların, sunucunun / disk bölümünde soruna
+yol açarak, sadece okuma modunda (ro) diski bağladığı durumda ne yapılabileceğini
 göstermeye çalışacağım.
-Sunucuda dosya oluşturmayı denedim böylece sorun olduğunu farkettim.
+
+Sunucuda dosya oluşturmayı denedim ve sorunu farkettim.
 
 ```bash
 touch dosya
@@ -30,14 +31,14 @@ Belki düzelir umuduyla restart ettim. Fakat aşağıdaki hatalarla karşılaşt
 /dev/mapper/VolGroup-lv_root Inodes that were part of a corrupted orphan linked list found.
 /dev/mapper/VolGroup-lv_root: UNEXPECTED INCONSISTENCY; RUN fsck MANUALLY
 ```
-fstab'ta / partition'u için fsck default aktif. Fakat burada -y flag'i
-kullanılmıyor, sistem fsck'yı deniyor, ilk FİXED'tan sonra, disk'te halen 
-hata mevcutsa process'i durduruyor. Bu durumda fsck'yi aşağıdaki gibi 
-manuel çalıştırdım.
+/etc/fstab dosyasında / disk bölümü için fsck öntanımlı olarak açık durumda.
+Fakat sistemi çalıştırdığı fsck'da -y flag'i kullanılmıyor, sistem fsck'yı
+deniyor, ilk FIXED'tan sonra, disk'te halen hata mevcutsa process'i durduruyor.
+Bu durumda fsck'yi aşağıdaki gibi manuel çalıştırdım.
 ```bash
 vgchange --ignorelockingfailure -ay
 lvscan --ignorelockingfailure
 fsck -y /dev/mapper/VolGroup-lv_root
 ```
-İşlem bitiminde sunucuyu reboot etmek gerekiyor, reboot sonrası disk rw
-olarak bağlandı
+İşlem bitiminde sunucuyu reboot etmek gerekiyor, reboot sonrası disk yazma
+izniyle (rw) olarak bağlandı

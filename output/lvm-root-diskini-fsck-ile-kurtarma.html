@@ -56,10 +56,10 @@
 <!-- .entry-content -->
       <div class="entry-content">
         <p>İşletim sistemi: CentOS 6.8</p>
-<p>Elektrik kesintisi vb. beklenmedik olayların, sunucunun / diskinde soruna yol
-açarak yazma iznine engel olduğu aşağıdaki durumda ne yapılabileceğini
-göstermeye çalışacağım.
-Sunucuda dosya oluşturmayı denedim böylece sorun olduğunu farkettim.</p>
+<p>Elektrik kesintisi vb. beklenmedik olayların, sunucunun / disk bölümünde soruna
+yol açarak, sadece okuma modunda (ro) diski bağladığı durumda ne yapılabileceğini
+göstermeye çalışacağım.</p>
+<p>Sunucuda dosya oluşturmayı denedim ve sorunu farkettim.</p>
 <div class="highlight"><pre><span></span>touch dosya
 touch: cannot touch dosya: Read-only file system
 </pre></div>
@@ -78,18 +78,18 @@ mount: cannot remount block device /dev/mapper/VolGroup-lv_root read-write, is w
 </pre></div>
 
 
-<p>fstab'ta / partition'u için fsck default aktif. Fakat burada -y flag'i
-kullanılmıyor, sistem fsck'yı deniyor, ilk FİXED'tan sonra, disk'te halen 
-hata mevcutsa process'i durduruyor. Bu durumda fsck'yi aşağıdaki gibi 
-manuel çalıştırdım.</p>
+<p>/etc/fstab dosyasında / disk bölümü için fsck öntanımlı olarak açık durumda.
+Fakat sistemi çalıştırdığı fsck'da -y flag'i kullanılmıyor, sistem fsck'yı
+deniyor, ilk FIXED'tan sonra, disk'te halen hata mevcutsa process'i durduruyor.
+Bu durumda fsck'yi aşağıdaki gibi manuel çalıştırdım.</p>
 <div class="highlight"><pre><span></span>vgchange --ignorelockingfailure -ay
 lvscan --ignorelockingfailure
 fsck -y /dev/mapper/VolGroup-lv_root
 </pre></div>
 
 
-<p>İşlem bitiminde sunucuyu reboot etmek gerekiyor, reboot sonrası disk rw
-olarak bağlandı</p>
+<p>İşlem bitiminde sunucuyu reboot etmek gerekiyor, reboot sonrası disk yazma
+izniyle (rw) olarak bağlandı</p>
       </div>
 <!-- /.entry-content -->
       <footer class="post-info text-muted">
