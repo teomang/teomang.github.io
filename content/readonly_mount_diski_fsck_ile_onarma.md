@@ -1,6 +1,6 @@
 Title: Read-Only Bağlanan LVM Diskin Fsck ile Onarımı
 Date: 2018-03-16 17:11
-Modified: 2018-03-16 17:11
+Modified: 2018-03-18 17:30
 Category: linux
 Tags: recovery, kurtarma
 Slug: lvm-root-diskini-fsck-ile-kurtarma
@@ -32,8 +32,8 @@ Belki düzelir umuduyla restart ettim. Fakat aşağıdaki hatalarla karşılaşt
 /dev/mapper/VolGroup-lv_root: UNEXPECTED INCONSISTENCY; RUN fsck MANUALLY
 ```
 /etc/fstab dosyasında / disk bölümü için fsck öntanımlı olarak açık durumda.
-Fakat sistemi çalıştırdığı fsck'da -y flag'i kullanılmıyor, sistem fsck'yı
-deniyor, ilk FIXED'tan sonra, disk'te halen hata mevcutsa process'i durduruyor.
+Fakat sistemin çalıştırdığı fsck'da -y flag'i kullanılmıyor, sistem 
+ilk FIXED'tan sonra, disk'te halen hata mevcutsa process'i devam ettirmiyor.
 Bu durumda fsck'yi aşağıdaki gibi manuel çalıştırdım.
 ```bash
 vgchange --ignorelockingfailure -ay

@@ -79,8 +79,8 @@ mount: cannot remount block device /dev/mapper/VolGroup-lv_root read-write, is w
 
 
 <p>/etc/fstab dosyasında / disk bölümü için fsck öntanımlı olarak açık durumda.
-Fakat sistemi çalıştırdığı fsck'da -y flag'i kullanılmıyor, sistem fsck'yı
-deniyor, ilk FIXED'tan sonra, disk'te halen hata mevcutsa process'i durduruyor.
+Fakat sistemin çalıştırdığı fsck'da -y flag'i kullanılmıyor, sistem 
+ilk FIXED'tan sonra, disk'te halen hata mevcutsa process'i devam ettirmiyor.
 Bu durumda fsck'yi aşağıdaki gibi manuel çalıştırdım.</p>
 <div class="highlight"><pre><span></span>vgchange --ignorelockingfailure -ay
 lvscan --ignorelockingfailure
