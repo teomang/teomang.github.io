@@ -33,7 +33,7 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
-STATIC_PATHS = ['images', 'extra/CNAME']
+STATIC_PATHS = ['images', 'extra/CNAME', 'pdfs']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
 THEME = "/home/orkung/Git_Repolari/diger/pelican-themes/nikhil-theme"
 PLUGIN_PATHS = ['/home/orkung/Git_Repolari/diger/pelican-plugins']

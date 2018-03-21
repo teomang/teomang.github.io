@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2018-03-18T17:31:06-00:00</lastmod>
+<lastmod>2018-03-21T11:15:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2018-03-18T17:31:06-00:00</lastmod>
+<lastmod>2018-03-21T11:15:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2018-03-18T17:31:06-00:00</lastmod>
+<lastmod>2018-03-21T11:15:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2018-03-18T17:31:06-00:00</lastmod>
+<lastmod>2018-03-21T11:15:13-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/sut-kriterleri.html</loc>
+<lastmod>2018-03-21T10:47:33+03:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -89,7 +96,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/yasam.html</loc>
-<lastmod>2018-02-23T10:06:00+01:56</lastmod>
+<lastmod>2018-03-21T10:47:33+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/kurtarma.html</loc>
+<lastmod>2018-03-18T17:30:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/misc.html</loc>
+<lastmod>2018-03-17T00:40:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -102,8 +123,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/misc.html</loc>
-<lastmod>2018-03-17T00:40:00+01:56</lastmod>
+<loc>/tag/elestiri.html</loc>
+<lastmod>2018-02-23T10:06:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -123,13 +144,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/kurtarma.html</loc>
-<lastmod>2018-03-18T17:30:00+01:56</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>/tag/pomodoro.html</loc>
 <lastmod>2018-03-17T00:42:00+01:56</lastmod>
 <changefreq>daily</changefreq>
@@ -137,15 +151,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/elestiri.html</loc>
-<lastmod>2018-02-23T10:06:00+01:56</lastmod>
+<loc>/tag/beslenme.html</loc>
+<lastmod>2018-03-21T10:47:33+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/author/orkung.html</loc>
-<lastmod>2018-03-18T17:30:00+01:56</lastmod>
+<lastmod>2018-03-21T10:47:33+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
