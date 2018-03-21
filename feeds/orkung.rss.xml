@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Sun, 18 Mar 2018 17:30:00 +0300</lastBuildDate><item><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link>/lvm-root-diskini-fsck-ile-kurtarma.html</link><description>&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
+<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Wed, 21 Mar 2018 10:47:33 +0300</lastBuildDate><item><title>Süt Alırken Dikkat Edilecek Konu Başlıkları</title><link>/sut-kriterleri.html</link><description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Hastalıklardan ari sürü sertifikası - İlçe Tarım kan testi yapıyor.
+Türkiye’de 15 milyon büyük baş hayvan var. Sığırların %70’i verem mikrobu
+taşıyor. 13 senedir hastalıklardan ari sürü sertifikası alan tek sürü. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bu sütü üreten ineklerin ne yedikleri. 1’den 10’a kadar skalada, 10 puan 365
+gün boyunca ot yiyen. 1 puan da fabrika yemi yiyen hayvanlar. 450 dönüm arazi
+kiralayarak toprağı onarmaya başlamışlar. 1’den başlayıp 6,5’a çıkmışlar. 3
+sene önce gdo’lu soyayı çıkarmışlar. İnekler iyi beslenmeye başladıkları zaman,
+dışkılarının kokusu, ağızlarının kokusu, tüylerinin rengi bile değişmiş.
+İçtikleri su önemli. Çünkü %88’i su, %12’si kuru madde.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hijyen. Sağım ve dolum süreci çok önemli. Süt sağıldığı anda dışarıdaki
+mikroorganizmalar süte saldırıyor. Sütün içinde de mikroorganizmalar var, onlar
+da sütün içindeki şekeri yiyor. 1 ml.sinde 100bin ve altı mikroorganizma olmak
+zorunda. Çiğ süt sertifikası için. Sağım hattını soda ve sirkeyle yıkıyorlar.
+Dolumda krom makinesi var, sütü buz aküsü kullanarak soğutuyor ve hemen
+şişelenerek hava ile teması kesiliyor. Böylelikle sütte mikroorganizma üremesi
+engelleniyor.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hayvan ırkı. Jersey, Holstein. Jersey keçi gibi boyu, yağ oranı çok yüksek.
+Simental, Holstein, ve ikisinin melezini kullanıyor Aysun. Montofon ineğinin
+sütünde çok fazla protein var. Bir sütte gerçekten yağ ve protein istiyorsanız,
+sert bir yoğurt yemek istiyorsanız o ırktan bir hayvanın sütünü almanız lazım.
+Önemli olan hayvanın ömrü. Yerli ırk 15 sene yaşıyor. Aysun’un inekleri eskiden
+fazla yaşamıyormuş ama artık verimi düşürüp havan refahını artırarak uzun
+yaşamalarını sağlıyorlarmış. Verimi 10 tondan 6 tona düşürmüşler. Çünkü mısır
+silajından ot silajına geçmiş, otlatma programı koymuşlar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hayvan refahı. Refah bir mekanda mı yaşıyor? Kaşağılanıyor mu, seviliyor mu?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 21 Mar 2018 10:47:33 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-21:/sut-kriterleri.html</guid><category>beslenme</category></item><item><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link>/lvm-root-diskini-fsck-ile-kurtarma.html</link><description>&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
 &lt;p&gt;Elektrik kesintisi vb. beklenmedik olayların, sunucunun / disk bölümünde soruna
 yol açarak, sadece okuma modunda (ro) diski bağladığı durumda ne yapılabileceğini
 göstermeye çalışacağım.&lt;/p&gt;
