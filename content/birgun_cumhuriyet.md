@@ -41,7 +41,7 @@ yerine onu işten çıkartmak bunun göstergesi.
 
 Öte yandan, Mert'in yaklaşımı, oldukça ender gördüğümüz tipte; iktidarın her
 dönem karşısında olmak, bunu bir tür düşmanlıkla değil, konuşarak ve kafa
-yorarak yapmak. Bu tavrı her dönem asıl tehlikeyi görmesini ve enerjisini bunu
+yorarak yapmak... Bu tavrı her dönem asıl tehlikeyi görmesini ve enerjisini bunu
 önlemeye çalışmaya harcamasını sağlıyor. Bizim için üzücü olan, bu eğilimin
 değil, sekter eğilimin ana muhalefet olması.
 
