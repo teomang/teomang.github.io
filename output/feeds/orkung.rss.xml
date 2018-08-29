@@ -1,5 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Tue, 28 Aug 2018 18:28:00 +0300</lastBuildDate><item><title>Fstabtan Scsi Diski Başlatma</title><link>/fstabtan-scsi-diski-baslatma.html</link><description>&lt;p&gt;Multipath'le sunucuya gösterdiğimiz scsi disk'leri, centos 7 sunucuda fstab'dan mount ederken &lt;a href="https://access.redhat.com/solutions/2042843"&gt;link'teki&lt;/a&gt; hatayı verdi; fstab'ta disk'lerin options'ına &lt;code&gt;_netdev&lt;/code&gt; yazarak sorun çözüldü.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Tue, 28 Aug 2018 18:28:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/fstabtan-scsi-diski-baslatma.html</guid><category>multipahd</category><category>scsi</category></item><item><title>Kompost Hazırlama Yöntemi Seçimim ve Nedenleri</title><link>/kompost-yontemleri-arasindan-tercih-yapma.html</link><description>&lt;p&gt;Buğday Derneği'nin düzenlediği "Kompost nedir?" başlıklı sunuma katıldım,
+<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Wed, 29 Aug 2018 13:52:00 +0300</lastBuildDate><item><title>San Disklerin Centos7'ye Tanıtılması</title><link>/san-disklerin-centos7ye-tanitilmasi.html</link><description>&lt;ul&gt;
+&lt;li&gt;Sunucularda iscsi initiatorname'ler oluşturulup storage admin'e iletilir:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yum install iscsi-initiator-utils
+cat /etc/iscsi/initiatorname.iscsi
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Storage admin SAN'e hangi ip'lerden erisilecegini iletir, ip'ler ilgili
+  interface'lere eklenir. İscsi initiator target ip’ler ping'lendiğinde &lt;code&gt;no
+  route to host&lt;/code&gt; alınıyorsa interface/ip adresi eşleşmesi değiştirilir.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;TYPE=Ethernet
+PROXY_METHOD=none
+BOOTPROTO=static
+DEFROUTE=no
+NAME=&amp;lt;&amp;gt;
+UUID=&amp;lt;&amp;gt;
+DEVICE=&amp;lt;&amp;gt;
+ONBOOT=yes
+IPADDR=&amp;lt;&amp;gt;
+NETMASK=255.255.255.0
+USERCTL=no
+ZONE=public
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Iscsi initiator target ip’leri discover edilir. Dönen targetname'ler eklenir:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;iscsiadm -m discovery -t sendtargets --portal &amp;lt;IP&amp;gt;
+iscsiadm --mode node --targetname &amp;lt;name&amp;gt; --portal &amp;lt;ip&amp;gt; \
+-o update -n node.startup -v automatic
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Multipath ile birden çokmuş gibi görünen disk ortamı işletim sistemine tek
+  disk olarak gösterilir.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yum -y install device-mapper-multipath
+syst/emctl enable multipathd
+cat /etc/multipath/wwids
+cp /usr/share/doc/device-mapper-multipath-0.4.9/multipath.conf /etc/multipath.conf 
+vi  /etc/multipath.conf
+defaults {
+    user_friendly_names yes
+    find_multipaths yes
+}
+blacklist {
+    devnode &amp;quot;^sd[abc]&amp;quot;
+}
+multipaths {
+        multipath {
+                uid 0
+                gid 0
+                wwid &amp;quot;&amp;quot;
+                mode 0600
+        }
+        multipath {
+                uid 0
+                gid 0
+                wwid &amp;quot;&amp;quot;
+                mode 0600
+        }
+}
+systemctl start multipathd
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Firewall kurallari eklenir&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;firewall-cmd --permanent --add-port=3260/tcp
+firewall-cmd --permanent --add-service iscsi-target
+firewall-cmd --reload
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Disk'ler formatlanir, mount edilir, fstab guncellenir.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mkfs.xfs -f /dev/mapper/mpatha
+mkfs.xfs -f /dev/mapper/mpathb
+mount /dev/mapper/mpatha &amp;lt;dizin&amp;gt;
+mount /dev/mapper/mpathb &amp;lt;dizin&amp;gt;
+/dev/mapper/mpathb       &amp;lt;dizin&amp;gt; xfs     _netdev 0 0
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 29 Aug 2018 13:52:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-08-29:/san-disklerin-centos7ye-tanitilmasi.html</guid><category>server</category><category>san</category></item><item><title>Fstabtan Scsi Diski Başlatma</title><link>/fstabtan-scsi-diski-baslatma.html</link><description>&lt;p&gt;Multipath'le sunucuya gösterdiğimiz scsi disk'leri, centos 7 sunucuda fstab'dan mount ederken &lt;a href="https://access.redhat.com/solutions/2042843"&gt;link'teki&lt;/a&gt; hatayı verdi; fstab'ta disk'lerin options'ına &lt;code&gt;_netdev&lt;/code&gt; yazarak sorun çözüldü.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Tue, 28 Aug 2018 18:28:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/fstabtan-scsi-diski-baslatma.html</guid><category>multipahd</category><category>scsi</category></item><item><title>Kompost Hazırlama Yöntemi Seçimim ve Nedenleri</title><link>/kompost-yontemleri-arasindan-tercih-yapma.html</link><description>&lt;p&gt;Buğday Derneği'nin düzenlediği "Kompost nedir?" başlıklı sunuma katıldım,
 vidyolarına &lt;a href="https://www.facebook.com/pg/buğdayderneği/videos"&gt;Buğday Derneği'nin facebook
 sayfası&lt;/a&gt;'ndan
 ulaşabilirsiniz.
