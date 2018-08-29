@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2018-03-29T14:28:34-00:00</lastmod>
+<lastmod>2018-08-29T09:47:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2018-03-29T14:28:34-00:00</lastmod>
+<lastmod>2018-08-29T09:47:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2018-03-29T14:28:34-00:00</lastmod>
+<lastmod>2018-08-29T09:47:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2018-03-29T14:28:34-00:00</lastmod>
+<lastmod>2018-08-29T09:47:40-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/fstabtan-scsi-diski-baslatma.html</loc>
+<lastmod>2018-08-28T18:28:00+03:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -110,7 +117,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/linux.html</loc>
-<lastmod>2018-03-18T17:30:00+01:56</lastmod>
+<lastmod>2018-08-28T18:28:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -165,6 +172,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/tag/multipahd.html</loc>
+<lastmod>2018-08-28T18:28:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/tag/elestiri.html</loc>
 <lastmod>2018-02-23T10:06:00+01:56</lastmod>
 <changefreq>daily</changefreq>
@@ -200,15 +214,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/geri-donusum.html</loc>
-<lastmod>2018-03-29T11:34:25+01:56</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>/tag/pomodoro.html</loc>
-<lastmod>2018-03-17T00:42:00+01:56</lastmod>
+<loc>/tag/scsi.html</loc>
+<lastmod>2018-08-28T18:28:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -221,8 +228,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/author/orkung.html</loc>
+<loc>/tag/pomodoro.html</loc>
+<lastmod>2018-03-17T00:42:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/geri-donusum.html</loc>
 <lastmod>2018-03-29T11:34:25+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/author/orkung.html</loc>
+<lastmod>2018-08-28T18:28:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
