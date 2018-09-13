@@ -14,7 +14,7 @@ uğraşmaktansa python'a 5 tane bileşen kurarak daha rahat blog yazacağıma ka
 gem'lerde yaşadığım çakışmalar, kramdown'u unutup tekrar dokümana bakmalar
 artık geride kaldı. 
 
-Pelican için gerekli bileşenler;
+Pelican için gerekli pip paketleri;
 
 * markdown 
 * pelican
@@ -22,6 +22,10 @@ Pelican için gerekli bileşenler;
 * disqus-python {mecburi değil, [disqus yorum uygulamasını](https://disqus.com) ekleyebilmek için}
 
 kurulum için [bu yazıdan](https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html) faydalandım.
+
+Eklenti ve temalar icin;
+* https://github.com/getpelican/pelican-plugins.git
+* https://github.com/gunchu/nikhil-theme.git
 
 Neden blog tutuyorum sorusunu da biraz açmak istiyorum; insanoğlununun bir şeyi
 anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;
