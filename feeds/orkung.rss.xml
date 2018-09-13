@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Thu, 13 Sep 2018 15:34:00 +0300</lastBuildDate><item><title>Docker compose isimlendirme</title><link>/Docker-compose-isimlendirme.html</link><description>&lt;p&gt;asagidaki gibi bir compose file olusturdum;
-compose link'lemede servis parametresini kabul ediyor. container_name
-kullanildiginda hata veriyor.&lt;/p&gt;
+<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Thu, 13 Sep 2018 15:34:00 +0300</lastBuildDate><item><title>Docker compose isimlendirme</title><link>/Docker-compose-isimlendirme.html</link><description>&lt;ul&gt;
+&lt;li&gt;compose &lt;code&gt;links&lt;/code&gt;'te &lt;code&gt;service&lt;/code&gt; parametresini kabul ediyor. &lt;code&gt;container_name&lt;/code&gt;
+  parametresine hata veriyor.&lt;/li&gt;
+&lt;li&gt;ps ciktisinda container_name'i donduruyor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;asagidaki compose file ile test ettim;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="l l-Scalar l-Scalar-Plain"&gt;version&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;3&amp;#39;&lt;/span&gt;
 &lt;span class="l l-Scalar l-Scalar-Plain"&gt;services&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
 
-  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;server-1&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;service-1&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
     &lt;span class="l l-Scalar l-Scalar-Plain"&gt;container_name&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-1&lt;/span&gt;
     &lt;span class="l l-Scalar l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
     &lt;span class="l l-Scalar l-Scalar-Plain"&gt;command&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
 
-  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;server-2&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;service-2&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
     &lt;span class="l l-Scalar l-Scalar-Plain"&gt;container_name&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-2&lt;/span&gt;
     &lt;span class="l l-Scalar l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
     &lt;span class="l l-Scalar l-Scalar-Plain"&gt;command&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
     &lt;span class="l l-Scalar l-Scalar-Plain"&gt;links&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
-      &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;server-1:xyz&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;ps ciktisinda ise container_name ile donus yapiyor.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 13 Sep 2018 15:34:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-09-13:/Docker-compose-isimlendirme.html</guid><category>docker</category><category>docker-compose</category></item><item><title>San Disklerin Centos7'ye Tanıtılması</title><link>/san-disklerin-centos7ye-tanitilmasi.html</link><description>&lt;ul&gt;
+      &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;service-1:xyz&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 13 Sep 2018 15:34:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-09-13:/Docker-compose-isimlendirme.html</guid><category>docker</category><category>docker-compose</category></item><item><title>San Disklerin Centos7'ye Tanıtılması</title><link>/san-disklerin-centos7ye-tanitilmasi.html</link><description>&lt;ul&gt;
 &lt;li&gt;Sunucularda iscsi initiatorname'ler oluşturulup storage admin'e iletilir:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yum install iscsi-initiator-utils
