@@ -1,6 +1,6 @@
 Title: Docker compose isimlendirme
-Date: 2018-08-28 18:28
-Modified: 2018-08-28 18:28
+Date: 2018-09-13 15:34
+Modified: 2018-09-13 15:24
 Category: linux
 Tags: docker, docker-compose
 Slug: Docker-compose-isimlendirme
