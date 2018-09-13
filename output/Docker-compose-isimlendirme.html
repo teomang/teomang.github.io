@@ -55,27 +55,27 @@
       </header>
 <!-- .entry-content -->
       <div class="entry-content">
-        <p>asagidaki gibi bir compose file olusturdum;
-compose link'lemede servis parametresini kabul ediyor. container_name
-kullanildiginda hata veriyor.</p>
+        <ul>
+<li>compose <code>links</code>'te <code>service</code> parametresini kabul ediyor. <code>container_name</code>
+  parametresine hata veriyor.</li>
+<li>ps ciktisinda container_name'i donduruyor.</li>
+</ul>
+<p>asagidaki compose file ile test ettim;</p>
 <div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">version</span><span class="p p-Indicator">:</span> <span class="s">&#39;3&#39;</span>
 <span class="l l-Scalar l-Scalar-Plain">services</span><span class="p p-Indicator">:</span>
 
-  <span class="l l-Scalar l-Scalar-Plain">server-1</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">service-1</span><span class="p p-Indicator">:</span>
     <span class="l l-Scalar l-Scalar-Plain">container_name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">konteyner-1</span>
     <span class="l l-Scalar l-Scalar-Plain">image</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">busybox</span>
     <span class="l l-Scalar l-Scalar-Plain">command</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">tail -f /etc/hosts</span>
 
-  <span class="l l-Scalar l-Scalar-Plain">server-2</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">service-2</span><span class="p p-Indicator">:</span>
     <span class="l l-Scalar l-Scalar-Plain">container_name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">konteyner-2</span>
     <span class="l l-Scalar l-Scalar-Plain">image</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">busybox</span>
     <span class="l l-Scalar l-Scalar-Plain">command</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">tail -f /etc/hosts</span>
     <span class="l l-Scalar l-Scalar-Plain">links</span><span class="p p-Indicator">:</span>
-      <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">server-1:xyz</span>
+      <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">service-1:xyz</span>
 </pre></div>
-
-
-<p>ps ciktisinda ise container_name ile donus yapiyor.</p>
       </div>
 <!-- /.entry-content -->
       <footer class="post-info text-muted">
