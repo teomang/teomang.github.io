@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2018-08-29T13:52:00+03:00</updated><entry><title>San Disklerin Centos7'ye Tanıtılması</title><link href="/san-disklerin-centos7ye-tanitilmasi.html" rel="alternate"></link><published>2018-08-29T13:52:00+03:00</published><updated>2018-08-29T13:52:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-08-29:/san-disklerin-centos7ye-tanitilmasi.html</id><summary type="html">&lt;p&gt;Centos7'ye San disk bağlama&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2018-09-13T15:34:00+03:00</updated><entry><title>Docker compose isimlendirme</title><link href="/Docker-compose-isimlendirme.html" rel="alternate"></link><published>2018-09-13T15:34:00+03:00</published><updated>2018-09-13T15:24:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-09-13:/Docker-compose-isimlendirme.html</id><summary type="html">&lt;p&gt;compose'da konteyner ve servis isimlendirme&lt;/p&gt;</summary><content type="html">&lt;p&gt;asagidaki gibi bir compose file olusturdum;
+compose link'lemede servis parametresini kabul ediyor. container_name
+kullanildiginda hata veriyor.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="l l-Scalar l-Scalar-Plain"&gt;version&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;3&amp;#39;&lt;/span&gt;
+&lt;span class="l l-Scalar l-Scalar-Plain"&gt;services&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;server-1&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;container_name&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-1&lt;/span&gt;
+    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
+    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;command&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
+
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;server-2&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;container_name&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-2&lt;/span&gt;
+    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
+    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;command&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
+    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;links&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+      &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;server-1:xyz&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;ps ciktisinda ise container_name ile donus yapiyor.&lt;/p&gt;</content><category term="docker"></category><category term="docker-compose"></category></entry><entry><title>San Disklerin Centos7'ye Tanıtılması</title><link href="/san-disklerin-centos7ye-tanitilmasi.html" rel="alternate"></link><published>2018-08-29T13:52:00+03:00</published><updated>2018-08-29T13:52:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-08-29:/san-disklerin-centos7ye-tanitilmasi.html</id><summary type="html">&lt;p&gt;Centos7'ye San disk bağlama&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
 &lt;li&gt;Sunucularda iscsi initiatorname'ler oluşturulup storage admin'e iletilir:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yum install iscsi-initiator-utils
@@ -87,27 +107,7 @@ mkfs.xfs -f /dev/mapper/mpathb
 mount /dev/mapper/mpatha &amp;lt;dizin&amp;gt;
 mount /dev/mapper/mpathb &amp;lt;dizin&amp;gt;
 /dev/mapper/mpathb       &amp;lt;dizin&amp;gt; xfs     _netdev 0 0
-&lt;/pre&gt;&lt;/div&gt;</content><category term="server"></category><category term="san"></category></entry><entry><title>Docker compose isimlendirme</title><link href="/Docker-compose-isimlendirme.html" rel="alternate"></link><published>2018-08-28T18:28:00+03:00</published><updated>2018-08-28T18:28:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-08-28:/Docker-compose-isimlendirme.html</id><summary type="html">&lt;p&gt;compose'da konteyner ve servis isimlendirme&lt;/p&gt;</summary><content type="html">&lt;p&gt;asagidaki gibi bir compose file olusturdum;
-compose link'lemede servis parametresini kabul ediyor. container_name
-kullanildiginda hata veriyor.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="l l-Scalar l-Scalar-Plain"&gt;version&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;3&amp;#39;&lt;/span&gt;
-&lt;span class="l l-Scalar l-Scalar-Plain"&gt;services&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
-
-  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;server-1&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;container_name&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-1&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;command&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
-
-  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;server-2&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;container_name&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-2&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;command&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;links&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
-      &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;server-1:xyz&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;ps ciktisinda ise container_name ile donus yapiyor.&lt;/p&gt;</content><category term="docker"></category><category term="docker-compose"></category></entry><entry><title>Fstabtan Scsi Diski Başlatma</title><link href="/fstabtan-scsi-diski-baslatma.html" rel="alternate"></link><published>2018-08-28T18:28:00+03:00</published><updated>2018-08-28T18:28:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-08-28:/fstabtan-scsi-diski-baslatma.html</id><summary type="html">&lt;p&gt;scsi disk'i fstab'tan baglamada hata alındığında&lt;/p&gt;</summary><content type="html">&lt;p&gt;Multipath'le sunucuya gösterdiğimiz scsi disk'leri, centos 7 sunucuda
+&lt;/pre&gt;&lt;/div&gt;</content><category term="server"></category><category term="san"></category></entry><entry><title>Fstabtan Scsi Diski Başlatma</title><link href="/fstabtan-scsi-diski-baslatma.html" rel="alternate"></link><published>2018-08-28T18:28:00+03:00</published><updated>2018-08-28T18:28:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-08-28:/fstabtan-scsi-diski-baslatma.html</id><summary type="html">&lt;p&gt;scsi disk'i fstab'tan baglamada hata alındığında&lt;/p&gt;</summary><content type="html">&lt;p&gt;Multipath'le sunucuya gösterdiğimiz scsi disk'leri, centos 7 sunucuda
 fstab'dan mount ederken
 &lt;a href="https://access.redhat.com/solutions/2042843"&gt;link'teki&lt;/a&gt; hatayı verdi;
 fstab'ta disk'lerin options'ına &lt;code&gt;_netdev&lt;/code&gt; yazarak sorun çözüldü.&lt;/p&gt;</content><category term="multipahd"></category><category term="scsi"></category></entry><entry><title>Kompost Hazırlama Yöntemi Seçimim ve Nedenleri</title><link href="/kompost-yontemleri-arasindan-tercih-yapma.html" rel="alternate"></link><published>2018-03-29T11:34:25+03:00</published><updated>2018-03-29T11:34:25+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-29:/kompost-yontemleri-arasindan-tercih-yapma.html</id><summary type="html">&lt;p&gt;Mutfak atıklarından kompost yapmak istiyorum, nasıl başlayayım?&lt;/p&gt;</summary><content type="html">&lt;p&gt;Buğday Derneği'nin düzenlediği "Kompost nedir?" başlıklı sunuma katıldım,
