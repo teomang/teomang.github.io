@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Thu, 13 Sep 2018 21:20:00 +0300</lastBuildDate><item><title>Docker compose isimlendirme</title><link>/Docker-compose-isimlendirme.html</link><description>&lt;ul&gt;
+<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Sat, 24 Nov 2018 16:16:00 +0300</lastBuildDate><item><title>Docker compose isimlendirme</title><link>/Docker-compose-isimlendirme.html</link><description>&lt;ul&gt;
 &lt;li&gt;compose &lt;code&gt;links&lt;/code&gt;'te &lt;code&gt;service&lt;/code&gt; parametresini kabul ediyor. &lt;code&gt;container_name&lt;/code&gt;
   parametresine hata veriyor.&lt;/li&gt;
 &lt;li&gt;ps ciktisinda container_name'i donduruyor.&lt;/li&gt;
@@ -208,7 +208,10 @@ arasında geçerli, düşünmeyenlere ise her türlü kötülük mübah görül�
 platformu mevcut. Ayrıca artık sosyal medya üzerinden her birimiz birer haber
 kaynağı, eleştirmen ve yazarız da. Haber almak için bu yayın organlarının
 sekter yönetim kurullarına mecbur değiliz. Yeter ki kendi göbek bağımızı kendi
-kendimize kesebileceğimize inanalım.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Mon, 26 Mar 2018 02:30:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-26:/nuray-mertin-cumhuriyette-actigi-gedik..html</guid><category>gunluk_gazete</category></item><item><title>Süt Alırken Dikkat Edilecek Konu Başlıkları</title><link>/sut-kriterleri.html</link><description>&lt;ol&gt;
+kendimize kesebileceğimize inanalım.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Mon, 26 Mar 2018 02:30:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-26:/nuray-mertin-cumhuriyette-actigi-gedik..html</guid><category>gunluk_gazete</category></item><item><title>Süt Alırken Dikkat Edilecek Konu Başlıkları</title><link>/sut-kriterleri.html</link><description>&lt;p&gt;&lt;strong&gt;vegan oldum ve artik bu yazida savundugum 'degerler' benim icin anlamini
+yitirdi, hayatimi idame ettirme mucadelemde, herhangi bir hisseden canlidan
+yararlanma tavrimdan vazgectim.&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
 &lt;li&gt;Hastalıklardan ari sürü sertifikası - İlçe Tarım kan testi yapıyor.
 Türkiye’de 15 milyon büyük baş hayvan var. Sığırların %70’i verem mikrobu
 taşıyor. 13 senedir hastalıklardan ari sürü sertifikası alan tek sürü. &lt;/li&gt;
@@ -234,8 +237,7 @@ fazla yaşamıyormuş ama artık verimi düşürüp havan refahını artırarak 
 yaşamalarını sağlıyorlarmış. Verimi 10 tondan 6 tona düşürmüşler. Çünkü mısır
 silajından ot silajına geçmiş, otlatma programı koymuşlar.&lt;/li&gt;
 &lt;li&gt;Hayvan refahı. Refah bir mekanda mı yaşıyor? Kaşağılanıyor mu, seviliyor mu?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a href="/pdfs/aysun_the_sutcu_perakende_satis_noktalari.pdf"&gt;Dağıtım Kanalları&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 21 Mar 2018 10:47:33 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-21:/sut-kriterleri.html</guid><category>beslenme</category></item><item><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link>/lvm-root-diskini-fsck-ile-kurtarma.html</link><description>&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
+&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 21 Mar 2018 10:47:33 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-21:/sut-kriterleri.html</guid><category>beslenme</category></item><item><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link>/lvm-root-diskini-fsck-ile-kurtarma.html</link><description>&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
 &lt;p&gt;Elektrik kesintisi vb. beklenmedik olayların, sunucunun / disk bölümünde soruna
 yol açarak, sadece okuma modunda (ro) diski bağladığı durumda ne yapılabileceğini
 göstermeye çalışacağım.&lt;/p&gt;
