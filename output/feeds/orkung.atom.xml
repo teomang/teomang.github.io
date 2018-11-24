@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-09-13T21:20:00+03:00</updated><entry><title>Docker compose isimlendirme</title><link href="/Docker-compose-isimlendirme.html" rel="alternate"></link><published>2018-09-13T15:34:00+03:00</published><updated>2018-09-13T21:20:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-09-13:/Docker-compose-isimlendirme.html</id><summary type="html">&lt;p&gt;compose'da konteyner ve servis isimlendirme&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - orkung</title><link href="/" rel="alternate"></link><link href="/feeds/orkung.atom.xml" rel="self"></link><id>/</id><updated>2018-11-24T16:16:00+03:00</updated><entry><title>Docker compose isimlendirme</title><link href="/Docker-compose-isimlendirme.html" rel="alternate"></link><published>2018-09-13T15:34:00+03:00</published><updated>2018-09-13T21:20:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-09-13:/Docker-compose-isimlendirme.html</id><summary type="html">&lt;p&gt;compose'da konteyner ve servis isimlendirme&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
 &lt;li&gt;compose &lt;code&gt;links&lt;/code&gt;'te &lt;code&gt;service&lt;/code&gt; parametresini kabul ediyor. &lt;code&gt;container_name&lt;/code&gt;
   parametresine hata veriyor.&lt;/li&gt;
 &lt;li&gt;ps ciktisinda container_name'i donduruyor.&lt;/li&gt;
@@ -208,7 +208,10 @@ arasında geçerli, düşünmeyenlere ise her türlü kötülük mübah görül�
 platformu mevcut. Ayrıca artık sosyal medya üzerinden her birimiz birer haber
 kaynağı, eleştirmen ve yazarız da. Haber almak için bu yayın organlarının
 sekter yönetim kurullarına mecbur değiliz. Yeter ki kendi göbek bağımızı kendi
-kendimize kesebileceğimize inanalım.&lt;/p&gt;</content><category term="gunluk_gazete"></category></entry><entry><title>Süt Alırken Dikkat Edilecek Konu Başlıkları</title><link href="/sut-kriterleri.html" rel="alternate"></link><published>2018-03-21T10:47:33+03:00</published><updated>2018-03-21T10:47:33+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-21:/sut-kriterleri.html</id><summary type="html">&lt;p&gt;Aysun The Sütçü'nün süt alırken dikkat etmemizi önerdiği kriterler&lt;/p&gt;</summary><content type="html">&lt;ol&gt;
+kendimize kesebileceğimize inanalım.&lt;/p&gt;</content><category term="gunluk_gazete"></category></entry><entry><title>Süt Alırken Dikkat Edilecek Konu Başlıkları</title><link href="/sut-kriterleri.html" rel="alternate"></link><published>2018-03-21T10:47:33+03:00</published><updated>2018-11-24T16:16:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-21:/sut-kriterleri.html</id><summary type="html">&lt;p&gt;Aysun The Sütçü'nün süt alırken dikkat etmemizi önerdiği kriterler&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;vegan oldum ve artik bu yazida savundugum 'degerler' benim icin anlamini
+yitirdi, hayatimi idame ettirme mucadelemde, herhangi bir hisseden canlidan
+yararlanma tavrimdan vazgectim.&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
 &lt;li&gt;Hastalıklardan ari sürü sertifikası - İlçe Tarım kan testi yapıyor.
 Türkiye’de 15 milyon büyük baş hayvan var. Sığırların %70’i verem mikrobu
 taşıyor. 13 senedir hastalıklardan ari sürü sertifikası alan tek sürü. &lt;/li&gt;
@@ -234,8 +237,7 @@ fazla yaşamıyormuş ama artık verimi düşürüp havan refahını artırarak 
 yaşamalarını sağlıyorlarmış. Verimi 10 tondan 6 tona düşürmüşler. Çünkü mısır
 silajından ot silajına geçmiş, otlatma programı koymuşlar.&lt;/li&gt;
 &lt;li&gt;Hayvan refahı. Refah bir mekanda mı yaşıyor? Kaşağılanıyor mu, seviliyor mu?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a href="/pdfs/aysun_the_sutcu_perakende_satis_noktalari.pdf"&gt;Dağıtım Kanalları&lt;/a&gt;&lt;/p&gt;</content><category term="beslenme"></category></entry><entry><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link href="/lvm-root-diskini-fsck-ile-kurtarma.html" rel="alternate"></link><published>2018-03-16T17:11:00+03:00</published><updated>2018-03-18T17:30:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-16:/lvm-root-diskini-fsck-ile-kurtarma.html</id><summary type="html">&lt;p&gt;Root diski read-only bağlıyken kurtarma&lt;/p&gt;</summary><content type="html">&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
+&lt;/ol&gt;</content><category term="beslenme"></category></entry><entry><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link href="/lvm-root-diskini-fsck-ile-kurtarma.html" rel="alternate"></link><published>2018-03-16T17:11:00+03:00</published><updated>2018-03-18T17:30:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-16:/lvm-root-diskini-fsck-ile-kurtarma.html</id><summary type="html">&lt;p&gt;Root diski read-only bağlıyken kurtarma&lt;/p&gt;</summary><content type="html">&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
 &lt;p&gt;Elektrik kesintisi vb. beklenmedik olayların, sunucunun / disk bölümünde soruna
 yol açarak, sadece okuma modunda (ro) diski bağladığı durumda ne yapılabileceğini
 göstermeye çalışacağım.&lt;/p&gt;

@@ -1,11 +1,15 @@
 Title: Süt Alırken Dikkat Edilecek Konu Başlıkları
 Date: 2018-03-21 10:47:33
-Modified: 2018-03-21 10:47:33
+Modified: 2018-11-24 16:16
 Category: yaşam
 Tags: beslenme
 Slug: sut-kriterleri
 Authors: orkung
 Summary: Aysun The Sütçü'nün süt alırken dikkat etmemizi önerdiği kriterler
+
+__vegan oldum ve artik bu yazida savundugum 'degerler' benim icin anlamini
+yitirdi, hayatimi idame ettirme mucadelemde, herhangi bir hisseden canlidan
+yararlanma tavrimdan vazgectim.__
 
 1. Hastalıklardan ari sürü sertifikası - İlçe Tarım kan testi yapıyor.
 Türkiye’de 15 milyon büyük baş hayvan var. Sığırların %70’i verem mikrobu
@@ -33,4 +37,4 @@ yaşamalarını sağlıyorlarmış. Verimi 10 tondan 6 tona düşürmüşler. Ç
 silajından ot silajına geçmiş, otlatma programı koymuşlar.
 5. Hayvan refahı. Refah bir mekanda mı yaşıyor? Kaşağılanıyor mu, seviliyor mu?
 
-[Dağıtım Kanalları]({filename}/pdfs/aysun_the_sutcu_perakende_satis_noktalari.pdf)
+[//]: # ([Dağıtım Kanalları]({filename}/pdfs/aysun_the_sutcu_perakende_satis_noktalari.pdf))
