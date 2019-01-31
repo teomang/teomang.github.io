@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim</title><link>/</link><description></description><lastBuildDate>Thu, 31 Jan 2019 14:04:00 +0300</lastBuildDate><item><title>Blog Yazma Pratigi</title><link>/blog-yazma-pratigi-kazanma.html</link><description>&lt;p&gt;Bu kadar çok yazmak istedigim konu varken, tamamen kendime ait bu alana,
+<rss version="2.0"><channel><title>Anlatabildiklerim</title><link>/</link><description></description><lastBuildDate>Thu, 31 Jan 2019 15:17:00 +0300</lastBuildDate><item><title>Kubernetes Persistence Volume Claimde Hata</title><link>/K8ste-persistence-volume-claim-olustururken-hata.html</link><description>&lt;p&gt;kubectl create ile pvc resource'u yarattığımda;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; MountVolume.NewMounter initialization failed for volume &amp;quot;&amp;quot; :
+endpoints &amp;quot;&amp;quot; not found
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Başka bir tane daha pvc resource'unu recreate etmeyi deneyip aynı hatayı
+aldığımı görünce problemin glusterfs'ten kaynaklandığını düşündüm. &lt;a href="https://docs.openshift.com/container-platform/3.9/install_config/storage_examples/gluster_example.html"&gt;Redhat'ın
+dokümanına&lt;/a&gt; bakmaya başladım. 
+adım adım giderken, endpoints'in olmadığını farkettim.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;kubectl get endpoints --all-namespaces
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;daha önce oluşturulmuş  glusterfs-endpoints.yaml dosyasından endpoint'i
+yarattım. Problem çözüldü.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 15:17:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/K8ste-persistence-volume-claim-olustururken-hata.html</guid><category>k8s</category><category>pvc</category></item><item><title>Kubernetes icinde elasticsearch cluster</title><link>/K8s%20ile%20elasticsearch%20cluster.html</link><description>&lt;p&gt;K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
+Elastic node'lari icin tanimlar;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 14:34:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/K8s ile elasticsearch cluster.html</guid></item><item><title>Blog Yazma Pratigi</title><link>/blog-yazma-pratigi-kazanma.html</link><description>&lt;p&gt;Bu kadar çok yazmak istedigim konu varken, tamamen kendime ait bu alana,
 istediklerimi neden yazmıyorum? Sorunu bir ertelemecilik eleştirisiyle
 geçiştirmeyeceğim. Benim açımdan hayata geçiremememin 2 belirleyici sebebi
 var;&lt;/p&gt;

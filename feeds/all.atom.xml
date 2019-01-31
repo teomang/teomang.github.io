@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-01-31T14:04:00+03:00</updated><entry><title>Blog Yazma Pratigi</title><link href="/blog-yazma-pratigi-kazanma.html" rel="alternate"></link><published>2019-01-31T14:04:00+03:00</published><updated>2019-01-31T14:04:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/blog-yazma-pratigi-kazanma.html</id><summary type="html">&lt;p&gt;Blog Yazma Pratiği Nasıl kazanılır&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu kadar çok yazmak istedigim konu varken, tamamen kendime ait bu alana,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-01-31T15:17:00+03:00</updated><entry><title>Kubernetes Persistence Volume Claimde Hata</title><link href="/K8ste-persistence-volume-claim-olustururken-hata.html" rel="alternate"></link><published>2019-01-31T15:17:00+03:00</published><updated>2019-01-31T15:17:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/K8ste-persistence-volume-claim-olustururken-hata.html</id><summary type="html"></summary><content type="html">&lt;p&gt;kubectl create ile pvc resource'u yarattığımda;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; MountVolume.NewMounter initialization failed for volume &amp;quot;&amp;quot; :
+endpoints &amp;quot;&amp;quot; not found
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Başka bir tane daha pvc resource'unu recreate etmeyi deneyip aynı hatayı
+aldığımı görünce problemin glusterfs'ten kaynaklandığını düşündüm. &lt;a href="https://docs.openshift.com/container-platform/3.9/install_config/storage_examples/gluster_example.html"&gt;Redhat'ın
+dokümanına&lt;/a&gt; bakmaya başladım. 
+adım adım giderken, endpoints'in olmadığını farkettim.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;kubectl get endpoints --all-namespaces
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;daha önce oluşturulmuş  glusterfs-endpoints.yaml dosyasından endpoint'i
+yarattım. Problem çözüldü.&lt;/p&gt;</content><category term="k8s"></category><category term="pvc"></category></entry><entry><title>Kubernetes icinde elasticsearch cluster</title><link href="/K8s%20ile%20elasticsearch%20cluster.html" rel="alternate"></link><published>2019-01-31T14:34:00+03:00</published><updated>2019-01-31T14:34:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/K8s ile elasticsearch cluster.html</id><summary type="html">&lt;p&gt;Kubernetes içinde elasticsearch cluster yapılandırma&lt;/p&gt;</summary><content type="html">&lt;p&gt;K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
+Elastic node'lari icin tanimlar;&lt;/p&gt;</content></entry><entry><title>Blog Yazma Pratigi</title><link href="/blog-yazma-pratigi-kazanma.html" rel="alternate"></link><published>2019-01-31T14:04:00+03:00</published><updated>2019-01-31T14:04:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/blog-yazma-pratigi-kazanma.html</id><summary type="html">&lt;p&gt;Blog Yazma Pratiği Nasıl kazanılır&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu kadar çok yazmak istedigim konu varken, tamamen kendime ait bu alana,
 istediklerimi neden yazmıyorum? Sorunu bir ertelemecilik eleştirisiyle
 geçiştirmeyeceğim. Benim açımdan hayata geçiremememin 2 belirleyici sebebi
 var;&lt;/p&gt;

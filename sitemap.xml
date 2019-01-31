@@ -5,29 +5,43 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2019-01-31T14:30:57-00:00</lastmod>
+<lastmod>2019-01-31T16:52:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2019-01-31T14:30:57-00:00</lastmod>
+<lastmod>2019-01-31T16:52:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2019-01-31T14:30:57-00:00</lastmod>
+<lastmod>2019-01-31T16:52:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2019-01-31T14:30:57-00:00</lastmod>
+<lastmod>2019-01-31T16:52:25-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/K8ste-persistence-volume-claim-olustururken-hata.html</loc>
+<lastmod>2019-01-31T15:17:00+03:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/K8s ile elasticsearch cluster.html</loc>
+<lastmod>2019-01-31T14:34:00+03:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -144,8 +158,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/category/it.html</loc>
+<lastmod>2019-01-31T15:17:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/category/kisisel.html</loc>
-<lastmod>2019-01-31T14:04:00+01:56</lastmod>
+<lastmod>2019-01-31T14:34:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -174,6 +195,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/category/yasam.html</loc>
 <lastmod>2018-12-30T11:49:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/k8s.html</loc>
+<lastmod>2019-01-31T15:17:00+01:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/pvc.html</loc>
+<lastmod>2019-01-31T15:17:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -313,7 +348,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/orkung.html</loc>
-<lastmod>2019-01-31T14:04:00+01:56</lastmod>
+<lastmod>2019-01-31T15:17:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
