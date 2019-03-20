@@ -57,6 +57,28 @@
       <div class="entry-content">
         <p>K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
 Elastic node'lari icin tanimlar;</p>
+<p>All nodes know about all the other nodes in the cluster and can forward client
+requests to the appropriate node. Besides that, each node serves one or more
+purpose:</p>
+<ul>
+<li><code>Master-eligible node</code>: A node that has <code>node.master set to true (default)</code>,
+  which makes it eligible to be elected as the master node, which controls the
+  cluster.</li>
+<li><code>Data node</code>: A node that has <code>node.data set to true (default)</code>. Data nodes hold
+  data and perform data related operations such as CRUD, search, and
+  aggregations. </li>
+<li>Ingest node A node that has <code>node.ingest set to true (default)</code>. Ingest nodes
+   are able to apply an ingest pipeline to a document in order to transform
+   and enrich the document before indexing. With a heavy ingest load, it makes
+   sense to use dedicated ingest nodes and to mark the master and data nodes as
+   <code>node.ingest: false</code></li>
+<li>Tribe node A tribe node, configured via the <code>tribe.*</code> settings, is a special
+   type of coordinating only node that can connect to multiple clusters and
+   perform search and other operations across all connected clusters. </li>
+</ul>
+<p>Client only nodes are used as load balancers for indexing and searching.
+if you set <code>node.client: true</code> it implicitly sets <code>node.master</code> and <code>node.data</code> to false.</p>
+<h1>https://discuss.elastic.co/t/node-types-in-an-elasticsearch-cluster/25488/12</h1>
       </div>
 <!-- /.entry-content -->
       <footer class="post-info text-muted">
