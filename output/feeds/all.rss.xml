@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim</title><link>/</link><description></description><lastBuildDate>Sun, 30 Dec 2018 11:49:00 +0300</lastBuildDate><item><title>The Five Minute Journal Taahhüdüm</title><link>/gunluk-taahhudum.html</link><description>&lt;p&gt;Ben, Orkun Günay, "The Five-Minute Journal"'ı en kısa 5 gün süreyle,
+<rss version="2.0"><channel><title>Anlatabildiklerim</title><link>/</link><description></description><lastBuildDate>Thu, 31 Jan 2019 15:17:00 +0300</lastBuildDate><item><title>Kubernetes Persistence Volume Claimde Hata</title><link>/K8ste-persistence-volume-claim-olustururken-hata.html</link><description>&lt;p&gt;kubectl create ile pvc resource'u yarattığımda;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; MountVolume.NewMounter initialization failed for volume &amp;quot;&amp;quot; :
+endpoints &amp;quot;&amp;quot; not found
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Başka bir tane daha pvc resource'unu recreate etmeyi deneyip aynı hatayı
+aldığımı görünce problemin glusterfs'ten kaynaklandığını düşündüm. &lt;a href="https://docs.openshift.com/container-platform/3.9/install_config/storage_examples/gluster_example.html"&gt;Redhat'ın
+dokümanına&lt;/a&gt; bakmaya başladım. 
+adım adım giderken, endpoints'in olmadığını farkettim.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;kubectl get endpoints --all-namespaces
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;daha önce oluşturulmuş  glusterfs-endpoints.yaml dosyasından endpoint'i
+yarattım. Problem çözüldü.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 15:17:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/K8ste-persistence-volume-claim-olustururken-hata.html</guid><category>k8s</category><category>pvc</category></item><item><title>Kubernetes icinde elasticsearch cluster</title><link>/K8s%20ile%20elasticsearch%20cluster.html</link><description>&lt;p&gt;K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
+Elastic node'lari icin tanimlar;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 14:34:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/K8s ile elasticsearch cluster.html</guid></item><item><title>Blog Yazma Pratigi</title><link>/blog-yazma-pratigi-kazanma.html</link><description>&lt;p&gt;Bu kadar çok yazmak istedigim konu varken, tamamen kendime ait bu alana,
+istediklerimi neden yazmıyorum? Sorunu bir ertelemecilik eleştirisiyle
+geçiştirmeyeceğim. Benim açımdan hayata geçiremememin 2 belirleyici sebebi
+var;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bağlayıcılık üretimini ıskalamam. &lt;/li&gt;
+&lt;li&gt;mükemmelliyetçi yaklaşımım&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bundan sonra her iki başlıkta değişme kararı aldım. Blog yazısı, günden güne,
+konu üzerinde çalıştıkça evrimleşecek. Bu şekilde hem bağlayıcı hem de doğası
+gereği mükemmel olmayan bir çalışma olacak. Hemen bugün başlıyorum.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 14:04:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/blog-yazma-pratigi-kazanma.html</guid><category>gunluk</category></item><item><title>The Five Minute Journal Taahhüdüm</title><link>/gunluk-taahhudum.html</link><description>&lt;p&gt;Ben, Orkun Günay, "The Five-Minute Journal"'ı en kısa 5 gün süreyle,
 31.12.2018'den itibaren yazmaya başlayacağımı beyan ederim.&lt;/p&gt;
 &lt;p&gt;Bu günlüğü yazmak benim için gerçekten önemli, çünkü:&lt;/p&gt;
 &lt;ul&gt;
@@ -26,19 +52,19 @@
 &lt;li&gt;ps ciktisinda container_name'i donduruyor.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;asagidaki compose file ile test ettim;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="l l-Scalar l-Scalar-Plain"&gt;version&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;3&amp;#39;&lt;/span&gt;
-&lt;span class="l l-Scalar l-Scalar-Plain"&gt;services&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;version&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;3&amp;#39;&lt;/span&gt;
+&lt;span class="nt"&gt;services&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
 
-  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;service-1&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;container_name&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-1&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;command&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
+  &lt;span class="nt"&gt;service-1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nt"&gt;container_name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-1&lt;/span&gt;
+    &lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
+    &lt;span class="nt"&gt;command&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
 
-  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;service-2&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;container_name&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-2&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;command&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
-    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;links&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="nt"&gt;service-2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nt"&gt;container_name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;konteyner-2&lt;/span&gt;
+    &lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;busybox&lt;/span&gt;
+    &lt;span class="nt"&gt;command&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
+    &lt;span class="nt"&gt;links&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
       &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;service-1:xyz&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 13 Sep 2018 15:34:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-09-13:/Docker-compose-isimlendirme.html</guid><category>docker</category><category>docker-compose</category></item><item><title>San Disklerin Centos7'ye Tanıtılması</title><link>/san-disklerin-centos7ye-tanitilmasi.html</link><description>&lt;ul&gt;
 &lt;li&gt;Sunucularda iscsi initiatorname'ler oluşturulup storage admin'e iletilir:&lt;/li&gt;

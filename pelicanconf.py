@@ -16,7 +16,7 @@ DEFAULT_LANG = u'en'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 FEED_ALL_RSS = 'feeds/all.rss.xml'
-AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
+#AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
 RSS_FEED_SUMMARY_ONLY = False
 
 # Blogroll
@@ -35,8 +35,8 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 STATIC_PATHS = ['images', 'extra/CNAME', 'pdfs']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
-THEME = "/home/orkung/Git_Repolari/diger/pelican-themes/nikhil-theme"
-PLUGIN_PATHS = ['/home/orkung/Git_Repolari/diger/pelican-plugins']
+THEME = "/Users/orkungunay/orkun/repos/diger/nikhil-theme"
+PLUGIN_PATHS = ['/Users/orkungunay/orkun/repos/diger/pelican-plugins']
 PLUGINS = [
     'sitemap',
     'feed_summary',
