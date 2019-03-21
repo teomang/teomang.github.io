@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Thu, 31 Jan 2019 15:17:00 +0300</lastBuildDate><item><title>Kubernetes Persistence Volume Claimde Hata</title><link>/K8ste-persistence-volume-claim-olustururken-hata.html</link><description>&lt;p&gt;kubectl create ile pvc resource'u yarattığımda;&lt;/p&gt;
+<rss version="2.0"><channel><title>Anlatabildiklerim - orkung</title><link>/</link><description></description><lastBuildDate>Thu, 21 Mar 2019 21:17:00 +0300</lastBuildDate><item><title>Osx'te bozulan virtualenv dizin yollarini duzeltme</title><link>/Osxte-bozulan-virtualenv-dizin-yollarini-duzeltme.html</link><description>&lt;p&gt;Nicedir günlüğe yazı eklemedim, bir bakayım diye virtualenv içindeki pelican
+projesine girmek istediğimde buna benzer bir karşılaştım.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;dyld&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Library&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt; &lt;span class="n"&gt;loaded&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;executable_path&lt;/span&gt;&lt;span class="sr"&gt;/../&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;Python&lt;/span&gt;
+  &lt;span class="n"&gt;Referenced&lt;/span&gt; &lt;span class="n"&gt;from&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="sr"&gt;/Users/[user]/.virtualenvs/pelican/bin/&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;
+  &lt;span class="n"&gt;Reason&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt; &lt;span class="n"&gt;found&lt;/span&gt;
+&lt;span class="n"&gt;Trace&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;BPT&lt;/span&gt; &lt;span class="n"&gt;trap&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;önce google'ladım tabi, bir sürü şey çıktı karşıma, bir kısmını denedim,
+başarılı olamadım, sonra kendi kendime, şu yolu izleyerek çözdüm.&lt;/p&gt;
+&lt;p&gt;Problem, virtualenv'i oluştururken kullandığım python sürümünü
+kaldırmam/unlink yapmamdan kaynaklanmış, bunu şöyle anladım;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ls -l ~/.virtualenvs/pelican/lib/python3.7
+stat.py -&amp;gt; /usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/stat.py
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;sistemimde &lt;code&gt;/usr/local/Cellar/python/3.7.1/&lt;/code&gt; yoktu. En kolay çözüm geri
+getirmek olur deyip google'ladım ve sonucunda bu komutları çalıştırınca
+düzeldi&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew unlink python
+git config http.postBuffer 524288000
+brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/db004f83243963caf8be2ebdb4d0e660d7f7cb4e/Formula/python.rb
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 21 Mar 2019 21:17:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-03-21:/Osxte-bozulan-virtualenv-dizin-yollarini-duzeltme.html</guid><category>osx</category><category>python</category></item><item><title>Kubernetes Persistence Volume Claimde Hata</title><link>/K8ste-persistence-volume-claim-olustururken-hata.html</link><description>&lt;p&gt;kubectl create ile pvc resource'u yarattığımda;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; MountVolume.NewMounter initialization failed for volume &amp;quot;&amp;quot; :
 endpoints &amp;quot;&amp;quot; not found
 &lt;/pre&gt;&lt;/div&gt;
