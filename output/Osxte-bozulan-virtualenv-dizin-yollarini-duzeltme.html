@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
-    <title>Kubernetes icinde elasticsearch cluster - Anlatabildiklerim</title>
+    <title>Osx'te bozulan virtualenv dizin yollarini duzeltme - Anlatabildiklerim</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Full Atom Feed" />
     <link href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Anlatabildiklerim Full RSS Feed" />
-    <link href="/feeds/kisisel.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Categories Atom Feed" />
+    <link href="/feeds/it.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Categories Atom Feed" />
   </head>
   <body id="index" class="archive">
     <!--[if lt IE 7]>
@@ -48,42 +48,49 @@
     <section id="content" class="article content">
       <header>
         <h2 class="entry-title">
-          Kubernetes icinde elasticsearch cluster
+          Osx'te bozulan virtualenv dizin yollarini duzeltme
         </h2>
         
-        <div class="text-muted">Thu 31 January 2019</div>
+        <div class="text-muted">Thu 21 March 2019</div>
       </header>
 <!-- .entry-content -->
       <div class="entry-content">
-        <p>K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
-Elastic node'lari icin tanimlar;</p>
-<p>All nodes know about all the other nodes in the cluster and can forward client
-requests to the appropriate node. Besides that, each node serves one or more
-purpose:</p>
-<ul>
-<li><code>Master-eligible node</code>: A node that has <code>node.master set to true (default)</code>,
-  which makes it eligible to be elected as the master node, which controls the
-  cluster.</li>
-<li><code>Data node</code>: A node that has <code>node.data set to true (default)</code>. Data nodes hold
-  data and perform data related operations such as CRUD, search, and
-  aggregations. </li>
-<li>Ingest node A node that has <code>node.ingest set to true (default)</code>. Ingest nodes
-   are able to apply an ingest pipeline to a document in order to transform
-   and enrich the document before indexing. With a heavy ingest load, it makes
-   sense to use dedicated ingest nodes and to mark the master and data nodes as
-   <code>node.ingest: false</code></li>
-<li>Tribe node A tribe node, configured via the <code>tribe.*</code> settings, is a special
-   type of coordinating only node that can connect to multiple clusters and
-   perform search and other operations across all connected clusters. </li>
-</ul>
-<p>Client only nodes are used as load balancers for indexing and searching.
-if you set <code>node.client: true</code> it implicitly sets <code>node.master</code> and <code>node.data</code> to false.</p>
-<h1>https://discuss.elastic.co/t/node-types-in-an-elasticsearch-cluster/25488/12</h1>
+        <p>Nicedir günlüğe yazı eklemedim, bir bakayım diye virtualenv içindeki pelican
+projesine girmek istediğimde buna benzer bir karşılaştım.</p>
+<div class="highlight"><pre><span></span><span class="n">dyld</span><span class="o">:</span> <span class="n">Library</span> <span class="n">not</span> <span class="n">loaded</span><span class="o">:</span> <span class="err">@</span><span class="n">executable_path</span><span class="sr">/../</span><span class="o">.</span><span class="na">Python</span>
+  <span class="n">Referenced</span> <span class="n">from</span><span class="o">:</span> <span class="sr">/Users/[user]/.virtualenvs/pelican/bin/</span><span class="n">python</span>
+  <span class="n">Reason</span><span class="o">:</span> <span class="n">image</span> <span class="n">not</span> <span class="n">found</span>
+<span class="n">Trace</span><span class="o">/</span><span class="n">BPT</span> <span class="n">trap</span><span class="o">:</span> <span class="mi">5</span>
+</pre></div>
+
+
+<p>önce google'ladım tabi, bir sürü şey çıktı karşıma, bir kısmını denedim,
+başarılı olamadım, sonra kendi kendime, şu yolu izleyerek çözdüm.</p>
+<p>Problem, virtualenv'i oluştururken kullandığım python sürümünü
+kaldırmam/unlink yapmamdan kaynaklanmış, bunu şöyle anladım;</p>
+<div class="highlight"><pre><span></span>ls -l ~/.virtualenvs/pelican/lib/python3.7
+stat.py -&gt; /usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/stat.py
+</pre></div>
+
+
+<p>sistemimde <code>/usr/local/Cellar/python/3.7.1/</code> yoktu. En kolay çözüm geri
+getirmek olur deyip google'ladım ve sonucunda bu komutları çalıştırınca
+düzeldi</p>
+<div class="highlight"><pre><span></span>brew unlink python
+git config http.postBuffer 524288000
+brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/db004f83243963caf8be2ebdb4d0e660d7f7cb4e/Formula/python.rb
+</pre></div>
       </div>
 <!-- /.entry-content -->
       <footer class="post-info text-muted">
         <button type="button" class="btn btn-default">          
-          <a href="/category/kisisel.html"><div class="fa fa-lg fa-folder-open"></div> kisisel</a>
+          <a href="/category/it.html"><div class="fa fa-lg fa-folder-open"></div> it</a>
+        </button>
+        <button type="button" class="btn btn-default">
+          <a href="/tag/osx.html"><div class="fa fa-lg fa-tag"></div> osx</a>
+        </button>
+        <button type="button" class="btn btn-default">
+          <a href="/tag/python.html"><div class="fa fa-lg fa-tag"></div> python</a>
         </button>
       </footer>
       <!-- /.post-info -->
