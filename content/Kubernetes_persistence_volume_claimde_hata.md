@@ -1,11 +1,11 @@
 Title: Kubernetes Persistence Volume Claimde Hata
 Date: 2019-01-31 15:17
-Modified: 2019-01-31 15:17
+Modified: 2019-03-25 16:35
 Category: it
 Tags: k8s,pvc
 Slug: K8ste-persistence-volume-claim-olustururken-hata 
 Authors: orkung
-Summary: 
+Summary: Gluster endpoint'ine mount etme
 
 kubectl create ile pvc resource'u yarattığımda;
 ```

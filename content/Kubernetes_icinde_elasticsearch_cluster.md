@@ -32,6 +32,6 @@ purpose:
 Client only nodes are used as load balancers for indexing and searching.
 if you set `node.client: true` it implicitly sets `node.master` and `node.data` to false.
 
-# https://discuss.elastic.co/t/node-types-in-an-elasticsearch-cluster/25488/12
+[Kaynak](https://discuss.elastic.co/t/node-types-in-an-elasticsearch-cluster/25488/12)
 
 

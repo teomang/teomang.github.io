@@ -22,7 +22,7 @@ purpose:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Client only nodes are used as load balancers for indexing and searching.
 if you set &lt;code&gt;node.client: true&lt;/code&gt; it implicitly sets &lt;code&gt;node.master&lt;/code&gt; and &lt;code&gt;node.data&lt;/code&gt; to false.&lt;/p&gt;
-&lt;h1&gt;https://discuss.elastic.co/t/node-types-in-an-elasticsearch-cluster/25488/12&lt;/h1&gt;</content></entry><entry><title>Blog Yazma Pratigi</title><link href="/blog-yazma-pratigi-kazanma.html" rel="alternate"></link><published>2019-01-31T14:04:00+03:00</published><updated>2019-01-31T14:04:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/blog-yazma-pratigi-kazanma.html</id><summary type="html">&lt;p&gt;Blog Yazma Pratiği Nasıl kazanılır&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu kadar çok yazmak istedigim konu varken, tamamen kendime ait bu alana,
+&lt;p&gt;&lt;a href="https://discuss.elastic.co/t/node-types-in-an-elasticsearch-cluster/25488/12"&gt;Kaynak&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>Blog Yazma Pratigi</title><link href="/blog-yazma-pratigi-kazanma.html" rel="alternate"></link><published>2019-01-31T14:04:00+03:00</published><updated>2019-01-31T14:04:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/blog-yazma-pratigi-kazanma.html</id><summary type="html">&lt;p&gt;Blog Yazma Pratiği Nasıl kazanılır&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu kadar çok yazmak istedigim konu varken, tamamen kendime ait bu alana,
 istediklerimi neden yazmıyorum? Sorunu bir ertelemecilik eleştirisiyle
 geçiştirmeyeceğim. Benim açımdan hayata geçiremememin 2 belirleyici sebebi
 var;&lt;/p&gt;
