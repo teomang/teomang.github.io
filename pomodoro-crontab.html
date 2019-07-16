@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Full Atom Feed" />
     <link href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Anlatabildiklerim Full RSS Feed" />
-    <link href="/feeds/araclar.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Categories Atom Feed" />
+    <link href="/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim  Categories Atom Feed" />
   </head>
   <body id="index" class="archive">
     <!--[if lt IE 7]>
@@ -59,9 +59,9 @@
 terminal'den çalışan bir app aradım, python/zsh/nodejs app'larını denedim,
 hiçbirisi istediğim verimlilikte değildi, sonunda kendim hazırladım, son derece
 de basit oldu, crontab'ı şöyle düzenledim;</p>
-<div class="highlight"><pre><span></span>*/30 * * * *      /usr/bin/notify-send &quot;Work&quot;
-25 * * * *      /usr/bin/notify-send &quot;Break&quot;
-55 * * * *      /usr/bin/notify-send &quot;Break&quot;
+<div class="highlight"><pre><span></span><span class="o">*/</span><span class="mi">30</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>      <span class="o">/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">bin</span><span class="o">/</span><span class="nv">notify</span><span class="o">-</span><span class="k">send</span> <span class="s2">&quot;</span><span class="s">Work</span><span class="s2">&quot;</span>
+<span class="mi">25</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>      <span class="o">/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">bin</span><span class="o">/</span><span class="nv">notify</span><span class="o">-</span><span class="k">send</span> <span class="s2">&quot;</span><span class="s">Break</span><span class="s2">&quot;</span>
+<span class="mi">55</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>      <span class="o">/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">bin</span><span class="o">/</span><span class="nv">notify</span><span class="o">-</span><span class="k">send</span> <span class="s2">&quot;</span><span class="s">Break</span><span class="s2">&quot;</span>
 </pre></div>
 
 

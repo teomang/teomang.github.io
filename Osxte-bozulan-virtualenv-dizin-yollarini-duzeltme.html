@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Full Atom Feed" />
     <link href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Anlatabildiklerim Full RSS Feed" />
-    <link href="/feeds/it.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Categories Atom Feed" />
+    <link href="/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim  Categories Atom Feed" />
   </head>
   <body id="index" class="archive">
     <!--[if lt IE 7]>
@@ -57,10 +57,10 @@
       <div class="entry-content">
         <p>Nicedir günlüğe yazı eklemedim, bir bakayım diye virtualenv içindeki pelican
 projesine girmek istediğimde buna benzer bir karşılaştım.</p>
-<div class="highlight"><pre><span></span><span class="n">dyld</span><span class="o">:</span> <span class="n">Library</span> <span class="n">not</span> <span class="n">loaded</span><span class="o">:</span> <span class="err">@</span><span class="n">executable_path</span><span class="sr">/../</span><span class="o">.</span><span class="na">Python</span>
-  <span class="n">Referenced</span> <span class="n">from</span><span class="o">:</span> <span class="sr">/Users/[user]/.virtualenvs/pelican/bin/</span><span class="n">python</span>
-  <span class="n">Reason</span><span class="o">:</span> <span class="n">image</span> <span class="n">not</span> <span class="n">found</span>
-<span class="n">Trace</span><span class="o">/</span><span class="n">BPT</span> <span class="n">trap</span><span class="o">:</span> <span class="mi">5</span>
+<div class="highlight"><pre><span></span><span class="nl">dyld</span><span class="p">:</span><span class="w"> </span><span class="n">Library</span><span class="w"> </span><span class="ow">not</span><span class="w"> </span><span class="nl">loaded</span><span class="p">:</span><span class="w"> </span><span class="nv">@executable_path</span><span class="o">/</span><span class="p">..</span><span class="o">/</span><span class="p">.</span><span class="n">Python</span><span class="w"></span>
+<span class="w">  </span><span class="n">Referenced</span><span class="w"> </span><span class="k">from</span><span class="err">:</span><span class="w"> </span><span class="o">/</span><span class="n">Users</span><span class="o">/[</span><span class="n">user</span><span class="o">]/</span><span class="p">.</span><span class="n">virtualenvs</span><span class="o">/</span><span class="n">pelican</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">python</span><span class="w"></span>
+<span class="w">  </span><span class="nl">Reason</span><span class="p">:</span><span class="w"> </span><span class="nc">image</span><span class="w"> </span><span class="ow">not</span><span class="w"> </span><span class="k">found</span><span class="w"></span>
+<span class="n">Trace</span><span class="o">/</span><span class="n">BPT</span><span class="w"> </span><span class="nl">trap</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="w"></span>
 </pre></div>
 
 
@@ -68,17 +68,17 @@ projesine girmek istediğimde buna benzer bir karşılaştım.</p>
 başarılı olamadım, sonra kendi kendime, şu yolu izleyerek çözdüm.</p>
 <p>Problem, virtualenv'i oluştururken kullandığım python sürümünü
 kaldırmam/unlink yapmamdan kaynaklanmış, bunu şöyle anladım;</p>
-<div class="highlight"><pre><span></span>ls -l ~/.virtualenvs/pelican/lib/python3.7
-stat.py -&gt; /usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/stat.py
+<div class="highlight"><pre><span></span><span class="n">ls</span> <span class="o">-</span><span class="n">l</span> <span class="o">~/</span><span class="p">.</span><span class="n">virtualenvs</span><span class="o">/</span><span class="n">pelican</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="p">.</span><span class="mi">7</span>
+<span class="n">stat</span><span class="p">.</span><span class="n">py</span> <span class="o">-&gt;</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="k">local</span><span class="o">/</span><span class="n">Cellar</span><span class="o">/</span><span class="n">python</span><span class="o">/</span><span class="mi">3</span><span class="p">.</span><span class="mi">7</span><span class="p">.</span><span class="mi">1</span><span class="o">/</span><span class="n">Frameworks</span><span class="o">/</span><span class="n">Python</span><span class="p">.</span><span class="n">framework</span><span class="o">/</span><span class="n">Versions</span><span class="o">/</span><span class="mi">3</span><span class="p">.</span><span class="mi">7</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="p">.</span><span class="mi">7</span><span class="o">/</span><span class="n">stat</span><span class="p">.</span><span class="n">py</span>
 </pre></div>
 
 
 <p>sistemimde <code>/usr/local/Cellar/python/3.7.1/</code> yoktu. En kolay çözüm geri
 getirmek olur deyip google'ladım ve sonucunda bu komutları çalıştırınca
 düzeldi</p>
-<div class="highlight"><pre><span></span>brew unlink python
-git config http.postBuffer 524288000
-brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/db004f83243963caf8be2ebdb4d0e660d7f7cb4e/Formula/python.rb
+<div class="highlight"><pre><span></span><span class="nv">brew</span> <span class="k">unlink</span> <span class="nv">python</span>
+<span class="nv">git</span> <span class="nv">config</span> <span class="nv">http</span>.<span class="nv">postBuffer</span> <span class="mi">524288000</span>
+<span class="nv">brew</span> <span class="nv">install</span> <span class="nv">https</span>:<span class="o">//</span><span class="nv">raw</span>.<span class="nv">githubusercontent</span>.<span class="nv">com</span><span class="o">/</span><span class="nv">Homebrew</span><span class="o">/</span><span class="nv">homebrew</span><span class="o">-</span><span class="nv">core</span><span class="o">/</span><span class="nv">db004f83243963caf8be2ebdb4d0e660d7f7cb4e</span><span class="o">/</span><span class="nv">Formula</span><span class="o">/</span><span class="nv">python</span>.<span class="nv">rb</span>
 </pre></div>
       </div>
 <!-- /.entry-content -->
