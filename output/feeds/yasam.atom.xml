@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - yaşam</title><link href="https://gunluk.orkungunay.com/" rel="alternate"></link><link href="https://gunluk.orkungunay.com/feeds/yasam.atom.xml" rel="self"></link><id>https://gunluk.orkungunay.com/</id><updated>2018-12-30T11:49:00+03:00</updated><entry><title>The Five Minute Journal Taahhüdüm</title><link href="https://gunluk.orkungunay.com/gunluk-taahhudum.html" rel="alternate"></link><published>2018-12-30T11:49:00+03:00</published><updated>2018-12-30T11:49:00+03:00</updated><author><name>orkung</name></author><id>tag:gunluk.orkungunay.com,2018-12-30:/gunluk-taahhudum.html</id><summary type="html">&lt;p&gt;The Five Minute Journal'ın girişindeki Taahhütnameyi doldurdum&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ben, Orkun Günay, "The Five-Minute Journal"'ı en kısa 5 gün süreyle,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - yaşam</title><link href="/" rel="alternate"></link><link href="/feeds/yasam.atom.xml" rel="self"></link><id>/</id><updated>2018-12-30T11:49:00+03:00</updated><entry><title>The Five Minute Journal Taahhüdüm</title><link href="/gunluk-taahhudum.html" rel="alternate"></link><published>2018-12-30T11:49:00+03:00</published><updated>2018-12-30T11:49:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-12-30:/gunluk-taahhudum.html</id><summary type="html">&lt;p&gt;The Five Minute Journal'ın girişindeki Taahhütnameyi doldurdum&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ben, Orkun Günay, "The Five-Minute Journal"'ı en kısa 5 gün süreyle,
 31.12.2018'den itibaren yazmaya başlayacağımı beyan ederim.&lt;/p&gt;
 &lt;p&gt;Bu günlüğü yazmak benim için gerçekten önemli, çünkü:&lt;/p&gt;
 &lt;ul&gt;
@@ -20,7 +20,7 @@
 &lt;li&gt;Günlük tutmayı kutsal bir ibadet gibi algılıyorum, kutsalı incitemem.&lt;/li&gt;
 &lt;li&gt;Kendi sözüme önce kendim güveneceğim. Yazmazsam, kendi kendime verdiğim
     sözü tutmamanın ağır ve yıkıcı sonuçlarını kendime yaşatmayacağım.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="günlük"></category></entry><entry><title>Kompost Hazırlama Yöntemi Seçimim ve Nedenleri</title><link href="https://gunluk.orkungunay.com/kompost-yontemleri-arasindan-tercih-yapma.html" rel="alternate"></link><published>2018-03-29T11:34:25+03:00</published><updated>2018-03-29T11:34:25+03:00</updated><author><name>orkung</name></author><id>tag:gunluk.orkungunay.com,2018-03-29:/kompost-yontemleri-arasindan-tercih-yapma.html</id><summary type="html">&lt;p&gt;Mutfak atıklarından kompost yapmak istiyorum, nasıl başlayayım?&lt;/p&gt;</summary><content type="html">&lt;p&gt;Buğday Derneği'nin düzenlediği "Kompost nedir?" başlıklı sunuma katıldım,
+&lt;/ul&gt;</content><category term="günlük"></category></entry><entry><title>Kompost Hazırlama Yöntemi Seçimim ve Nedenleri</title><link href="/kompost-yontemleri-arasindan-tercih-yapma.html" rel="alternate"></link><published>2018-03-29T11:34:25+03:00</published><updated>2018-03-29T11:34:25+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-29:/kompost-yontemleri-arasindan-tercih-yapma.html</id><summary type="html">&lt;p&gt;Mutfak atıklarından kompost yapmak istiyorum, nasıl başlayayım?&lt;/p&gt;</summary><content type="html">&lt;p&gt;Buğday Derneği'nin düzenlediği "Kompost nedir?" başlıklı sunuma katıldım,
 vidyolarına &lt;a href="https://www.facebook.com/pg/buğdayderneği/videos"&gt;Buğday Derneği'nin facebook
 sayfası&lt;/a&gt;'ndan
 ulaşabilirsiniz.
@@ -31,7 +31,7 @@ sunumda vurgulanan 2 ana başlık vardı; &lt;/p&gt;
 &lt;li&gt;Hangi yöntemi izlerseniz izleyin, onu uygulamak için bir çok deneme yanılma
   yapayacaksınız, önemli olan bir karar verip başlamak.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Kompost hazırlama yöntemlerini &lt;a href="https://gunluk.orkungunay.com/pdfs/KompostRehber_SON.pdf"&gt;Buğday Derneği Kompost
+&lt;p&gt;Kompost hazırlama yöntemlerini &lt;a href="/pdfs/KompostRehber_SON.pdf"&gt;Buğday Derneği Kompost
 Rehberi&lt;/a&gt;'nden öğrenebilirsiniz. Bu
 çalışmada ayrıca yöntemlerin avantaj ve dezavantaları da belirtilmiş. Sunumdan
 önce kitabı okumuş ve bir yöntemde karar kılmıştım, sunumdan sonra da bu
@@ -60,7 +60,7 @@ atabiliyorsunuz; sevgili &lt;a href="https://www.facebook.com/volkan.dündar.10"
 Bey&lt;/a&gt; bu konudan bahsederken, "biz 4
 yıldır belediyeye 1 gram atık kaptırmadık." dedi. Gerçekten de, onu
 kullanmasını bilmeyenlere, değerli şeylerimizi vermeyelim. Biz daha iyisini
-yapabiliriz.&lt;/p&gt;</content><category term="geri-dönüşüm"></category></entry><entry><title>Süt Alırken Dikkat Edilecek Konu Başlıkları</title><link href="https://gunluk.orkungunay.com/sut-kriterleri.html" rel="alternate"></link><published>2018-03-21T10:47:33+03:00</published><updated>2018-11-24T16:16:00+03:00</updated><author><name>orkung</name></author><id>tag:gunluk.orkungunay.com,2018-03-21:/sut-kriterleri.html</id><summary type="html">&lt;p&gt;Aysun The Sütçü'nün süt alırken dikkat etmemizi önerdiği kriterler&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;vegan oldum ve artik bu yazida savundugum 'degerler' benim icin anlamini
+yapabiliriz.&lt;/p&gt;</content><category term="geri-dönüşüm"></category></entry><entry><title>Süt Alırken Dikkat Edilecek Konu Başlıkları</title><link href="/sut-kriterleri.html" rel="alternate"></link><published>2018-03-21T10:47:33+03:00</published><updated>2018-11-24T16:16:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-21:/sut-kriterleri.html</id><summary type="html">&lt;p&gt;Aysun The Sütçü'nün süt alırken dikkat etmemizi önerdiği kriterler&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;vegan oldum ve artik bu yazida savundugum 'degerler' benim icin anlamini
 yitirdi, hayatimi idame ettirme mucadelemde, herhangi bir hisseden canlidan
 yararlanma tavrimdan vazgectim.&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -89,7 +89,7 @@ fazla yaşamıyormuş ama artık verimi düşürüp havan refahını artırarak 
 yaşamalarını sağlıyorlarmış. Verimi 10 tondan 6 tona düşürmüşler. Çünkü mısır
 silajından ot silajına geçmiş, otlatma programı koymuşlar.&lt;/li&gt;
 &lt;li&gt;Hayvan refahı. Refah bir mekanda mı yaşıyor? Kaşağılanıyor mu, seviliyor mu?&lt;/li&gt;
-&lt;/ol&gt;</content><category term="beslenme"></category></entry><entry><title>Türetici Olmak</title><link href="https://gunluk.orkungunay.com/bir-dosta-cevaben.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-02-23T10:06:00+03:00</updated><author><name>orkung</name></author><id>tag:gunluk.orkungunay.com,2018-02-23:/bir-dosta-cevaben.html</id><summary type="html">&lt;p&gt;türeticilik neden küçük görülür ve dar görüşlü bulunur&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu yazıda, dönüşümün tek yolunun, bireylerin, tercihlerinin sorumluluğunu
+&lt;/ol&gt;</content><category term="beslenme"></category></entry><entry><title>Türetici Olmak</title><link href="/bir-dosta-cevaben.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-02-23T10:06:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-23:/bir-dosta-cevaben.html</id><summary type="html">&lt;p&gt;türeticilik neden küçük görülür ve dar görüşlü bulunur&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu yazıda, dönüşümün tek yolunun, bireylerin, tercihlerinin sorumluluğunu
 almaları olduğunu savunacağım. Kollektif dönüşüm konusunu tartışmayacağım, o
 konudaki fikrim, bireylerin sorumluluk alma imkanlarını ve bilinçlerini
 genişlettiği ölçüde faydalı, aksi durumda zararlı olduğudur.&lt;/p&gt;

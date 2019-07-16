@@ -19,9 +19,9 @@ ederim.
 
 Temel bir ihtiyaç hissettim; kampa katılacakların önceden birbirinden haberdar
 olabileceği ve eski katılımcıların deneyimlerini paylaşabileceği bir ağ olsa
-iyi olurdu. Buna ihtiyaç var; Örneğin katılımcı kılavuzu; "Çadır yeri önerimiz
+iyi olurdu. Buna ihtiyaç var; örneğin katılımcı kılavuzunda, "Çadır yeri önerimiz
 bulunmuyor" yazıyor. Gayet doğal bu. Fakat daha önce kursa gidip çadır yeri
-bakmış birilerinin önerisi olabilir. Mesela benim merak ettiğim konu da,
+bakmış birilerinin önerisi olabilirdi. Mesela benim merak ettiğim konu da,
 yurtla üniversite arasındaki yolun bisiklete uygun olup olmadığı.
 
 Konular biriktikçe burayı güncelleyeceğim.
