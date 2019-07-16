@@ -10,16 +10,16 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
     <!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet" />-->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/theme/style.css" rel="stylesheet" />
+    <link href="https://gunluk.orkungunay.com/theme/style.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Full Atom Feed" />
-    <link href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Anlatabildiklerim Full RSS Feed" />
-    <link href="/feeds/it.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Categories Atom Feed" />
+    <link href="https://gunluk.orkungunay.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim Full Atom Feed" />
+    <link href="https://gunluk.orkungunay.com/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Anlatabildiklerim Full RSS Feed" />
+    <link href="https://gunluk.orkungunay.com/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="Anlatabildiklerim  Categories Atom Feed" />
   </head>
   <body id="index" class="archive">
     <!--[if lt IE 7]>
@@ -34,11 +34,11 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="">Anlatabildiklerim</a>
+          <a class="navbar-brand" href="https://gunluk.orkungunay.com">Anlatabildiklerim</a>
         </div>
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li><a href="/tags.html">tags</a></li>
+            <li><a href="https://gunluk.orkungunay.com/tags.html">tags</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -56,8 +56,8 @@
 <!-- .entry-content -->
       <div class="entry-content">
         <p>kubectl create ile pvc resource'u yarattığımda;</p>
-<div class="highlight"><pre><span></span> MountVolume.NewMounter initialization failed for volume &quot;&quot; :
-endpoints &quot;&quot; not found
+<div class="highlight"><pre><span></span> <span class="nv">MountVolume</span>.<span class="nv">NewMounter</span> <span class="nv">initialization</span> <span class="nv">failed</span> <span class="k">for</span> <span class="nv">volume</span> <span class="s2">&quot;&quot;</span> :
+<span class="nv">endpoints</span> <span class="s2">&quot;&quot;</span> <span class="nv">not</span> <span class="nv">found</span>
 </pre></div>
 
 
@@ -65,7 +65,7 @@ endpoints &quot;&quot; not found
 aldığımı görünce problemin glusterfs'ten kaynaklandığını düşündüm. <a href="https://docs.openshift.com/container-platform/3.9/install_config/storage_examples/gluster_example.html">Redhat'ın
 dokümanına</a> bakmaya başladım. 
 adım adım giderken, endpoints'in olmadığını farkettim.</p>
-<div class="highlight"><pre><span></span>kubectl get endpoints --all-namespaces
+<div class="highlight"><pre><span></span><span class="n">kubectl</span> <span class="k">get</span> <span class="n">endpoints</span> <span class="c1">--all-namespaces</span>
 </pre></div>
 
 
@@ -75,13 +75,13 @@ yarattım. Problem çözüldü.</p>
 <!-- /.entry-content -->
       <footer class="post-info text-muted">
         <button type="button" class="btn btn-default">          
-          <a href="/category/it.html"><div class="fa fa-lg fa-folder-open"></div> it</a>
+          <a href="https://gunluk.orkungunay.com/category/it.html"><div class="fa fa-lg fa-folder-open"></div> it</a>
         </button>
         <button type="button" class="btn btn-default">
-          <a href="/tag/k8s.html"><div class="fa fa-lg fa-tag"></div> k8s</a>
+          <a href="https://gunluk.orkungunay.com/tag/k8s.html"><div class="fa fa-lg fa-tag"></div> k8s</a>
         </button>
         <button type="button" class="btn btn-default">
-          <a href="/tag/pvc.html"><div class="fa fa-lg fa-tag"></div> pvc</a>
+          <a href="https://gunluk.orkungunay.com/tag/pvc.html"><div class="fa fa-lg fa-tag"></div> pvc</a>
         </button>
       </footer>
       <!-- /.post-info -->
@@ -101,7 +101,7 @@ yarattım. Problem çözüldü.</p>
     </div>
     <footer class="footer">
       <div class="container">
-        <p class="footer-text">&copy; <a href="">Anlatabildiklerim</a> powered by <a href="http://getpelican.com/">pelican</a> and <a href="http://nodotcom.org">nikhil</a></p>
+        <p class="footer-text">&copy; <a href="https://gunluk.orkungunay.com">Anlatabildiklerim</a> powered by <a href="http://getpelican.com/">pelican</a> and <a href="http://nodotcom.org">nikhil</a></p>
       </div>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

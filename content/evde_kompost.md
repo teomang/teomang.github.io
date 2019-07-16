@@ -19,7 +19,7 @@ sunumda vurgulanan 2 ana başlık vardı;
   yapayacaksınız, önemli olan bir karar verip başlamak.
 
 Kompost hazırlama yöntemlerini [Buğday Derneği Kompost
-Rehberi]({filename}/pdfs/KompostRehber_SON.pdf)'nden öğrenebilirsiniz. Bu
+Rehberi]({static}/pdfs/KompostRehber_SON.pdf)'nden öğrenebilirsiniz. Bu
 çalışmada ayrıca yöntemlerin avantaj ve dezavantaları da belirtilmiş. Sunumdan
 önce kitabı okumuş ve bir yöntemde karar kılmıştım, sunumdan sonra da bu
 kararım değişmedi; solucan kompostu (Vermikompost) yapmak istiyorum.

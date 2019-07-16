@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - misc</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2018-03-17T00:40:00+03:00</updated><entry><title>Pelican'la blog'luyorum</title><link href="/ilk-yazi.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-03-17T00:40:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-02-23:/ilk-yazi.html</id><summary type="html">&lt;p&gt;kısaca neden pelican&lt;/p&gt;</summary><content type="html">&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - misc</title><link href="https://gunluk.orkungunay.com/" rel="alternate"></link><link href="https://gunluk.orkungunay.com/feeds/misc.atom.xml" rel="self"></link><id>https://gunluk.orkungunay.com/</id><updated>2018-03-17T00:40:00+03:00</updated><entry><title>Pelican'la blog'luyorum</title><link href="https://gunluk.orkungunay.com/ilk-yazi.html" rel="alternate"></link><published>2018-02-23T10:06:00+03:00</published><updated>2018-03-17T00:40:00+03:00</updated><author><name>orkung</name></author><id>tag:gunluk.orkungunay.com,2018-02-23:/ilk-yazi.html</id><summary type="html">&lt;p&gt;kısaca neden pelican&lt;/p&gt;</summary><content type="html">&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
 her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni aldığım
 makinaya ruby, gems, rvm, bundle kurmak ve bilumum konfigürasyonuyla
 uğraşmaktansa python'a 5 tane bileşen kurarak daha rahat blog yazacağıma kanaat getirdim. Her defasında
@@ -14,8 +14,8 @@ artık geride kaldı. &lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;kurulum için &lt;a href="https://rsip22.github.io/blog/create-a-blog-with-pelican-and-github-pages.html"&gt;bu yazıdan&lt;/a&gt; faydalandım.&lt;/p&gt;
 &lt;p&gt;Eklenti ve temalar icin;
-&lt;em&gt; https://github.com/getpelican/pelican-plugins.git
-&lt;/em&gt; https://github.com/gunchu/nikhil-theme.git&lt;/p&gt;
+* https://github.com/getpelican/pelican-plugins.git
+* https://github.com/gunchu/nikhil-theme.git&lt;/p&gt;
 &lt;p&gt;Neden blog tutuyorum sorusunu da biraz açmak istiyorum; insanoğlununun bir şeyi
 anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;&lt;/p&gt;
 &lt;ul&gt;
@@ -25,7 +25,7 @@ anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;&lt;/p&gt;
   yaratıcı bir şekilde onunla uğraşılmış, sonucunda bir deneyim oluşmuşsa bundan
   bir blog yazısı çıkar. Dolayısıyla diğer metinlerden farklı olarak, blog metni,
   tecrübe aktarımını sağlaması bakımından, değer üretir, bu sebepten biriciktir.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>Sağlıklı Yaşamak</title><link href="/saglikli-yasamak.html" rel="alternate"></link><published>2015-01-04T00:00:00+02:00</published><updated>2015-01-04T00:00:00+02:00</updated><author><name>Orkung</name></author><id>tag:None,2015-01-04:/saglikli-yasamak.html</id><summary type="html">Oruç, egzersiz ve ayakta durmanın faydaları üzerine</summary><content type="html">&lt;p&gt;Dr. Mosley'in BBC Knowledge'daki tv programlarini izleme firsati buldum.
+&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>Sağlıklı Yaşamak</title><link href="https://gunluk.orkungunay.com/saglikli-yasamak.html" rel="alternate"></link><published>2015-01-04T00:00:00+02:00</published><updated>2015-01-04T00:00:00+02:00</updated><author><name>Orkung</name></author><id>tag:gunluk.orkungunay.com,2015-01-04:/saglikli-yasamak.html</id><summary type="html">Oruç, egzersiz ve ayakta durmanın faydaları üzerine</summary><content type="html">&lt;p&gt;Dr. Mosley'in BBC Knowledge'daki tv programlarini izleme firsati buldum.
 Bolumlerle ilgili notlarimi paylasiyorum;&lt;/p&gt;
 &lt;ol class="upperalpha simple"&gt;
 &lt;li&gt;intermittent fasting (aralıklı oruç) &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[*]&lt;/a&gt;&lt;/li&gt;
@@ -100,7 +100,7 @@ Bu ikisini birarada yapabilirsek sağlıklı kalabiliriz.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://thefastdiet.co.uk/r"&gt;Dr. Mosley'in fastdiet sitesi:&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mercola.com"&gt;Yukaridaki alintiyi yaptigim Mercola'nin sitesi:&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="sağlık"></category></entry><entry><title>Kullandığım Terminal Uygulamaları</title><link href="/kullandigim-terminal-uygulamalari.html" rel="alternate"></link><published>2013-10-21T00:41:00+03:00</published><updated>2013-10-21T00:41:00+03:00</updated><author><name>Orkung</name></author><id>tag:None,2013-10-21:/kullandigim-terminal-uygulamalari.html</id><summary type="html">Hayatımı kolaylaştıran terminal uygulamaları</summary><content type="html">&lt;p&gt;Kullanım alışkanlığını edinirseniz hayatınızı kolaylaştıran terminal
+</content><category term="sağlık"></category></entry><entry><title>Kullandığım Terminal Uygulamaları</title><link href="https://gunluk.orkungunay.com/kullandigim-terminal-uygulamalari.html" rel="alternate"></link><published>2013-10-21T00:41:00+03:00</published><updated>2013-10-21T00:41:00+03:00</updated><author><name>Orkung</name></author><id>tag:gunluk.orkungunay.com,2013-10-21:/kullandigim-terminal-uygulamalari.html</id><summary type="html">Hayatımı kolaylaştıran terminal uygulamaları</summary><content type="html">&lt;p&gt;Kullanım alışkanlığını edinirseniz hayatınızı kolaylaştıran terminal
 uygulamalarını paylaşmak istedim. Liste eksik eklemeler yapacağım.&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/amix/autojump"&gt;autojump kendi kendine ogrenen cd komutu&lt;/a&gt;:

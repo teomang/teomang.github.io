@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
-    <title>Docker compose isimlendirme - Anlatabildiklerim</title>
+    <title>Özgür Yazılım Yaz Kampı Oncesi - Anlatabildiklerim</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
@@ -48,45 +48,36 @@
     <section id="content" class="article content">
       <header>
         <h2 class="entry-title">
-          Docker compose isimlendirme
+          Özgür Yazılım Yaz Kampı Oncesi
         </h2>
         
-        <div class="text-muted">Thu 13 September 2018</div>
+        <div class="text-muted">Tue 16 July 2019</div>
       </header>
 <!-- .entry-content -->
       <div class="entry-content">
-        <ul>
-<li>compose <code>links</code>'te <code>service</code> parametresini kabul ediyor. <code>container_name</code>
-  parametresine hata veriyor.</li>
-<li>ps ciktisinda container_name'i donduruyor.</li>
-</ul>
-<p>asagidaki compose file ile test ettim;</p>
-<div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="s">&#39;3&#39;</span>
-<span class="nt">services</span><span class="p">:</span>
-
-  <span class="nt">service-1</span><span class="p">:</span>
-    <span class="nt">container_name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">konteyner-1</span>
-    <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">busybox</span>
-    <span class="nt">command</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">tail -f /etc/hosts</span>
-
-  <span class="nt">service-2</span><span class="p">:</span>
-    <span class="nt">container_name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">konteyner-2</span>
-    <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">busybox</span>
-    <span class="nt">command</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">tail -f /etc/hosts</span>
-    <span class="nt">links</span><span class="p">:</span>
-      <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">service-1:xyz</span>
-</pre></div>
+        <p>Bu seneki <a href="https://kamp.linux.org.tr/2019/yaz">özgür yazılım yaz kampında,</a> <a href="https://kamp.linux.org.tr/2019/yaz/kurslar/linux-ic-yapisi-netfilter-ve-cekirdek-ici-sanal-makineler/">Linux İç Yapısı: Netfilter ve Çekirdek-İçi Sanal
+Makineler</a> kursuna katilacagim.</p>
+<p>Dikkatimi ilk çeken nokta; organizasyon konusunda <a href="https://lkd.org.tr">LKD'de</a>
+büyük bir birikim oluşmuş, katılımcının aklına gelebilecek neredeyse tüm
+sorularla ilgili ayrıntılı yanıtlar düzenli olarak veriliyor. Işleyiş düzeni
+önceden herkese gerekçeleriyle açıklanıyor, az kişiyle böyle kalabalık bir
+organizasyonu düzenleme sorumluluğunu aldıkları için hepsine teşekkür
+ediyorum.</p>
+<p>Temel bir ihtiyaç hissettim, kampa katılacakların önceden birbirinden haberdar
+olabileceği ve eski katılımcıların deneyimlerini paylaşabileceği bir ağ olsa
+iyi olurdu. Buna ihtiyaç var, Örneğin kurs görevlileri; "Çadır yeri önerimiz
+bulunmuyor." diyorlar. Gayet doğal bu. Fakat daha önce kursa gidip çadır yeri
+bakmış birileri olduysa, onların önerisi olabilir. Mesela benim merak ettiğim
+konu da, yurtla üniversite arasındaki yolun bisiklete uygun olup olmadığı.</p>
+<p>Konular biriktikçe burayı güncelleyeceğim.</p>
       </div>
 <!-- /.entry-content -->
       <footer class="post-info text-muted">
         <button type="button" class="btn btn-default">          
-          <a href="https://gunluk.orkungunay.com/category/linux.html"><div class="fa fa-lg fa-folder-open"></div> linux</a>
+          <a href="https://gunluk.orkungunay.com/category/kisisel.html"><div class="fa fa-lg fa-folder-open"></div> kisisel</a>
         </button>
         <button type="button" class="btn btn-default">
-          <a href="https://gunluk.orkungunay.com/tag/docker.html"><div class="fa fa-lg fa-tag"></div> docker</a>
-        </button>
-        <button type="button" class="btn btn-default">
-          <a href="https://gunluk.orkungunay.com/tag/docker-compose.html"><div class="fa fa-lg fa-tag"></div> docker-compose</a>
+          <a href="https://gunluk.orkungunay.com/tag/gunluk.html"><div class="fa fa-lg fa-tag"></div> gunluk</a>
         </button>
       </footer>
       <!-- /.post-info -->
