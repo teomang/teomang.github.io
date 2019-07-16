@@ -9,9 +9,9 @@ organizasyonu düzenleme sorumluluğunu aldıkları için hepsine teşekkür
 ederim.&lt;/p&gt;
 &lt;p&gt;Temel bir ihtiyaç hissettim; kampa katılacakların önceden birbirinden haberdar
 olabileceği ve eski katılımcıların deneyimlerini paylaşabileceği bir ağ olsa
-iyi olurdu. Buna ihtiyaç var; Örneğin katılımcı kılavuzu; "Çadır yeri önerimiz
+iyi olurdu. Buna ihtiyaç var; örneğin katılımcı kılavuzunda, "Çadır yeri önerimiz
 bulunmuyor" yazıyor. Gayet doğal bu. Fakat daha önce kursa gidip çadır yeri
-bakmış birilerinin önerisi olabilir. Mesela benim merak ettiğim konu da,
+bakmış birilerinin önerisi olabilirdi. Mesela benim merak ettiğim konu da,
 yurtla üniversite arasındaki yolun bisiklete uygun olup olmadığı.&lt;/p&gt;
 &lt;p&gt;Konular biriktikçe burayı güncelleyeceğim.&lt;/p&gt;</content><category term="gunluk"></category></entry><entry><title>Kubernetes icinde elasticsearch cluster</title><link href="/K8s%20ile%20elasticsearch%20cluster.html" rel="alternate"></link><published>2019-01-31T14:34:00+03:00</published><updated>2019-01-31T14:34:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/K8s ile elasticsearch cluster.html</id><summary type="html">&lt;p&gt;Kubernetes içinde elasticsearch cluster yapılandırma&lt;/p&gt;</summary><content type="html">&lt;p&gt;K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
 Elastic node'lari icin tanimlar;&lt;/p&gt;
