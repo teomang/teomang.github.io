@@ -4,379 +4,379 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/</loc>
-<lastmod>2019-07-16T04:41:45-00:00</lastmod>
+<loc>https://gunluk.orkungunay.com/</loc>
+<lastmod>2019-07-18T17:17:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/archives.html</loc>
-<lastmod>2019-07-16T04:41:45-00:00</lastmod>
+<loc>https://gunluk.orkungunay.com/archives.html</loc>
+<lastmod>2019-07-18T17:17:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tags.html</loc>
-<lastmod>2019-07-16T04:41:45-00:00</lastmod>
+<loc>https://gunluk.orkungunay.com/tags.html</loc>
+<lastmod>2019-07-18T17:17:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/categories.html</loc>
-<lastmod>2019-07-16T04:41:45-00:00</lastmod>
+<loc>https://gunluk.orkungunay.com/categories.html</loc>
+<lastmod>2019-07-18T17:17:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/ozgur-yazilim-yaz-kampi-notlarim.html</loc>
-<lastmod>2019-07-16T03:17:00+03:00</lastmod>
+<loc>https://gunluk.orkungunay.com/ozgur-yazilim-yaz-kampi-notlarim.html</loc>
+<lastmod>2019-07-18T16:10:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/Osxte-bozulan-virtualenv-dizin-yollarini-duzeltme.html</loc>
+<loc>https://gunluk.orkungunay.com/Osxte-bozulan-virtualenv-dizin-yollarini-duzeltme.html</loc>
 <lastmod>2019-03-21T21:17:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/K8ste-persistence-volume-claim-olustururken-hata.html</loc>
+<loc>https://gunluk.orkungunay.com/K8ste-persistence-volume-claim-olustururken-hata.html</loc>
 <lastmod>2019-03-25T16:35:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/K8s ile elasticsearch cluster.html</loc>
+<loc>https://gunluk.orkungunay.com/K8s ile elasticsearch cluster.html</loc>
 <lastmod>2019-01-31T14:34:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/blog-yazma-pratigi-kazanma.html</loc>
+<loc>https://gunluk.orkungunay.com/blog-yazma-pratigi-kazanma.html</loc>
 <lastmod>2019-01-31T14:04:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/gunluk-taahhudum.html</loc>
+<loc>https://gunluk.orkungunay.com/gunluk-taahhudum.html</loc>
 <lastmod>2018-12-30T11:49:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/Docker-compose-isimlendirme.html</loc>
+<loc>https://gunluk.orkungunay.com/Docker-compose-isimlendirme.html</loc>
 <lastmod>2018-09-13T21:20:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/san-disklerin-centos7ye-tanitilmasi.html</loc>
+<loc>https://gunluk.orkungunay.com/san-disklerin-centos7ye-tanitilmasi.html</loc>
 <lastmod>2018-08-29T13:52:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/fstabtan-scsi-diski-baslatma.html</loc>
+<loc>https://gunluk.orkungunay.com/fstabtan-scsi-diski-baslatma.html</loc>
 <lastmod>2018-08-28T18:28:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/kompost-yontemleri-arasindan-tercih-yapma.html</loc>
+<loc>https://gunluk.orkungunay.com/kompost-yontemleri-arasindan-tercih-yapma.html</loc>
 <lastmod>2018-03-29T11:34:25+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/nuray-mertin-cumhuriyette-actigi-gedik..html</loc>
+<loc>https://gunluk.orkungunay.com/nuray-mertin-cumhuriyette-actigi-gedik..html</loc>
 <lastmod>2018-03-26T02:30:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/sut-kriterleri.html</loc>
+<loc>https://gunluk.orkungunay.com/sut-kriterleri.html</loc>
 <lastmod>2018-11-24T16:16:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/lvm-root-diskini-fsck-ile-kurtarma.html</loc>
+<loc>https://gunluk.orkungunay.com/lvm-root-diskini-fsck-ile-kurtarma.html</loc>
 <lastmod>2018-03-18T17:30:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/pomodoro-crontab.html</loc>
+<loc>https://gunluk.orkungunay.com/pomodoro-crontab.html</loc>
 <lastmod>2018-03-17T00:42:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/linux swap.html</loc>
+<loc>https://gunluk.orkungunay.com/linux swap.html</loc>
 <lastmod>2018-03-14T17:10:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/bir-dosta-cevaben.html</loc>
+<loc>https://gunluk.orkungunay.com/bir-dosta-cevaben.html</loc>
 <lastmod>2018-02-23T10:06:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/ilk-yazi.html</loc>
+<loc>https://gunluk.orkungunay.com/ilk-yazi.html</loc>
 <lastmod>2018-03-17T00:40:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/saglikli-yasamak.html</loc>
+<loc>https://gunluk.orkungunay.com/saglikli-yasamak.html</loc>
 <lastmod>2015-01-04T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/kullandigim-terminal-uygulamalari.html</loc>
+<loc>https://gunluk.orkungunay.com/kullandigim-terminal-uygulamalari.html</loc>
 <lastmod>2013-10-21T00:41:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/araclar.html</loc>
+<loc>https://gunluk.orkungunay.com/category/araclar.html</loc>
 <lastmod>2018-03-17T00:42:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/it.html</loc>
+<loc>https://gunluk.orkungunay.com/category/it.html</loc>
 <lastmod>2019-03-25T16:35:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/kisisel.html</loc>
-<lastmod>2019-07-16T03:17:00+01:56</lastmod>
+<loc>https://gunluk.orkungunay.com/category/kisisel.html</loc>
+<lastmod>2019-07-18T16:10:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/linux.html</loc>
+<loc>https://gunluk.orkungunay.com/category/linux.html</loc>
 <lastmod>2018-09-13T21:20:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/misc.html</loc>
+<loc>https://gunluk.orkungunay.com/category/misc.html</loc>
 <lastmod>2018-03-17T00:40:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/siyaset.html</loc>
+<loc>https://gunluk.orkungunay.com/category/siyaset.html</loc>
 <lastmod>2018-03-26T02:30:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/yasam.html</loc>
+<loc>https://gunluk.orkungunay.com/category/yasam.html</loc>
 <lastmod>2018-12-30T11:49:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/osx.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/osx.html</loc>
 <lastmod>2019-03-21T21:17:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/san.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/san.html</loc>
 <lastmod>2018-08-29T13:52:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/gunluk_gazete.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/gunluk_gazete.html</loc>
 <lastmod>2018-03-26T02:30:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/misc.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/misc.html</loc>
 <lastmod>2018-03-17T00:40:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/pvc.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/pvc.html</loc>
 <lastmod>2019-03-25T16:35:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/saglik.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/saglik.html</loc>
 <lastmod>2015-01-04T00:00:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/elestiri.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/elestiri.html</loc>
 <lastmod>2018-02-23T10:06:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/tureticilik.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/tureticilik.html</loc>
 <lastmod>2018-02-23T10:06:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/k8s.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/k8s.html</loc>
 <lastmod>2019-03-25T16:35:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/pomodoro.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/pomodoro.html</loc>
 <lastmod>2018-03-17T00:42:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/geri-donusum.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/geri-donusum.html</loc>
 <lastmod>2018-03-29T11:34:25+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/recovery.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/recovery.html</loc>
 <lastmod>2018-03-18T17:30:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/docker-compose.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/docker-compose.html</loc>
 <lastmod>2018-09-13T21:20:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/apps.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/apps.html</loc>
 <lastmod>2013-10-21T00:41:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/swap.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/swap.html</loc>
 <lastmod>2018-03-14T17:10:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/gunluk.html</loc>
-<lastmod>2019-07-16T03:17:00+01:56</lastmod>
+<loc>https://gunluk.orkungunay.com/tag/gunluk.html</loc>
+<lastmod>2019-07-18T16:10:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/beslenme.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/beslenme.html</loc>
 <lastmod>2018-11-24T16:16:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/python.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/python.html</loc>
 <lastmod>2019-03-21T21:17:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/multipahd.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/multipahd.html</loc>
 <lastmod>2018-08-28T18:28:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/scsi.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/scsi.html</loc>
 <lastmod>2018-08-28T18:28:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/kurtarma.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/kurtarma.html</loc>
 <lastmod>2018-03-18T17:30:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/server.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/server.html</loc>
 <lastmod>2018-08-29T13:52:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/docker.html</loc>
+<loc>https://gunluk.orkungunay.com/tag/docker.html</loc>
 <lastmod>2018-09-13T21:20:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/author/orkung.html</loc>
-<lastmod>2019-07-16T03:17:00+01:56</lastmod>
+<loc>https://gunluk.orkungunay.com/author/orkung.html</loc>
+<lastmod>2019-07-18T16:10:00+01:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

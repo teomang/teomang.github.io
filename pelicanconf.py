@@ -39,8 +39,8 @@ THEME = "/Users/orkungunay/orkun/repos/diger/nikhil-theme"
 PLUGIN_PATHS = ['/Users/orkungunay/orkun/repos/diger/pelican-plugins']
 PLUGINS = [
     'sitemap',
-    'feed_summary',
-    'disqus_static'
+    'feed_summary'
+#   'disqus_static'
 ]
 SITEMAP = {
     'format': 'xml',
