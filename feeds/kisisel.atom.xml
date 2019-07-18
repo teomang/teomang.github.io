@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - kisisel</title><link href="/" rel="alternate"></link><link href="/feeds/kisisel.atom.xml" rel="self"></link><id>/</id><updated>2019-07-16T03:17:00+03:00</updated><entry><title>Özgür Yazılım Yaz Kampı Öncesi</title><link href="/ozgur-yazilim-yaz-kampi-notlarim.html" rel="alternate"></link><published>2019-07-16T03:17:00+03:00</published><updated>2019-07-16T03:17:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-07-16:/ozgur-yazilim-yaz-kampi-notlarim.html</id><summary type="html">&lt;p&gt;Öncesinden bitimine kadar, özgür yazılım kampına dair paylaşımlarım&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu seneki &lt;a href="https://kamp.linux.org.tr/2019/yaz"&gt;özgür yazılım yaz kampında,&lt;/a&gt; &lt;a href="https://kamp.linux.org.tr/2019/yaz/kurslar/linux-ic-yapisi-netfilter-ve-cekirdek-ici-sanal-makineler/"&gt;Linux İç Yapısı: Netfilter ve Çekirdek-İçi Sanal
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anlatabildiklerim - kisisel</title><link href="/" rel="alternate"></link><link href="/feeds/kisisel.atom.xml" rel="self"></link><id>/</id><updated>2019-07-18T17:18:00+03:00</updated><entry><title>Özgür Yazılım Yaz Kampı Notlarım</title><link href="/ozgur-yazilim-yaz-kampi-notlarim.html" rel="alternate"></link><published>2019-07-16T03:17:00+03:00</published><updated>2019-07-18T17:18:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-07-16:/ozgur-yazilim-yaz-kampi-notlarim.html</id><summary type="html">&lt;p&gt;Öncesinden bitimine kadar, özgür yazılım kampına dair paylaşımlarım&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bu seneki &lt;a href="https://kamp.linux.org.tr/2019/yaz"&gt;özgür yazılım yaz kampında,&lt;/a&gt; &lt;a href="https://kamp.linux.org.tr/2019/yaz/kurslar/linux-ic-yapisi-netfilter-ve-cekirdek-ici-sanal-makineler/"&gt;Linux İç Yapısı: Netfilter ve Çekirdek-İçi Sanal
 Makineler&lt;/a&gt; kursuna katılacağım.&lt;/p&gt;
+&lt;h4&gt;Bolu'ya gelmeden öncesi&lt;/h4&gt;
 &lt;p&gt;Dikkatimi ilk çeken nokta; organizasyon konusunda &lt;a href="https://lkd.org.tr"&gt;LKD'de&lt;/a&gt;
 büyük bir birikim oluşmuş, katılımcının aklına gelebilecek neredeyse tüm
-sorularla ilgili ayrıntılı yanıtlar düzenli olarak veriliyor. Işleyiş düzeni
+sorularla ilgili ayrıntılı yanıtlar düzenli olarak veriliyor. İşleyiş düzeni
 önceden herkese gerekçeleriyle açıklanıyor, az kişiyle böyle kalabalık bir
 organizasyonu düzenleme sorumluluğunu aldıkları için hepsine teşekkür
 ederim.&lt;/p&gt;
@@ -13,7 +14,19 @@ iyi olurdu. Buna ihtiyaç var; örneğin katılımcı kılavuzunda, "Çadır yer
 bulunmuyor" yazıyor. Gayet doğal bu. Fakat daha önce kursa gidip çadır yeri
 bakmış birilerinin önerisi olabilirdi. Mesela benim merak ettiğim konu da,
 yurtla üniversite arasındaki yolun bisiklete uygun olup olmadığı.&lt;/p&gt;
-&lt;p&gt;Konular biriktikçe burayı güncelleyeceğim.&lt;/p&gt;</content><category term="gunluk"></category></entry><entry><title>Kubernetes icinde elasticsearch cluster</title><link href="/K8s%20ile%20elasticsearch%20cluster.html" rel="alternate"></link><published>2019-01-31T14:34:00+03:00</published><updated>2019-01-31T14:34:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/K8s ile elasticsearch cluster.html</id><summary type="html">&lt;p&gt;Kubernetes içinde elasticsearch cluster yapılandırma&lt;/p&gt;</summary><content type="html">&lt;p&gt;K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
+&lt;h4&gt;Yurtta ilk gün&lt;/h4&gt;
+&lt;p&gt;Kurslar başlamadan 1 gün önce KYK Seyit Avşar Erkek yurduna yerleştim. Burada
+olanaklar gerçekten güzel. Kısa kısa başımdan geçenleri aktaracağım; &lt;/p&gt;
+&lt;p&gt;Odadaki  WC'de taharet musluğu arızalanmış, kullanmak istediğimizde her yeri
+şu bastı. Odayı en son kalanlar (duvardaki yazılardan birilerinin kaldığı
+anlaşılıyor.) nasıl olduysa musluğu kapatabilmiş ve idareye birşey söylemeden
+bu halde bırakmışlar... Neyse ki yurt görevlileri musluğu değiştirdi. &lt;/p&gt;
+&lt;p&gt;Yolda gelirken bir çok yerde su kaynağı gördüm, yemekhane görevlisine
+musluktan akan suyun temiz olup olmadığını sorduğumuzda içilmediğini söyledi.
+Pet şişede su satılıyor. &lt;/p&gt;
+&lt;p&gt;Yurdun açık adresinde her ne kadar ilçe olarak Merkez yazsa da, merkezden uzak
+ve çevresinde alışveriş yapılabilecek tek yer bir benzincinin marketi. Bazı
+ihtiyaçları karşılamak için şehir merkezine gitmek gerekecek.&lt;/p&gt;</content><category term="gunluk"></category></entry><entry><title>Kubernetes icinde elasticsearch cluster</title><link href="/K8s%20ile%20elasticsearch%20cluster.html" rel="alternate"></link><published>2019-01-31T14:34:00+03:00</published><updated>2019-01-31T14:34:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/K8s ile elasticsearch cluster.html</id><summary type="html">&lt;p&gt;Kubernetes içinde elasticsearch cluster yapılandırma&lt;/p&gt;</summary><content type="html">&lt;p&gt;K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
 Elastic node'lari icin tanimlar;&lt;/p&gt;
 &lt;p&gt;All nodes know about all the other nodes in the cluster and can forward client
 requests to the appropriate node. Besides that, each node serves one or more
