@@ -1,6 +1,6 @@
 Title: Özgür Yazılım Yaz Kampı Notlarım
 Date: 2019-07-16 03:17
-Modified: 2019-07-18 17:18
+Modified: 2019-07-18 17:41
 Category: kisisel
 Tags: gunluk
 Slug: ozgur-yazilim-yaz-kampi-notlarim
@@ -30,10 +30,10 @@ yurtla üniversite arasındaki yolun bisiklete uygun olup olmadığı.
 Kurslar başlamadan 1 gün önce KYK Seyit Avşar Erkek yurduna yerleştim. Burada
 olanaklar gerçekten güzel. Kısa kısa başımdan geçenleri aktaracağım; 
 
-Odadaki  WC'de taharet musluğu arızalanmış, kullanmak istediğimizde her yeri
-şu bastı. Odayı en son kalanlar (duvardaki yazılardan birilerinin kaldığı
+Odadaki  wc'de taharet musluğu arızaliydi, kullanmak istediğimizde her yeri
+su bastı. Odada son kalanlar (duvardaki yazılardan birilerinin kaldığı
 anlaşılıyor.) nasıl olduysa musluğu kapatabilmiş ve idareye birşey söylemeden
-bu halde bırakmışlar... Neyse ki yurt görevlileri musluğu değiştirdi. 
+bu halde bırakmışlar... Neyse ki yurt görevlilerine soyleyince musluğu değiştirttiler. 
 
 Yolda gelirken bir çok yerde su kaynağı gördüm, yemekhane görevlisine
 musluktan akan suyun temiz olup olmadığını sorduğumuzda içilmediğini söyledi.
