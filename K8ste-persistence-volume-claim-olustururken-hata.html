@@ -56,8 +56,8 @@
 <!-- .entry-content -->
       <div class="entry-content">
         <p>kubectl create ile pvc resource'u yarattığımda;</p>
-<div class="highlight"><pre><span></span> <span class="nv">MountVolume</span>.<span class="nv">NewMounter</span> <span class="nv">initialization</span> <span class="nv">failed</span> <span class="k">for</span> <span class="nv">volume</span> <span class="s2">&quot;&quot;</span> :
-<span class="nv">endpoints</span> <span class="s2">&quot;&quot;</span> <span class="nv">not</span> <span class="nv">found</span>
+<div class="highlight"><pre><span></span> MountVolume.NewMounter initialization failed for volume &quot;&quot; :
+endpoints &quot;&quot; not found
 </pre></div>
 
 
@@ -65,7 +65,7 @@
 aldığımı görünce problemin glusterfs'ten kaynaklandığını düşündüm. <a href="https://docs.openshift.com/container-platform/3.9/install_config/storage_examples/gluster_example.html">Redhat'ın
 dokümanına</a> bakmaya başladım. 
 adım adım giderken, endpoints'in olmadığını farkettim.</p>
-<div class="highlight"><pre><span></span><span class="n">kubectl</span> <span class="k">get</span> <span class="n">endpoints</span> <span class="c1">--all-namespaces</span>
+<div class="highlight"><pre><span></span>kubectl get endpoints --all-namespaces
 </pre></div>
 
 
