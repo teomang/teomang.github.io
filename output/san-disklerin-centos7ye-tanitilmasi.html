@@ -58,8 +58,8 @@
         <ul>
 <li>Sunucularda iscsi initiatorname'ler oluşturulup storage admin'e iletilir:</li>
 </ul>
-<div class="highlight"><pre><span></span><span class="n">yum</span> <span class="n">install</span> <span class="n">iscsi</span><span class="o">-</span><span class="n">initiator</span><span class="o">-</span><span class="n">utils</span>
-<span class="n">cat</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">iscsi</span><span class="o">/</span><span class="n">initiatorname</span><span class="p">.</span><span class="n">iscsi</span>
+<div class="highlight"><pre><span></span><span class="err">yum install iscsi-initiator-utils</span>
+<span class="err">cat /etc/iscsi/initiatorname.iscsi</span>
 </pre></div>
 
 
@@ -68,27 +68,27 @@
   interface'lere eklenir. İscsi initiator target ip’ler ping'lendiğinde <code>no
   route to host</code> alınıyorsa interface/ip adresi eşleşmesi değiştirilir.</li>
 </ul>
-<div class="highlight"><pre><span></span><span class="k">TYPE</span><span class="o">=</span><span class="n">Ethernet</span>
-<span class="n">PROXY_METHOD</span><span class="o">=</span><span class="k">none</span>
-<span class="n">BOOTPROTO</span><span class="o">=</span><span class="k">static</span>
-<span class="n">DEFROUTE</span><span class="o">=</span><span class="k">no</span>
-<span class="n">NAME</span><span class="o">=&lt;&gt;</span>
-<span class="n">UUID</span><span class="o">=&lt;&gt;</span>
-<span class="n">DEVICE</span><span class="o">=&lt;&gt;</span>
-<span class="n">ONBOOT</span><span class="o">=</span><span class="n">yes</span>
-<span class="n">IPADDR</span><span class="o">=&lt;&gt;</span>
-<span class="n">NETMASK</span><span class="o">=</span><span class="mi">255</span><span class="p">.</span><span class="mi">255</span><span class="p">.</span><span class="mi">255</span><span class="p">.</span><span class="mi">0</span>
-<span class="n">USERCTL</span><span class="o">=</span><span class="k">no</span>
-<span class="k">ZONE</span><span class="o">=</span><span class="k">public</span>
+<div class="highlight"><pre><span></span><span class="err">TYPE=Ethernet</span>
+<span class="err">PROXY_METHOD=none</span>
+<span class="err">BOOTPROTO=static</span>
+<span class="err">DEFROUTE=no</span>
+<span class="err">NAME=&lt;&gt;</span>
+<span class="err">UUID=&lt;&gt;</span>
+<span class="err">DEVICE=&lt;&gt;</span>
+<span class="err">ONBOOT=yes</span>
+<span class="err">IPADDR=&lt;&gt;</span>
+<span class="err">NETMASK=255.255.255.0</span>
+<span class="err">USERCTL=no</span>
+<span class="err">ZONE=public</span>
 </pre></div>
 
 
 <ul>
 <li>Iscsi initiator target ip’leri discover edilir. Dönen targetname'ler eklenir:</li>
 </ul>
-<div class="highlight"><pre><span></span><span class="n">iscsiadm</span> <span class="o">-</span><span class="n">m</span> <span class="n">discovery</span> <span class="o">-</span><span class="n">t</span> <span class="n">sendtargets</span> <span class="c1">--portal &lt;IP&gt;</span>
-<span class="n">iscsiadm</span> <span class="c1">--mode node --targetname &lt;name&gt; --portal &lt;ip&gt; \</span>
-<span class="o">-</span><span class="n">o</span> <span class="k">update</span> <span class="o">-</span><span class="n">n</span> <span class="n">node</span><span class="p">.</span><span class="n">startup</span> <span class="o">-</span><span class="n">v</span> <span class="n">automatic</span>
+<div class="highlight"><pre><span></span><span class="err">iscsiadm -m discovery -t sendtargets --portal &lt;IP&gt;</span>
+<span class="err">iscsiadm --mode node --targetname &lt;name&gt; --portal &lt;ip&gt; \</span>
+<span class="err">-o update -n node.startup -v automatic</span>
 </pre></div>
 
 
@@ -129,20 +129,20 @@
 <ul>
 <li>Firewall kurallari eklenir</li>
 </ul>
-<div class="highlight"><pre><span></span><span class="n">firewall</span><span class="o">-</span><span class="n">cmd</span> <span class="c1">--permanent --add-port=3260/tcp</span>
-<span class="n">firewall</span><span class="o">-</span><span class="n">cmd</span> <span class="c1">--permanent --add-service iscsi-target</span>
-<span class="n">firewall</span><span class="o">-</span><span class="n">cmd</span> <span class="c1">--reload</span>
+<div class="highlight"><pre><span></span><span class="err">firewall-cmd --permanent --add-port=3260/tcp</span>
+<span class="err">firewall-cmd --permanent --add-service iscsi-target</span>
+<span class="err">firewall-cmd --reload</span>
 </pre></div>
 
 
 <ul>
 <li>Disk'ler formatlanir, mount edilir, fstab guncellenir.</li>
 </ul>
-<div class="highlight"><pre><span></span><span class="n">mkfs</span><span class="p">.</span><span class="n">xfs</span> <span class="o">-</span><span class="n">f</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">mapper</span><span class="o">/</span><span class="n">mpatha</span>
-<span class="n">mkfs</span><span class="p">.</span><span class="n">xfs</span> <span class="o">-</span><span class="n">f</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">mapper</span><span class="o">/</span><span class="n">mpathb</span>
-<span class="n">mount</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">mapper</span><span class="o">/</span><span class="n">mpatha</span> <span class="o">&lt;</span><span class="n">dizin</span><span class="o">&gt;</span>
-<span class="n">mount</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">mapper</span><span class="o">/</span><span class="n">mpathb</span> <span class="o">&lt;</span><span class="n">dizin</span><span class="o">&gt;</span>
-<span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">mapper</span><span class="o">/</span><span class="n">mpathb</span>       <span class="o">&lt;</span><span class="n">dizin</span><span class="o">&gt;</span> <span class="n">xfs</span>     <span class="n">_netdev</span> <span class="mi">0</span> <span class="mi">0</span>
+<div class="highlight"><pre><span></span><span class="err">mkfs.xfs -f /dev/mapper/mpatha</span>
+<span class="err">mkfs.xfs -f /dev/mapper/mpathb</span>
+<span class="err">mount /dev/mapper/mpatha &lt;dizin&gt;</span>
+<span class="err">mount /dev/mapper/mpathb &lt;dizin&gt;</span>
+<span class="err">/dev/mapper/mpathb       &lt;dizin&gt; xfs     _netdev 0 0</span>
 </pre></div>
       </div>
 <!-- /.entry-content -->

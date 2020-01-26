@@ -25,7 +25,7 @@ anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;&lt;/p&gt;
   yaratıcı bir şekilde onunla uğraşılmış, sonucunda bir deneyim oluşmuşsa bundan
   bir blog yazısı çıkar. Dolayısıyla diğer metinlerden farklı olarak, blog metni,
   tecrübe aktarımını sağlaması bakımından, değer üretir, bu sebepten biriciktir.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>Sağlıklı Yaşamak</title><link href="/saglikli-yasamak.html" rel="alternate"></link><published>2015-01-04T00:00:00+02:00</published><updated>2015-01-04T00:00:00+02:00</updated><author><name>Orkung</name></author><id>tag:None,2015-01-04:/saglikli-yasamak.html</id><summary type="html">Oruç, egzersiz ve ayakta durmanın faydaları üzerine</summary><content type="html">&lt;p&gt;Dr. Mosley'in BBC Knowledge'daki tv programlarini izleme firsati buldum.
+&lt;/ul&gt;</content><category term="misc"></category><category term="misc"></category></entry><entry><title>Sağlıklı Yaşamak</title><link href="/saglikli-yasamak.html" rel="alternate"></link><published>2015-01-04T00:00:00+02:00</published><updated>2015-01-04T00:00:00+02:00</updated><author><name>Orkung</name></author><id>tag:None,2015-01-04:/saglikli-yasamak.html</id><summary type="html">Oruç, egzersiz ve ayakta durmanın faydaları üzerine</summary><content type="html">&lt;p&gt;Dr. Mosley'in BBC Knowledge'daki tv programlarini izleme firsati buldum.
 Bolumlerle ilgili notlarimi paylasiyorum;&lt;/p&gt;
 &lt;ol class="upperalpha simple"&gt;
 &lt;li&gt;intermittent fasting (aralıklı oruç) &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[*]&lt;/a&gt;&lt;/li&gt;
@@ -100,7 +100,7 @@ Bu ikisini birarada yapabilirsek sağlıklı kalabiliriz.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://thefastdiet.co.uk/r"&gt;Dr. Mosley'in fastdiet sitesi:&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mercola.com"&gt;Yukaridaki alintiyi yaptigim Mercola'nin sitesi:&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="sağlık"></category></entry><entry><title>Kullandığım Terminal Uygulamaları</title><link href="/kullandigim-terminal-uygulamalari.html" rel="alternate"></link><published>2013-10-21T00:41:00+03:00</published><updated>2013-10-21T00:41:00+03:00</updated><author><name>Orkung</name></author><id>tag:None,2013-10-21:/kullandigim-terminal-uygulamalari.html</id><summary type="html">Hayatımı kolaylaştıran terminal uygulamaları</summary><content type="html">&lt;p&gt;Kullanım alışkanlığını edinirseniz hayatınızı kolaylaştıran terminal
+</content><category term="misc"></category><category term="sağlık"></category></entry><entry><title>Kullandığım Terminal Uygulamaları</title><link href="/kullandigim-terminal-uygulamalari.html" rel="alternate"></link><published>2013-10-21T00:41:00+03:00</published><updated>2013-10-21T00:41:00+03:00</updated><author><name>Orkung</name></author><id>tag:None,2013-10-21:/kullandigim-terminal-uygulamalari.html</id><summary type="html">Hayatımı kolaylaştıran terminal uygulamaları</summary><content type="html">&lt;p&gt;Kullanım alışkanlığını edinirseniz hayatınızı kolaylaştıran terminal
 uygulamalarını paylaşmak istedim. Liste eksik eklemeler yapacağım.&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/amix/autojump"&gt;autojump kendi kendine ogrenen cd komutu&lt;/a&gt;:
@@ -119,4 +119,4 @@ anything), this tool is for you.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://taskwarrior.org/projects/show/taskwarrior"&gt;Taskwarrior&lt;/a&gt;:
 Gorev yoneticisi.&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="apps"></category></entry></feed>
+</content><category term="misc"></category><category term="apps"></category></entry></feed>

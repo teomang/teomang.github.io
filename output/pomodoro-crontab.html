@@ -59,9 +59,9 @@
 terminal'den çalışan bir app aradım, python/zsh/nodejs app'larını denedim,
 hiçbirisi istediğim verimlilikte değildi, sonunda kendim hazırladım, son derece
 de basit oldu, crontab'ı şöyle düzenledim;</p>
-<div class="highlight"><pre><span></span><span class="o">*/</span><span class="mi">30</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>      <span class="o">/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">bin</span><span class="o">/</span><span class="nv">notify</span><span class="o">-</span><span class="k">send</span> <span class="s2">&quot;</span><span class="s">Work</span><span class="s2">&quot;</span>
-<span class="mi">25</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>      <span class="o">/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">bin</span><span class="o">/</span><span class="nv">notify</span><span class="o">-</span><span class="k">send</span> <span class="s2">&quot;</span><span class="s">Break</span><span class="s2">&quot;</span>
-<span class="mi">55</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>      <span class="o">/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">bin</span><span class="o">/</span><span class="nv">notify</span><span class="o">-</span><span class="k">send</span> <span class="s2">&quot;</span><span class="s">Break</span><span class="s2">&quot;</span>
+<div class="highlight"><pre><span></span><span class="err">*/30 * * * *      /usr/bin/notify-send &quot;Work&quot;</span>
+<span class="err">25 * * * *      /usr/bin/notify-send &quot;Break&quot;</span>
+<span class="err">55 * * * *      /usr/bin/notify-send &quot;Break&quot;</span>
 </pre></div>
 
 

@@ -19,11 +19,11 @@
     &lt;span class="nt"&gt;command&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
     &lt;span class="nt"&gt;links&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
       &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;service-1:xyz&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="docker"></category><category term="docker-compose"></category></entry><entry><title>San Disklerin Centos7'ye Tanıtılması</title><link href="/san-disklerin-centos7ye-tanitilmasi.html" rel="alternate"></link><published>2018-08-29T13:52:00+03:00</published><updated>2018-08-29T13:52:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-08-29:/san-disklerin-centos7ye-tanitilmasi.html</id><summary type="html">&lt;p&gt;Centos7'ye San disk bağlama&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="linux"></category><category term="docker"></category><category term="docker-compose"></category></entry><entry><title>San Disklerin Centos7'ye Tanıtılması</title><link href="/san-disklerin-centos7ye-tanitilmasi.html" rel="alternate"></link><published>2018-08-29T13:52:00+03:00</published><updated>2018-08-29T13:52:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-08-29:/san-disklerin-centos7ye-tanitilmasi.html</id><summary type="html">&lt;p&gt;Centos7'ye San disk bağlama&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
 &lt;li&gt;Sunucularda iscsi initiatorname'ler oluşturulup storage admin'e iletilir:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;yum&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;iscsi&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;initiator&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;utils&lt;/span&gt;
-&lt;span class="n"&gt;cat&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;iscsi&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;initiatorname&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;iscsi&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;yum install iscsi-initiator-utils&lt;/span&gt;
+&lt;span class="err"&gt;cat /etc/iscsi/initiatorname.iscsi&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -32,27 +32,27 @@
   interface'lere eklenir. İscsi initiator target ip’ler ping'lendiğinde &lt;code&gt;no
   route to host&lt;/code&gt; alınıyorsa interface/ip adresi eşleşmesi değiştirilir.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;TYPE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;Ethernet&lt;/span&gt;
-&lt;span class="n"&gt;PROXY_METHOD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;none&lt;/span&gt;
-&lt;span class="n"&gt;BOOTPROTO&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;static&lt;/span&gt;
-&lt;span class="n"&gt;DEFROUTE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;no&lt;/span&gt;
-&lt;span class="n"&gt;NAME&lt;/span&gt;&lt;span class="o"&gt;=&amp;lt;&amp;gt;&lt;/span&gt;
-&lt;span class="n"&gt;UUID&lt;/span&gt;&lt;span class="o"&gt;=&amp;lt;&amp;gt;&lt;/span&gt;
-&lt;span class="n"&gt;DEVICE&lt;/span&gt;&lt;span class="o"&gt;=&amp;lt;&amp;gt;&lt;/span&gt;
-&lt;span class="n"&gt;ONBOOT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;yes&lt;/span&gt;
-&lt;span class="n"&gt;IPADDR&lt;/span&gt;&lt;span class="o"&gt;=&amp;lt;&amp;gt;&lt;/span&gt;
-&lt;span class="n"&gt;NETMASK&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;255&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;255&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;255&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;span class="n"&gt;USERCTL&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;no&lt;/span&gt;
-&lt;span class="k"&gt;ZONE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;TYPE=Ethernet&lt;/span&gt;
+&lt;span class="err"&gt;PROXY_METHOD=none&lt;/span&gt;
+&lt;span class="err"&gt;BOOTPROTO=static&lt;/span&gt;
+&lt;span class="err"&gt;DEFROUTE=no&lt;/span&gt;
+&lt;span class="err"&gt;NAME=&amp;lt;&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;UUID=&amp;lt;&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;DEVICE=&amp;lt;&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;ONBOOT=yes&lt;/span&gt;
+&lt;span class="err"&gt;IPADDR=&amp;lt;&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;NETMASK=255.255.255.0&lt;/span&gt;
+&lt;span class="err"&gt;USERCTL=no&lt;/span&gt;
+&lt;span class="err"&gt;ZONE=public&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;Iscsi initiator target ip’leri discover edilir. Dönen targetname'ler eklenir:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;iscsiadm&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="n"&gt;discovery&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;sendtargets&lt;/span&gt; &lt;span class="c1"&gt;--portal &amp;lt;IP&amp;gt;&lt;/span&gt;
-&lt;span class="n"&gt;iscsiadm&lt;/span&gt; &lt;span class="c1"&gt;--mode node --targetname &amp;lt;name&amp;gt; --portal &amp;lt;ip&amp;gt; \&lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="k"&gt;update&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;startup&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="n"&gt;automatic&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;iscsiadm -m discovery -t sendtargets --portal &amp;lt;IP&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;iscsiadm --mode node --targetname &amp;lt;name&amp;gt; --portal &amp;lt;ip&amp;gt; \&lt;/span&gt;
+&lt;span class="err"&gt;-o update -n node.startup -v automatic&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -93,24 +93,24 @@
 &lt;ul&gt;
 &lt;li&gt;Firewall kurallari eklenir&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;firewall&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;cmd&lt;/span&gt; &lt;span class="c1"&gt;--permanent --add-port=3260/tcp&lt;/span&gt;
-&lt;span class="n"&gt;firewall&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;cmd&lt;/span&gt; &lt;span class="c1"&gt;--permanent --add-service iscsi-target&lt;/span&gt;
-&lt;span class="n"&gt;firewall&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;cmd&lt;/span&gt; &lt;span class="c1"&gt;--reload&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;firewall-cmd --permanent --add-port=3260/tcp&lt;/span&gt;
+&lt;span class="err"&gt;firewall-cmd --permanent --add-service iscsi-target&lt;/span&gt;
+&lt;span class="err"&gt;firewall-cmd --reload&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;Disk'ler formatlanir, mount edilir, fstab guncellenir.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;mkfs&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;xfs&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mapper&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mpatha&lt;/span&gt;
-&lt;span class="n"&gt;mkfs&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;xfs&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mapper&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mpathb&lt;/span&gt;
-&lt;span class="n"&gt;mount&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mapper&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mpatha&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;dizin&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="n"&gt;mount&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mapper&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mpathb&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;dizin&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mapper&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mpathb&lt;/span&gt;       &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;dizin&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;xfs&lt;/span&gt;     &lt;span class="n"&gt;_netdev&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="server"></category><category term="san"></category></entry><entry><title>Fstabtan Scsi Diski Başlatma</title><link href="/fstabtan-scsi-diski-baslatma.html" rel="alternate"></link><published>2018-08-28T18:28:00+03:00</published><updated>2018-08-28T18:28:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-08-28:/fstabtan-scsi-diski-baslatma.html</id><summary type="html">&lt;p&gt;scsi disk'i fstab'tan baglamada hata alındığında&lt;/p&gt;</summary><content type="html">&lt;p&gt;Multipath'le sunucuya gösterdiğimiz scsi disk'leri, centos 7 sunucuda
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;mkfs.xfs -f /dev/mapper/mpatha&lt;/span&gt;
+&lt;span class="err"&gt;mkfs.xfs -f /dev/mapper/mpathb&lt;/span&gt;
+&lt;span class="err"&gt;mount /dev/mapper/mpatha &amp;lt;dizin&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;mount /dev/mapper/mpathb &amp;lt;dizin&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;/dev/mapper/mpathb       &amp;lt;dizin&amp;gt; xfs     _netdev 0 0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="linux"></category><category term="server"></category><category term="san"></category></entry><entry><title>Fstabtan Scsi Diski Başlatma</title><link href="/fstabtan-scsi-diski-baslatma.html" rel="alternate"></link><published>2018-08-28T18:28:00+03:00</published><updated>2018-08-28T18:28:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-08-28:/fstabtan-scsi-diski-baslatma.html</id><summary type="html">&lt;p&gt;scsi disk'i fstab'tan baglamada hata alındığında&lt;/p&gt;</summary><content type="html">&lt;p&gt;Multipath'le sunucuya gösterdiğimiz scsi disk'leri, centos 7 sunucuda
 fstab'dan mount ederken
 &lt;a href="https://access.redhat.com/solutions/2042843"&gt;link'teki&lt;/a&gt; hatayı verdi;
-fstab'ta disk'lerin options'ına &lt;code&gt;_netdev&lt;/code&gt; yazarak sorun çözüldü.&lt;/p&gt;</content><category term="multipahd"></category><category term="scsi"></category></entry><entry><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link href="/lvm-root-diskini-fsck-ile-kurtarma.html" rel="alternate"></link><published>2018-03-16T17:11:00+03:00</published><updated>2018-03-18T17:30:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-16:/lvm-root-diskini-fsck-ile-kurtarma.html</id><summary type="html">&lt;p&gt;Root diski read-only bağlıyken kurtarma&lt;/p&gt;</summary><content type="html">&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
+fstab'ta disk'lerin options'ına &lt;code&gt;_netdev&lt;/code&gt; yazarak sorun çözüldü.&lt;/p&gt;</content><category term="linux"></category><category term="multipahd"></category><category term="scsi"></category></entry><entry><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link href="/lvm-root-diskini-fsck-ile-kurtarma.html" rel="alternate"></link><published>2018-03-16T17:11:00+03:00</published><updated>2018-03-18T17:30:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-16:/lvm-root-diskini-fsck-ile-kurtarma.html</id><summary type="html">&lt;p&gt;Root diski read-only bağlıyken kurtarma&lt;/p&gt;</summary><content type="html">&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
 &lt;p&gt;Elektrik kesintisi vb. beklenmedik olayların, sunucunun / disk bölümünde soruna
 yol açarak, sadece okuma modunda (ro) diski bağladığı durumda ne yapılabileceğini
 göstermeye çalışacağım.&lt;/p&gt;
@@ -144,7 +144,7 @@ fsck -y /dev/mapper/VolGroup-lv_root
 
 
 &lt;p&gt;İşlem bitiminde sunucuyu reboot etmek gerekiyor, reboot sonrası disk yazma
-izniyle (rw) olarak bağlandı&lt;/p&gt;</content><category term="recovery"></category><category term="kurtarma"></category></entry><entry><title>Linux Swap Alanı Yönetimi</title><link href="/linux%20swap.html" rel="alternate"></link><published>2018-03-14T17:10:00+03:00</published><updated>2018-03-14T17:10:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/linux swap.html</id><summary type="html">&lt;p&gt;Swap alanı kullanımı&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Swap alanı ne işe yarar, gerekli mi?&lt;/h3&gt;
+izniyle (rw) olarak bağlandı&lt;/p&gt;</content><category term="linux"></category><category term="recovery"></category><category term="kurtarma"></category></entry><entry><title>Linux Swap Alanı Yönetimi</title><link href="/linux%20swap.html" rel="alternate"></link><published>2018-03-14T17:10:00+03:00</published><updated>2018-03-14T17:10:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2018-03-14:/linux swap.html</id><summary type="html">&lt;p&gt;Swap alanı kullanımı&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Swap alanı ne işe yarar, gerekli mi?&lt;/h3&gt;
 &lt;p&gt;Linux fiziksel RAM'i page adındaki yığınlara bölerek kullanır. Swap işlemi, bu
 page'lerin diske kopyalanması ve page'lerin boşaltılması işlemine denir. &lt;/p&gt;
 &lt;h3&gt;Swap işlemi 2 sebepten ötürü gereklidir&lt;/h3&gt;
@@ -195,4 +195,4 @@ swapon -s
 &lt;ul&gt;
 &lt;li&gt;zRam: Cpu cache'inde kullanılmayan alan büyükse tercih edilebilir. 
 Kaynak: https://wiki.voidlinux.eu/Zram&lt;/li&gt;
-&lt;/ul&gt;</content><category term="swap"></category></entry></feed>
+&lt;/ul&gt;</content><category term="linux"></category><category term="swap"></category></entry></feed>

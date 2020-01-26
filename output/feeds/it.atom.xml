@@ -12,20 +12,20 @@ projesine girmek istediğimde buna benzer bir karşılaştım.&lt;/p&gt;
 başarılı olamadım, sonra kendi kendime, şu yolu izleyerek çözdüm.&lt;/p&gt;
 &lt;p&gt;Problem, virtualenv'i oluştururken kullandığım python sürümünü
 kaldırmam/unlink yapmamdan kaynaklanmış, bunu şöyle anladım;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;ls&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;virtualenvs&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;python3&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;
-&lt;span class="n"&gt;stat&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;usr&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;local&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Cellar&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Frameworks&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;framework&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Versions&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;python3&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;stat&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;ls -l ~/.virtualenvs/pelican/lib/python3.7&lt;/span&gt;
+&lt;span class="err"&gt;stat.py -&amp;gt; /usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/stat.py&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;sistemimde &lt;code&gt;/usr/local/Cellar/python/3.7.1/&lt;/code&gt; yoktu. En kolay çözüm geri
 getirmek olur deyip google'ladım ve sonucunda bu komutları çalıştırınca
 düzeldi&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nv"&gt;brew&lt;/span&gt; &lt;span class="k"&gt;unlink&lt;/span&gt; &lt;span class="nv"&gt;python&lt;/span&gt;
-&lt;span class="nv"&gt;git&lt;/span&gt; &lt;span class="nv"&gt;config&lt;/span&gt; &lt;span class="nv"&gt;http&lt;/span&gt;.&lt;span class="nv"&gt;postBuffer&lt;/span&gt; &lt;span class="mi"&gt;524288000&lt;/span&gt;
-&lt;span class="nv"&gt;brew&lt;/span&gt; &lt;span class="nv"&gt;install&lt;/span&gt; &lt;span class="nv"&gt;https&lt;/span&gt;:&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="nv"&gt;raw&lt;/span&gt;.&lt;span class="nv"&gt;githubusercontent&lt;/span&gt;.&lt;span class="nv"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;Homebrew&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;homebrew&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;core&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;db004f83243963caf8be2ebdb4d0e660d7f7cb4e&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;Formula&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;python&lt;/span&gt;.&lt;span class="nv"&gt;rb&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="osx"></category><category term="python"></category></entry><entry><title>Kubernetes Persistence Volume Claimde Hata</title><link href="/K8ste-persistence-volume-claim-olustururken-hata.html" rel="alternate"></link><published>2019-01-31T15:17:00+03:00</published><updated>2019-03-25T16:35:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/K8ste-persistence-volume-claim-olustururken-hata.html</id><summary type="html">&lt;p&gt;Gluster endpoint'ine mount etme&lt;/p&gt;</summary><content type="html">&lt;p&gt;kubectl create ile pvc resource'u yarattığımda;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="nv"&gt;MountVolume&lt;/span&gt;.&lt;span class="nv"&gt;NewMounter&lt;/span&gt; &lt;span class="nv"&gt;initialization&lt;/span&gt; &lt;span class="nv"&gt;failed&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;volume&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt; :
-&lt;span class="nv"&gt;endpoints&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class="nv"&gt;not&lt;/span&gt; &lt;span class="nv"&gt;found&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;brew unlink python&lt;/span&gt;
+&lt;span class="err"&gt;git config http.postBuffer 524288000&lt;/span&gt;
+&lt;span class="err"&gt;brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/db004f83243963caf8be2ebdb4d0e660d7f7cb4e/Formula/python.rb&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="it"></category><category term="osx"></category><category term="python"></category></entry><entry><title>Kubernetes Persistence Volume Claimde Hata</title><link href="/K8ste-persistence-volume-claim-olustururken-hata.html" rel="alternate"></link><published>2019-01-31T15:17:00+03:00</published><updated>2019-03-25T16:35:00+03:00</updated><author><name>orkung</name></author><id>tag:None,2019-01-31:/K8ste-persistence-volume-claim-olustururken-hata.html</id><summary type="html">&lt;p&gt;Gluster endpoint'ine mount etme&lt;/p&gt;</summary><content type="html">&lt;p&gt;kubectl create ile pvc resource'u yarattığımda;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt; MountVolume.NewMounter initialization failed for volume &amp;quot;&amp;quot; :&lt;/span&gt;
+&lt;span class="err"&gt;endpoints &amp;quot;&amp;quot; not found&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -33,9 +33,9 @@ düzeldi&lt;/p&gt;
 aldığımı görünce problemin glusterfs'ten kaynaklandığını düşündüm. &lt;a href="https://docs.openshift.com/container-platform/3.9/install_config/storage_examples/gluster_example.html"&gt;Redhat'ın
 dokümanına&lt;/a&gt; bakmaya başladım. 
 adım adım giderken, endpoints'in olmadığını farkettim.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;kubectl&lt;/span&gt; &lt;span class="k"&gt;get&lt;/span&gt; &lt;span class="n"&gt;endpoints&lt;/span&gt; &lt;span class="c1"&gt;--all-namespaces&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;kubectl get endpoints --all-namespaces&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;daha önce oluşturulmuş  glusterfs-endpoints.yaml dosyasından endpoint'i
-yarattım. Problem çözüldü.&lt;/p&gt;</content><category term="k8s"></category><category term="pvc"></category></entry></feed>
+yarattım. Problem çözüldü.&lt;/p&gt;</content><category term="it"></category><category term="k8s"></category><category term="pvc"></category></entry></feed>

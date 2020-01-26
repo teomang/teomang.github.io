@@ -68,17 +68,17 @@ projesine girmek istediğimde buna benzer bir karşılaştım.</p>
 başarılı olamadım, sonra kendi kendime, şu yolu izleyerek çözdüm.</p>
 <p>Problem, virtualenv'i oluştururken kullandığım python sürümünü
 kaldırmam/unlink yapmamdan kaynaklanmış, bunu şöyle anladım;</p>
-<div class="highlight"><pre><span></span><span class="n">ls</span> <span class="o">-</span><span class="n">l</span> <span class="o">~/</span><span class="p">.</span><span class="n">virtualenvs</span><span class="o">/</span><span class="n">pelican</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="p">.</span><span class="mi">7</span>
-<span class="n">stat</span><span class="p">.</span><span class="n">py</span> <span class="o">-&gt;</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="k">local</span><span class="o">/</span><span class="n">Cellar</span><span class="o">/</span><span class="n">python</span><span class="o">/</span><span class="mi">3</span><span class="p">.</span><span class="mi">7</span><span class="p">.</span><span class="mi">1</span><span class="o">/</span><span class="n">Frameworks</span><span class="o">/</span><span class="n">Python</span><span class="p">.</span><span class="n">framework</span><span class="o">/</span><span class="n">Versions</span><span class="o">/</span><span class="mi">3</span><span class="p">.</span><span class="mi">7</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="p">.</span><span class="mi">7</span><span class="o">/</span><span class="n">stat</span><span class="p">.</span><span class="n">py</span>
+<div class="highlight"><pre><span></span><span class="err">ls -l ~/.virtualenvs/pelican/lib/python3.7</span>
+<span class="err">stat.py -&gt; /usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/stat.py</span>
 </pre></div>
 
 
 <p>sistemimde <code>/usr/local/Cellar/python/3.7.1/</code> yoktu. En kolay çözüm geri
 getirmek olur deyip google'ladım ve sonucunda bu komutları çalıştırınca
 düzeldi</p>
-<div class="highlight"><pre><span></span><span class="nv">brew</span> <span class="k">unlink</span> <span class="nv">python</span>
-<span class="nv">git</span> <span class="nv">config</span> <span class="nv">http</span>.<span class="nv">postBuffer</span> <span class="mi">524288000</span>
-<span class="nv">brew</span> <span class="nv">install</span> <span class="nv">https</span>:<span class="o">//</span><span class="nv">raw</span>.<span class="nv">githubusercontent</span>.<span class="nv">com</span><span class="o">/</span><span class="nv">Homebrew</span><span class="o">/</span><span class="nv">homebrew</span><span class="o">-</span><span class="nv">core</span><span class="o">/</span><span class="nv">db004f83243963caf8be2ebdb4d0e660d7f7cb4e</span><span class="o">/</span><span class="nv">Formula</span><span class="o">/</span><span class="nv">python</span>.<span class="nv">rb</span>
+<div class="highlight"><pre><span></span><span class="err">brew unlink python</span>
+<span class="err">git config http.postBuffer 524288000</span>
+<span class="err">brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/db004f83243963caf8be2ebdb4d0e660d7f7cb4e/Formula/python.rb</span>
 </pre></div>
       </div>
 <!-- /.entry-content -->
