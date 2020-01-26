@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anlatabildiklerim</title><link>/</link><description></description><lastBuildDate>Thu, 18 Jul 2019 17:41:00 +0300</lastBuildDate><item><title>Özgür Yazılım Yaz Kampı Notlarım</title><link>/ozgur-yazilim-yaz-kampi-notlarim.html</link><description>&lt;p&gt;Bu seneki &lt;a href="https://kamp.linux.org.tr/2019/yaz"&gt;özgür yazılım yaz kampında,&lt;/a&gt; &lt;a href="https://kamp.linux.org.tr/2019/yaz/kurslar/linux-ic-yapisi-netfilter-ve-cekirdek-ici-sanal-makineler/"&gt;Linux İç Yapısı: Netfilter ve Çekirdek-İçi Sanal
+<rss version="2.0"><channel><title>Anlatabildiklerim</title><link>/</link><description></description><lastBuildDate>Sun, 26 Jan 2020 17:59:00 +0300</lastBuildDate><item><title>Özgür Yazılım Yaz Kampı Notlarım</title><link>/ozgur-yazilim-yaz-kampi-notlarim.html</link><description>&lt;p&gt;Bu seneki &lt;a href="https://kamp.linux.org.tr/2019/yaz"&gt;özgür yazılım yaz kampında,&lt;/a&gt; &lt;a href="https://kamp.linux.org.tr/2019/yaz/kurslar/linux-ic-yapisi-netfilter-ve-cekirdek-ici-sanal-makineler/"&gt;Linux İç Yapısı: Netfilter ve Çekirdek-İçi Sanal
 Makineler&lt;/a&gt; kursuna katılacağım.&lt;/p&gt;
-&lt;h4&gt;Bolu'ya gelmeden öncesi&lt;/h4&gt;
-&lt;p&gt;Dikkatimi ilk çeken nokta; organizasyon konusunda &lt;a href="https://lkd.org.tr"&gt;LKD'de&lt;/a&gt;
+&lt;p&gt;Kursun ilk günü, yanımda getirdiğim laptop'a su döküldü ve kursun sonunu tam 4
+farklı bilgisayarda çalışarak getirebildim. Bu sebepten hedeflediğim günlük
+notlar yayınlamayı gerçekleştiremedim. Daha önce bu başlıkta yayınladığım
+notların kursla ilgisi olmadığından kaldırıyorum.&lt;/p&gt;
+&lt;!-- #### Bolu'ya gelmeden öncesi
+Dikkatimi ilk çeken nokta; organizasyon konusunda [LKD'de](https://lkd.org.tr)
 büyük bir birikim oluşmuş, katılımcının aklına gelebilecek neredeyse tüm
 sorularla ilgili ayrıntılı yanıtlar düzenli olarak veriliyor. İşleyiş düzeni
 önceden herkese gerekçeleriyle açıklanıyor, az kişiyle böyle kalabalık bir
 organizasyonu düzenleme sorumluluğunu aldıkları için hepsine teşekkür
-ederim.&lt;/p&gt;
-&lt;p&gt;Temel bir ihtiyaç hissettim; kampa katılacakların önceden birbirinden haberdar
+ederim.
+
+Temel bir ihtiyaç hissettim; kampa katılacakların önceden birbirinden haberdar
 olabileceği ve eski katılımcıların deneyimlerini paylaşabileceği bir ağ olsa
 iyi olurdu. Buna ihtiyaç var; örneğin katılımcı kılavuzunda, "Çadır yeri önerimiz
 bulunmuyor" yazıyor. Gayet doğal bu. Fakat daha önce kursa gidip çadır yeri
 bakmış birilerinin önerisi olabilirdi. Mesela benim merak ettiğim konu da,
-yurtla üniversite arasındaki yolun bisiklete uygun olup olmadığı.&lt;/p&gt;
-&lt;h4&gt;Yurtta ilk gün&lt;/h4&gt;
-&lt;p&gt;Kurslar başlamadan 1 gün önce KYK Seyit Avşar Erkek yurduna yerleştim. Burada
-olanaklar gerçekten güzel. Kısa kısa başımdan geçenleri aktaracağım; &lt;/p&gt;
-&lt;p&gt;Odadaki  wc'de taharet musluğu arızaliydi, kullanmak istediğimizde her yeri
+yurtla üniversite arasındaki yolun bisiklete uygun olup olmadığı.
+
+#### Yurtta ilk gün
+
+Kurslar başlamadan 1 gün önce KYK Seyit Avşar Erkek yurduna yerleştim. Burada
+olanaklar gerçekten güzel. Kısa kısa başımdan geçenleri aktaracağım;
+
+Odadaki  wc'de taharet musluğu arızaliydi, kullanmak istediğimizde her yeri
 su bastı. Odada son kalanlar (duvardaki yazılardan birilerinin kaldığı
 anlaşılıyor.) nasıl olduysa musluğu kapatabilmiş ve idareye birşey söylemeden
-bu halde bırakmışlar... Neyse ki yurt görevlilerine soyleyince musluğu değiştirttiler. &lt;/p&gt;
-&lt;p&gt;Yolda gelirken bir çok yerde su kaynağı gördüm, yemekhane görevlisine
+bu halde bırakmışlar... Neyse ki yurt görevlilerine soyleyince musluğu değiştirttiler.
+
+Yolda gelirken bir çok yerde su kaynağı gördüm, yemekhane görevlisine
 musluktan akan suyun temiz olup olmadığını sorduğumuzda içilmediğini söyledi.
-Pet şişede su satılıyor. &lt;/p&gt;
-&lt;p&gt;Yurdun açık adresinde her ne kadar ilçe olarak Merkez yazsa da, merkezden uzak
+Pet şişede su satılıyor.
+
+Yurdun açık adresinde her ne kadar ilçe olarak Merkez yazsa da, merkezden uzak
 ve çevresinde alışveriş yapılabilecek tek yer bir benzincinin marketi. Bazı
-ihtiyaçları karşılamak için şehir merkezine gitmek gerekecek.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Tue, 16 Jul 2019 03:17:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-07-16:/ozgur-yazilim-yaz-kampi-notlarim.html</guid><category>gunluk</category></item><item><title>Osx'te bozulan virtualenv dizin yollarini duzeltme</title><link>/Osxte-bozulan-virtualenv-dizin-yollarini-duzeltme.html</link><description>&lt;p&gt;Nicedir günlüğe yazı eklemedim, bir bakayım diye virtualenv içindeki pelican
+ihtiyaçları karşılamak için şehir merkezine gitmek gerekecek. --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Tue, 16 Jul 2019 03:17:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-07-16:/ozgur-yazilim-yaz-kampi-notlarim.html</guid><category>kisisel</category><category>gunluk</category></item><item><title>Osx'te bozulan virtualenv dizin yollarini duzeltme</title><link>/Osxte-bozulan-virtualenv-dizin-yollarini-duzeltme.html</link><description>&lt;p&gt;Nicedir günlüğe yazı eklemedim, bir bakayım diye virtualenv içindeki pelican
 projesine girmek istediğimde buna benzer bir karşılaştım.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;dyld&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Library&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt; &lt;span class="n"&gt;loaded&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;executable_path&lt;/span&gt;&lt;span class="sr"&gt;/../&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;Python&lt;/span&gt;
-  &lt;span class="n"&gt;Referenced&lt;/span&gt; &lt;span class="n"&gt;from&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="sr"&gt;/Users/[user]/.virtualenvs/pelican/bin/&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;
-  &lt;span class="n"&gt;Reason&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt; &lt;span class="n"&gt;found&lt;/span&gt;
-&lt;span class="n"&gt;Trace&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;BPT&lt;/span&gt; &lt;span class="n"&gt;trap&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nl"&gt;dyld&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Library&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;not&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;loaded&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;@executable_path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;Referenced&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;from&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Users&lt;/span&gt;&lt;span class="o"&gt;/[&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;]/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;virtualenvs&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nl"&gt;Reason&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nc"&gt;image&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;not&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;found&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;Trace&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;BPT&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;trap&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -39,20 +49,20 @@ projesine girmek istediğimde buna benzer bir karşılaştım.&lt;/p&gt;
 başarılı olamadım, sonra kendi kendime, şu yolu izleyerek çözdüm.&lt;/p&gt;
 &lt;p&gt;Problem, virtualenv'i oluştururken kullandığım python sürümünü
 kaldırmam/unlink yapmamdan kaynaklanmış, bunu şöyle anladım;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ls -l ~/.virtualenvs/pelican/lib/python3.7
-stat.py -&amp;gt; /usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/stat.py
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;ls -l ~/.virtualenvs/pelican/lib/python3.7&lt;/span&gt;
+&lt;span class="err"&gt;stat.py -&amp;gt; /usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/stat.py&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;sistemimde &lt;code&gt;/usr/local/Cellar/python/3.7.1/&lt;/code&gt; yoktu. En kolay çözüm geri
 getirmek olur deyip google'ladım ve sonucunda bu komutları çalıştırınca
 düzeldi&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew unlink python
-git config http.postBuffer 524288000
-brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/db004f83243963caf8be2ebdb4d0e660d7f7cb4e/Formula/python.rb
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 21 Mar 2019 21:17:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-03-21:/Osxte-bozulan-virtualenv-dizin-yollarini-duzeltme.html</guid><category>osx</category><category>python</category></item><item><title>Kubernetes Persistence Volume Claimde Hata</title><link>/K8ste-persistence-volume-claim-olustururken-hata.html</link><description>&lt;p&gt;kubectl create ile pvc resource'u yarattığımda;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; MountVolume.NewMounter initialization failed for volume &amp;quot;&amp;quot; :
-endpoints &amp;quot;&amp;quot; not found
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;brew unlink python&lt;/span&gt;
+&lt;span class="err"&gt;git config http.postBuffer 524288000&lt;/span&gt;
+&lt;span class="err"&gt;brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/db004f83243963caf8be2ebdb4d0e660d7f7cb4e/Formula/python.rb&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 21 Mar 2019 21:17:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-03-21:/Osxte-bozulan-virtualenv-dizin-yollarini-duzeltme.html</guid><category>it</category><category>osx</category><category>python</category></item><item><title>Kubernetes Persistence Volume Claimde Hata</title><link>/K8ste-persistence-volume-claim-olustururken-hata.html</link><description>&lt;p&gt;kubectl create ile pvc resource'u yarattığımda;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt; MountVolume.NewMounter initialization failed for volume &amp;quot;&amp;quot; :&lt;/span&gt;
+&lt;span class="err"&gt;endpoints &amp;quot;&amp;quot; not found&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -60,12 +70,12 @@ endpoints &amp;quot;&amp;quot; not found
 aldığımı görünce problemin glusterfs'ten kaynaklandığını düşündüm. &lt;a href="https://docs.openshift.com/container-platform/3.9/install_config/storage_examples/gluster_example.html"&gt;Redhat'ın
 dokümanına&lt;/a&gt; bakmaya başladım. 
 adım adım giderken, endpoints'in olmadığını farkettim.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;kubectl get endpoints --all-namespaces
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;kubectl get endpoints --all-namespaces&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;daha önce oluşturulmuş  glusterfs-endpoints.yaml dosyasından endpoint'i
-yarattım. Problem çözüldü.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 15:17:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/K8ste-persistence-volume-claim-olustururken-hata.html</guid><category>k8s</category><category>pvc</category></item><item><title>Kubernetes icinde elasticsearch cluster</title><link>/K8s%20ile%20elasticsearch%20cluster.html</link><description>&lt;p&gt;K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
+yarattım. Problem çözüldü.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 15:17:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/K8ste-persistence-volume-claim-olustururken-hata.html</guid><category>it</category><category>k8s</category><category>pvc</category></item><item><title>Kubernetes icinde elasticsearch cluster</title><link>/K8s%20ile%20elasticsearch%20cluster.html</link><description>&lt;p&gt;K8s ortami olarak GKE kullaniyorum, Elasticsearch surumu oss-6.4.2
 Elastic node'lari icin tanimlar;&lt;/p&gt;
 &lt;p&gt;All nodes know about all the other nodes in the cluster and can forward client
 requests to the appropriate node. Besides that, each node serves one or more
@@ -88,7 +98,7 @@ purpose:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Client only nodes are used as load balancers for indexing and searching.
 if you set &lt;code&gt;node.client: true&lt;/code&gt; it implicitly sets &lt;code&gt;node.master&lt;/code&gt; and &lt;code&gt;node.data&lt;/code&gt; to false.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://discuss.elastic.co/t/node-types-in-an-elasticsearch-cluster/25488/12"&gt;Kaynak&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 14:34:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/K8s ile elasticsearch cluster.html</guid></item><item><title>Blog Yazma Pratigi</title><link>/blog-yazma-pratigi-kazanma.html</link><description>&lt;p&gt;Bu kadar çok yazmak istedigim konu varken, tamamen kendime ait bu alana,
+&lt;p&gt;&lt;a href="https://discuss.elastic.co/t/node-types-in-an-elasticsearch-cluster/25488/12"&gt;Kaynak&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 14:34:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/K8s ile elasticsearch cluster.html</guid><category>kisisel</category></item><item><title>Blog Yazma Pratigi</title><link>/blog-yazma-pratigi-kazanma.html</link><description>&lt;p&gt;Bu kadar çok yazmak istedigim konu varken, tamamen kendime ait bu alana,
 istediklerimi neden yazmıyorum? Sorunu bir ertelemecilik eleştirisiyle
 geçiştirmeyeceğim. Benim açımdan hayata geçiremememin 2 belirleyici sebebi
 var;&lt;/p&gt;
@@ -98,130 +108,7 @@ var;&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Bundan sonra her iki başlıkta değişme kararı aldım. Blog yazısı, günden güne,
 konu üzerinde çalıştıkça evrimleşecek. Bu şekilde hem bağlayıcı hem de doğası
-gereği mükemmel olmayan bir çalışma olacak. Hemen bugün başlıyorum.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 14:04:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/blog-yazma-pratigi-kazanma.html</guid><category>gunluk</category></item><item><title>Mutlu Beyin Kitap Ozeti</title><link>/mutlu-beyin-kitabinin-ozeti.html</link><description>&lt;p&gt;Yazar: Loretta Graziano Breuning
-Aganta Kitap, 1.basim: Eylul 2017&lt;/p&gt;
-&lt;h4&gt;Giris&lt;/h4&gt;
-&lt;p&gt;Kitap, mutluluk hormonlari kisinin kendisine yararli faaliyetler yaparak
-salgilamasinin yollarini ogretiyor. Bu hormonlar; Serotonin, dopamin, oksitosin
-ve endorfindir. Mutlu kimyasallar salgilanmasi, onlari harekete gecirecek yeni
-aliskanliklar edinilerek gerceklesecek. Yeni aliskanliklar, beyinde yeni sinir
-yollari acar, ancak onceki bilinen ve gelismis yola gore, beynin bu yolu
-kullanmayi tercih etmesi icin, yeni aliskanligin 45 gunluk bir programa uyularak
-edinilmesi gerekli. Bundan sonra beyin bu yolu dogal olarak secebilir. Ek
-olarak, bu kitapta memeli beyinimizi taniyarak, yasadigimiz inis cikislardan
-oturu kendimizi ve baska birilerini suclama aliskanligimizdan da vazgecebiliriz.&lt;/p&gt;
-&lt;h4&gt;1 - Icinizdeki memeli&lt;/h4&gt;
-&lt;p&gt;HAYATTA KALMA ODAKLI BEYNIMIZ
-Beyin, sosyal firsatlarin degerlendirilmesiyle iyi hislerin ya da bu firsatlarin
-degerlendirilemedigi durumlarda kotu hislerin  ortaya cikacagi sekilde
-yapilanmistir. Dogumla birlikte gelen hazir sinir aglarimiz yok. Bu
-yapilanmayla, 7 yasimiza kadar temel sinir aglarimizi olustururuz. Eriskin
-yasamimiz boyunca bu donemde olusmus sinir aglarini kullaniriz. Ancak bu yollar
-eriskin yasamin gereksinimlerine uygun olmayabilir.&lt;/p&gt;
-&lt;p&gt;KIMYASALLAR BIZI NASIL MUTLU EDER
-Beynimizin hayatta kalmasina yarayan bir seyler oldugunda bu kimyasallar
-salgilanir, islem tamamlandiginda salgilama durur. Yine iyi bir seyler
-oldugunda salgilanmak uzere bekleme moduna gecer.&lt;/p&gt;
-&lt;p&gt;DORT MUTLU KIMYASAL VE YASAMSAL GUDULERI
-Dopamin: Aradiginizi bulmanin keyfi - odul arama
-Endorfin: Aciyi orten cosku - fiziksel aciyi gormezden gelme
-Oksitosin: Sosyal baglarin konforu - sosyal iliskiler insa etme
-Serotonin: Sosyal onemin guveni - digerlerinden saygi gorme&lt;/p&gt;
-&lt;p&gt;MUTLU KIMYASALLAR NASIL CALISIR
-Beyinde iki ana merkez var; bu iki merkez insani ve genlerini hayatta tutmak
-icin birlikte calisir;
-* Korteks: Buyuyerek ve ara baglantilar kurarak yasamsal deneyimi depolayan ekstra noronlar. 
-* Limbik sistem (memeli beyni): Bizim icin iyinin ve kotunun ne oldugunu
-  hissetmemizi saglayan kimyasallari salgilayan merkez. Bazen korteks limbik
-  sistemden gelen mesajlari gecersiz kilabilir, bu durum onu islevsizlestirir
-  ancak durdurmaz, kimyasali salgilatan kosul ortadan kalkmadikca
-  limbik sistem yeni sinyaller uretmeye devam edecektir.&lt;/p&gt;
-&lt;p&gt;INSANLARIN LIMBIK SISTEMI VE KORTEKSI NASIL BIRLIKTE CALISIR?
-Once hayvanlarinkilerin birlikte nasil calistigina bakalim: Hayvan korteksi,
-limbik sistemden gelen durtuleri anlamlandirma ihtiyaci duymadan, oldugu gibi
-kabul eder. Hayvan bir ihtiyacini karsiladiginda mutlu olur. Bir dahaki sefer
-ihtiyac zuhur ettiginde karsiyalabilecegi hissi dopamin salgilamasini saglar, bu
-da noronlar arasinda kalici baglantilar kurar. Hayvan bir dahaki sefere bu
-ihtiyaci nasil, nereden karsilayacagi uzerine dusunmez, onu nasil buldugunu
-anlamaya, o deneyimden ogrenmeye calismaz.
-Insanin deneyimle buyuyen korteksi, onu diger hayvanlardan ayiran ozelligidir.
-Yeni ihtiyaclar ve onlarin giderilmesi konusunda korteks aktiftir. Korteks
-evreni kaotik bir ortam olarak degerlendirir. Burada limbik sistemden gelecek,
-neyin iyi ve neyin kotu oldugu bilgisine ihtiyacimiz vardir.&lt;/p&gt;
-&lt;p&gt;DENEYIMLERINIZ NASIL SINIR YOLLARI YARATIR?
-Bireysel Yollari Acmak
-Gecmisteki mutlu anlar varolan noronlari birbirine bagladi. Boylece benzer bir
-durumla bir daha karsilastiginizda daha cok mutlu kimyasal salgilanacak.
-Gecmisteki mutsuz anlar da nelerden kacinmaniz gerektigini soyleyen noronlari
-birbirine bagladi.
-Her deneyimde, duygulariniz beyninizdeki elektrigi tetikler. Bu elektrik
-beyninizin icinde suyun firtinada hareket ettigi gibi ilerler - en az direncle
-karsilasacagi yollari bulur. Daha once olusturdugunuz bu yollar elektriginize
-akacak kanallar verir ve boylece deneyiminize karsiligi sekillendirir.
-Norokimyasallar asfaltin kotu bir yolu kaplamasi gibi, bu yollari kaplar. Tekrar
-etmek de yollarinizi saglamlastirir. Nihayetinde elektrigimizin yol alacagi
-milyarlarca yol olusur ve bunlar duygularimizi anlamlandirmamiza neden olur.&lt;/p&gt;
-&lt;p&gt;Sinirsel Rehberlik Sisteminiz
-Insa ettiginiz yollar birleserek sizin sinirsel rehberlik sisteminizi olusturur
-ve gunluk olarak karsilastiginiz durumlara tepkileriniz konusunda size rehberlik
-eder. Icinizdeki memelinin, tepkileriyle ilgili suphe duymasina gerek yoktur,
-cunku hepsi gercek yasam deneyimleriyle olusmustur. Fakat bu rehberlik
-sisteminin farkinda olmazsiniz, cunku onu bilincli olarak insa etmemissinizdir.
-Iste bu yuzden yeni yollar yapmak zor: Eskileri nasil yaptiginizi bilmiyorsunuz.&lt;/p&gt;
-&lt;p&gt;Tanidik Sinir Yollarinda Seyahat Kolaydir... Ama Bu Her Zaman Iyi Bir Sey DEgildir
-Sinir yollari bazi seylerden hoslanmanizi ve bazilarindan hoslanmamanizi
-kolaylastirir. Zaman zaman kendiniz icin iyi olmayan seylerden hoslandiginizi ya
-da sizin icin iyi olan bir seyden korktugunuzu gorebilirsiniz. Insanlarin
-korteksi eski devrelere yenilerini ekler. Eski devreler oldukca etkilidir.&lt;/p&gt;
-&lt;p&gt;Yeni Yollar Nasil Acilir?
-Noronlariniz daha once aktive olmamis bir yoldan elektrik gondermekte zorlanir.
-Ama bir yolun her aktive olusu isinizi kolaylastirir. Tekrar etmek bir sinir
-yolunu yavasca gelistirir. Peki nasil yeni yollar acariz? Beyninizi yeni
-deneyimlerle tekrar tekrar besleyerek. &lt;/p&gt;
-&lt;p&gt;MUTLULUGU ARAMANIN KISIRDONGUSU
-Mutlu kimyasallari arayarak ve mutsuz kimyasallardan kacinarak hayatta kalmak
-uzere tasarlandiniz. Aramayi ve kacinmayi saf disi birakan kisayollara uygun
-tasarlanmadiniz. &lt;/p&gt;
-&lt;p&gt;Beyninizin Iyi Hissetme Arayisi
-Kortizol, aci ve aci beklentisi arasinda bag kurar. Sizi, kotu hissin durmasi
-icin ne gerekirse yapmaya tesvik eder. Siklikla alarmi neyin tetiklediginden
-emin olmazsiniz. Nasil durduracaginizi bilmezsiniz ama derhal "bir seyler"
-yapmazsaniz daha kotu seylerin olacagini hissedersiniz.&lt;/p&gt;
-&lt;p&gt;Kimyasal Gelgitler&lt;/p&gt;
-&lt;p&gt;Kortizol hep oradadir, cunku; mutlu kimyasal salgilamasi belli bir sure devam
-eder, sonra durur. Kortizol de mutlu kimyasallar gibi, olay gerceklesmeden once
-salgilanmaya baslar. Ornegin hayal kirikligi da kortizolu baslatir. Bu da bizi,
-ihtiyaclarimizi karsilamamiz yolunda yeni duzenlemeler yapma konusunda harekete
-gecirir.
-Mutlu kimyasallarin hizli ve kolayca salgilayan seylerin yan etkileri vardir.
-Ornegin Gida ve seks. Bunlardan surekli yuksek mutluluk alma cabasi kisir dongu
-yaratir.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mutluluk, yukaridaki kimyasallar tetiklendiginde gerceklesir.&lt;/li&gt;
-&lt;li&gt;Tetikleme gecmiste olusturdugunuz sinir devrelerine baglidir.&lt;/li&gt;
-&lt;li&gt;Mutsuz kimyasallar da daima tetiklenir.&lt;/li&gt;
-&lt;li&gt;Mutlu kimyasallar mutsuzlara  verdiginiz dikkati dagitir.&lt;/li&gt;
-&lt;li&gt;Iyi duygular ayni devreyi yeniden ve yeniden harekete gecirir.&lt;/li&gt;
-&lt;li&gt;Yan etkileri olur ve bunlar daha fazla mutsuz kimyasali tetikler.&lt;/li&gt;
-&lt;li&gt;Hedef: Daha fazla mutlu devre. &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sik Rastlanan Kisirdonguler
-* Alkol, yemek, para, seks ve uyusturucu gibi dis etkenler.
-* Ofke, onay ihtiyaci, kacmak, heyecan arayisi, birini kurtarmak gibi icsel
-  dusunce aliskanliklari olabilir.&lt;/p&gt;
-&lt;p&gt;Kisirdonguden Cikmak
-"Bir sey yapmalisin" durtusunu reddedin ve kortizolle yasayin. Beklemek beyne
-bir alternatif uretme firsati verir. O an verimli bir dongu baslar. Alternatif
-bir devreniz oldugunda anda kalmak kolaylasir. Yeni bir dusunce ya da davranisi
-45 gun sektirmeden tekrar edreseniz yerlestirebilirsiniz. Bir gun bile
-kacirirsaniz birinci gunden baslamaniz gerekir. Yeni secim 1.gun sizi mutlu
-etmeyecektir, 40. gun de mutlu olmayabilirsiniz. 45. gunde bile daimi olarak
-mutlu kimyasallari tetiklemez. Fakat kisirdonguden cikmaniza yetecek kadar
-elektrik uretecektir.&lt;/p&gt;
-&lt;p&gt;BEYNINIZIN VEREMEYECEGI BIR SEYI ONDAN ISTEMEYIN
-Beynimiz ancak itiyaclarinizi karsilamaya yonelik adimlar attiginizda mutlu
-kimyasallar salgiliyor.&lt;/p&gt;
-&lt;h4&gt;2 - Mutlu Kimyasallarinizla tanisin&lt;/h4&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 09 Jan 2019 00:00:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-09:/mutlu-beyin-kitabinin-ozeti.html</guid><category>kitap\_ozeti</category></item><item><title>The Five Minute Journal Taahhüdüm</title><link>/gunluk-taahhudum.html</link><description>&lt;p&gt;Ben, Orkun Günay, "The Five-Minute Journal"'ı en kısa 5 gün süreyle,
+gereği mükemmel olmayan bir çalışma olacak. Hemen bugün başlıyorum.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 31 Jan 2019 14:04:00 +0300</pubDate><guid isPermaLink="false">tag:None,2019-01-31:/blog-yazma-pratigi-kazanma.html</guid><category>kisisel</category><category>gunluk</category></item><item><title>The Five Minute Journal Taahhüdüm</title><link>/gunluk-taahhudum.html</link><description>&lt;p&gt;Ben, Orkun Günay, "The Five-Minute Journal"'ı en kısa 5 gün süreyle,
 31.12.2018'den itibaren yazmaya başlayacağımı beyan ederim.&lt;/p&gt;
 &lt;p&gt;Bu günlüğü yazmak benim için gerçekten önemli, çünkü:&lt;/p&gt;
 &lt;ul&gt;
@@ -242,7 +129,7 @@ kimyasallar salgiliyor.&lt;/p&gt;
 &lt;li&gt;Günlük tutmayı kutsal bir ibadet gibi algılıyorum, kutsalı incitemem.&lt;/li&gt;
 &lt;li&gt;Kendi sözüme önce kendim güveneceğim. Yazmazsam, kendi kendime verdiğim
     sözü tutmamanın ağır ve yıkıcı sonuçlarını kendime yaşatmayacağım.&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Sun, 30 Dec 2018 11:49:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-12-30:/gunluk-taahhudum.html</guid><category>günlük</category></item><item><title>Docker compose isimlendirme</title><link>/Docker-compose-isimlendirme.html</link><description>&lt;ul&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Sun, 30 Dec 2018 11:49:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-12-30:/gunluk-taahhudum.html</guid><category>yaşam</category><category>günlük</category></item><item><title>Docker compose isimlendirme</title><link>/Docker-compose-isimlendirme.html</link><description>&lt;ul&gt;
 &lt;li&gt;compose &lt;code&gt;links&lt;/code&gt;'te &lt;code&gt;service&lt;/code&gt; parametresini kabul ediyor. &lt;code&gt;container_name&lt;/code&gt;
   parametresine hata veriyor.&lt;/li&gt;
 &lt;li&gt;ps ciktisinda container_name'i donduruyor.&lt;/li&gt;
@@ -262,11 +149,11 @@ kimyasallar salgiliyor.&lt;/p&gt;
     &lt;span class="nt"&gt;command&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;tail -f /etc/hosts&lt;/span&gt;
     &lt;span class="nt"&gt;links&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
       &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;service-1:xyz&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 13 Sep 2018 15:34:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-09-13:/Docker-compose-isimlendirme.html</guid><category>docker</category><category>docker-compose</category></item><item><title>San Disklerin Centos7'ye Tanıtılması</title><link>/san-disklerin-centos7ye-tanitilmasi.html</link><description>&lt;ul&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 13 Sep 2018 15:34:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-09-13:/Docker-compose-isimlendirme.html</guid><category>linux</category><category>docker</category><category>docker-compose</category></item><item><title>San Disklerin Centos7'ye Tanıtılması</title><link>/san-disklerin-centos7ye-tanitilmasi.html</link><description>&lt;ul&gt;
 &lt;li&gt;Sunucularda iscsi initiatorname'ler oluşturulup storage admin'e iletilir:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yum install iscsi-initiator-utils
-cat /etc/iscsi/initiatorname.iscsi
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;yum install iscsi-initiator-utils&lt;/span&gt;
+&lt;span class="err"&gt;cat /etc/iscsi/initiatorname.iscsi&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -275,27 +162,27 @@ cat /etc/iscsi/initiatorname.iscsi
   interface'lere eklenir. İscsi initiator target ip’ler ping'lendiğinde &lt;code&gt;no
   route to host&lt;/code&gt; alınıyorsa interface/ip adresi eşleşmesi değiştirilir.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;TYPE=Ethernet
-PROXY_METHOD=none
-BOOTPROTO=static
-DEFROUTE=no
-NAME=&amp;lt;&amp;gt;
-UUID=&amp;lt;&amp;gt;
-DEVICE=&amp;lt;&amp;gt;
-ONBOOT=yes
-IPADDR=&amp;lt;&amp;gt;
-NETMASK=255.255.255.0
-USERCTL=no
-ZONE=public
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;TYPE=Ethernet&lt;/span&gt;
+&lt;span class="err"&gt;PROXY_METHOD=none&lt;/span&gt;
+&lt;span class="err"&gt;BOOTPROTO=static&lt;/span&gt;
+&lt;span class="err"&gt;DEFROUTE=no&lt;/span&gt;
+&lt;span class="err"&gt;NAME=&amp;lt;&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;UUID=&amp;lt;&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;DEVICE=&amp;lt;&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;ONBOOT=yes&lt;/span&gt;
+&lt;span class="err"&gt;IPADDR=&amp;lt;&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;NETMASK=255.255.255.0&lt;/span&gt;
+&lt;span class="err"&gt;USERCTL=no&lt;/span&gt;
+&lt;span class="err"&gt;ZONE=public&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;Iscsi initiator target ip’leri discover edilir. Dönen targetname'ler eklenir:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;iscsiadm -m discovery -t sendtargets --portal &amp;lt;IP&amp;gt;
-iscsiadm --mode node --targetname &amp;lt;name&amp;gt; --portal &amp;lt;ip&amp;gt; \
--o update -n node.startup -v automatic
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;iscsiadm -m discovery -t sendtargets --portal &amp;lt;IP&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;iscsiadm --mode node --targetname &amp;lt;name&amp;gt; --portal &amp;lt;ip&amp;gt; \&lt;/span&gt;
+&lt;span class="err"&gt;-o update -n node.startup -v automatic&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -303,57 +190,57 @@ iscsiadm --mode node --targetname &amp;lt;name&amp;gt; --portal &amp;lt;ip&amp;g
 &lt;li&gt;Multipath ile birden çokmuş gibi görünen disk ortamı işletim sistemine tek
   disk olarak gösterilir.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yum -y install device-mapper-multipath
-syst/emctl enable multipathd
-cat /etc/multipath/wwids
-cp /usr/share/doc/device-mapper-multipath-0.4.9/multipath.conf /etc/multipath.conf 
-vi  /etc/multipath.conf
-defaults {
-    user_friendly_names yes
-    find_multipaths yes
-}
-blacklist {
-    devnode &amp;quot;^sd[abc]&amp;quot;
-}
-multipaths {
-        multipath {
-                uid 0
-                gid 0
-                wwid &amp;quot;&amp;quot;
-                mode 0600
-        }
-        multipath {
-                uid 0
-                gid 0
-                wwid &amp;quot;&amp;quot;
-                mode 0600
-        }
-}
-systemctl start multipathd
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;yum&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;install&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;device&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;mapper&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;multipath&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;syst&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;emctl&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;enable&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;multipathd&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;cat&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;multipath&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;wwids&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;cp&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;usr&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;share&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;doc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;device&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;mapper&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;multipath&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.4.9&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;multipath&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;conf&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;multipath&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;conf&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="n"&gt;vi&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;multipath&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;conf&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;defaults&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;user_friendly_names&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;yes&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;find_multipaths&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;yes&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;blacklist&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;devnode&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;^sd[abc]&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;multipaths&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;multipath&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;                &lt;/span&gt;&lt;span class="n"&gt;uid&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;                &lt;/span&gt;&lt;span class="n"&gt;gid&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;                &lt;/span&gt;&lt;span class="n"&gt;wwid&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;                &lt;/span&gt;&lt;span class="n"&gt;mode&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0600&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;multipath&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;                &lt;/span&gt;&lt;span class="n"&gt;uid&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;                &lt;/span&gt;&lt;span class="n"&gt;gid&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;                &lt;/span&gt;&lt;span class="n"&gt;wwid&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;                &lt;/span&gt;&lt;span class="n"&gt;mode&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0600&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;systemctl&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;start&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;multipathd&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;Firewall kurallari eklenir&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;firewall-cmd --permanent --add-port=3260/tcp
-firewall-cmd --permanent --add-service iscsi-target
-firewall-cmd --reload
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;firewall-cmd --permanent --add-port=3260/tcp&lt;/span&gt;
+&lt;span class="err"&gt;firewall-cmd --permanent --add-service iscsi-target&lt;/span&gt;
+&lt;span class="err"&gt;firewall-cmd --reload&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;Disk'ler formatlanir, mount edilir, fstab guncellenir.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mkfs.xfs -f /dev/mapper/mpatha
-mkfs.xfs -f /dev/mapper/mpathb
-mount /dev/mapper/mpatha &amp;lt;dizin&amp;gt;
-mount /dev/mapper/mpathb &amp;lt;dizin&amp;gt;
-/dev/mapper/mpathb       &amp;lt;dizin&amp;gt; xfs     _netdev 0 0
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 29 Aug 2018 13:52:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-08-29:/san-disklerin-centos7ye-tanitilmasi.html</guid><category>server</category><category>san</category></item><item><title>Fstabtan Scsi Diski Başlatma</title><link>/fstabtan-scsi-diski-baslatma.html</link><description>&lt;p&gt;Multipath'le sunucuya gösterdiğimiz scsi disk'leri, centos 7 sunucuda
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;mkfs.xfs -f /dev/mapper/mpatha&lt;/span&gt;
+&lt;span class="err"&gt;mkfs.xfs -f /dev/mapper/mpathb&lt;/span&gt;
+&lt;span class="err"&gt;mount /dev/mapper/mpatha &amp;lt;dizin&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;mount /dev/mapper/mpathb &amp;lt;dizin&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;/dev/mapper/mpathb       &amp;lt;dizin&amp;gt; xfs     _netdev 0 0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 29 Aug 2018 13:52:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-08-29:/san-disklerin-centos7ye-tanitilmasi.html</guid><category>linux</category><category>server</category><category>san</category></item><item><title>Fstabtan Scsi Diski Başlatma</title><link>/fstabtan-scsi-diski-baslatma.html</link><description>&lt;p&gt;Multipath'le sunucuya gösterdiğimiz scsi disk'leri, centos 7 sunucuda
 fstab'dan mount ederken
 &lt;a href="https://access.redhat.com/solutions/2042843"&gt;link'teki&lt;/a&gt; hatayı verdi;
-fstab'ta disk'lerin options'ına &lt;code&gt;_netdev&lt;/code&gt; yazarak sorun çözüldü.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Tue, 28 Aug 2018 18:28:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/fstabtan-scsi-diski-baslatma.html</guid><category>multipahd</category><category>scsi</category></item><item><title>Kompost Hazırlama Yöntemi Seçimim ve Nedenleri</title><link>/kompost-yontemleri-arasindan-tercih-yapma.html</link><description>&lt;p&gt;Buğday Derneği'nin düzenlediği "Kompost nedir?" başlıklı sunuma katıldım,
+fstab'ta disk'lerin options'ına &lt;code&gt;_netdev&lt;/code&gt; yazarak sorun çözüldü.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Tue, 28 Aug 2018 18:28:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/fstabtan-scsi-diski-baslatma.html</guid><category>linux</category><category>multipahd</category><category>scsi</category></item><item><title>Kompost Hazırlama Yöntemi Seçimim ve Nedenleri</title><link>/kompost-yontemleri-arasindan-tercih-yapma.html</link><description>&lt;p&gt;Buğday Derneği'nin düzenlediği "Kompost nedir?" başlıklı sunuma katıldım,
 vidyolarına &lt;a href="https://www.facebook.com/pg/buğdayderneği/videos"&gt;Buğday Derneği'nin facebook
 sayfası&lt;/a&gt;'ndan
 ulaşabilirsiniz.
@@ -393,7 +280,7 @@ atabiliyorsunuz; sevgili &lt;a href="https://www.facebook.com/volkan.dündar.10"
 Bey&lt;/a&gt; bu konudan bahsederken, "biz 4
 yıldır belediyeye 1 gram atık kaptırmadık." dedi. Gerçekten de, onu
 kullanmasını bilmeyenlere, değerli şeylerimizi vermeyelim. Biz daha iyisini
-yapabiliriz.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 29 Mar 2018 11:34:25 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-29:/kompost-yontemleri-arasindan-tercih-yapma.html</guid><category>geri-dönüşüm</category></item><item><title>Nuray Mert'in Cumhuriyet'te açtığı gedik</title><link>/nuray-mertin-cumhuriyette-actigi-gedik..html</link><description>&lt;p&gt;Bu yazıyı yazmak için geç kaldığımın farkındayım. Fakat günlük tutma araçlarımı
+yapabiliriz.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Thu, 29 Mar 2018 11:34:25 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-29:/kompost-yontemleri-arasindan-tercih-yapma.html</guid><category>yaşam</category><category>geri-dönüşüm</category></item><item><title>Nuray Mert'in Cumhuriyet'te açtığı gedik</title><link>/nuray-mertin-cumhuriyette-actigi-gedik..html</link><description>&lt;p&gt;Bu yazıyı yazmak için geç kaldığımın farkındayım. Fakat günlük tutma araçlarımı
 yeni düzenleyebildim ve artık bu tipte, beni etkileyen gündemleri kısa zamanda
 yorumlamak istiyorum. Tabi içerideki onlarca düşünce suçlusunu gördükçe,
 beynimdeki oto-sansür mekanizmasını engelleyebimem mümkün gözükmüyor. Her şeyin
@@ -451,7 +338,7 @@ arasında geçerli, düşünmeyenlere ise her türlü kötülük mübah görül�
 platformu mevcut. Ayrıca artık sosyal medya üzerinden her birimiz birer haber
 kaynağı, eleştirmen ve yazarız da. Haber almak için bu yayın organlarının
 sekter yönetim kurullarına mecbur değiliz. Yeter ki kendi göbek bağımızı kendi
-kendimize kesebileceğimize inanalım.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Mon, 26 Mar 2018 02:30:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-26:/nuray-mertin-cumhuriyette-actigi-gedik..html</guid><category>gunluk_gazete</category></item><item><title>Süt Alırken Dikkat Edilecek Konu Başlıkları</title><link>/sut-kriterleri.html</link><description>&lt;p&gt;&lt;strong&gt;vegan oldum ve artik bu yazida savundugum 'degerler' benim icin anlamini
+kendimize kesebileceğimize inanalım.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Mon, 26 Mar 2018 02:30:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-26:/nuray-mertin-cumhuriyette-actigi-gedik..html</guid><category>siyaset</category><category>gunluk_gazete</category></item><item><title>Süt Alırken Dikkat Edilecek Konu Başlıkları</title><link>/sut-kriterleri.html</link><description>&lt;p&gt;&lt;strong&gt;vegan oldum ve artik bu yazida savundugum 'degerler' benim icin anlamini
 yitirdi, hayatimi idame ettirme mucadelemde, herhangi bir hisseden canlidan
 yararlanma tavrimdan vazgectim.&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -480,7 +367,7 @@ fazla yaşamıyormuş ama artık verimi düşürüp havan refahını artırarak 
 yaşamalarını sağlıyorlarmış. Verimi 10 tondan 6 tona düşürmüşler. Çünkü mısır
 silajından ot silajına geçmiş, otlatma programı koymuşlar.&lt;/li&gt;
 &lt;li&gt;Hayvan refahı. Refah bir mekanda mı yaşıyor? Kaşağılanıyor mu, seviliyor mu?&lt;/li&gt;
-&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 21 Mar 2018 10:47:33 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-21:/sut-kriterleri.html</guid><category>beslenme</category></item><item><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link>/lvm-root-diskini-fsck-ile-kurtarma.html</link><description>&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
+&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 21 Mar 2018 10:47:33 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-21:/sut-kriterleri.html</guid><category>yaşam</category><category>beslenme</category></item><item><title>Read-Only Bağlanan LVM Diskin Fsck ile Onarımı</title><link>/lvm-root-diskini-fsck-ile-kurtarma.html</link><description>&lt;p&gt;İşletim sistemi: CentOS 6.8&lt;/p&gt;
 &lt;p&gt;Elektrik kesintisi vb. beklenmedik olayların, sunucunun / disk bölümünde soruna
 yol açarak, sadece okuma modunda (ro) diski bağladığı durumda ne yapılabileceğini
 göstermeye çalışacağım.&lt;/p&gt;
@@ -514,20 +401,20 @@ fsck -y /dev/mapper/VolGroup-lv_root
 
 
 &lt;p&gt;İşlem bitiminde sunucuyu reboot etmek gerekiyor, reboot sonrası disk yazma
-izniyle (rw) olarak bağlandı&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 16 Mar 2018 17:11:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-16:/lvm-root-diskini-fsck-ile-kurtarma.html</guid><category>recovery</category><category>kurtarma</category></item><item><title>Pomodoro nun Pratik Kullanımı</title><link>/pomodoro-crontab.html</link><description>&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
+izniyle (rw) olarak bağlandı&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 16 Mar 2018 17:11:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-16:/lvm-root-diskini-fsck-ile-kurtarma.html</guid><category>linux</category><category>recovery</category><category>kurtarma</category></item><item><title>Pomodoro nun Pratik Kullanımı</title><link>/pomodoro-crontab.html</link><description>&lt;p&gt;Pomodoro disipliniyle çalışmak için ( 25 dk. çalış, 5 dk. mola ver ),
 terminal'den çalışan bir app aradım, python/zsh/nodejs app'larını denedim,
 hiçbirisi istediğim verimlilikte değildi, sonunda kendim hazırladım, son derece
 de basit oldu, crontab'ı şöyle düzenledim;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;*/30 * * * *      /usr/bin/notify-send &amp;quot;Work&amp;quot;
-25 * * * *      /usr/bin/notify-send &amp;quot;Break&amp;quot;
-55 * * * *      /usr/bin/notify-send &amp;quot;Break&amp;quot;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;*/30 * * * *      /usr/bin/notify-send &amp;quot;Work&amp;quot;&lt;/span&gt;
+&lt;span class="err"&gt;25 * * * *      /usr/bin/notify-send &amp;quot;Break&amp;quot;&lt;/span&gt;
+&lt;span class="err"&gt;55 * * * *      /usr/bin/notify-send &amp;quot;Break&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Her yarım saatte bir &lt;code&gt;Work&lt;/code&gt;, saati her 25 ve 55 geçtiğinde ise &lt;code&gt;Break&lt;/code&gt; gönderiyor.
 böylece pomodoro döngüsü sağlanıyor.&lt;/p&gt;
 &lt;p&gt;Kısacası, eğer hızlıca yapılabilir geliyorsa, önce yapılmısına bakmak yerine,
-kendin yaptığında daha verimli oluyormuş.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 14 Mar 2018 17:14:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-14:/pomodoro-crontab.html</guid><category>pomodoro</category></item><item><title>Linux Swap Alanı Yönetimi</title><link>/linux%20swap.html</link><description>&lt;h3&gt;Swap alanı ne işe yarar, gerekli mi?&lt;/h3&gt;
+kendin yaptığında daha verimli oluyormuş.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 14 Mar 2018 17:14:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-14:/pomodoro-crontab.html</guid><category>araçlar</category><category>pomodoro</category></item><item><title>Linux Swap Alanı Yönetimi</title><link>/linux%20swap.html</link><description>&lt;h3&gt;Swap alanı ne işe yarar, gerekli mi?&lt;/h3&gt;
 &lt;p&gt;Linux fiziksel RAM'i page adındaki yığınlara bölerek kullanır. Swap işlemi, bu
 page'lerin diske kopyalanması ve page'lerin boşaltılması işlemine denir. &lt;/p&gt;
 &lt;h3&gt;Swap işlemi 2 sebepten ötürü gereklidir&lt;/h3&gt;
@@ -578,7 +465,7 @@ swapon -s
 &lt;ul&gt;
 &lt;li&gt;zRam: Cpu cache'inde kullanılmayan alan büyükse tercih edilebilir. 
 Kaynak: https://wiki.voidlinux.eu/Zram&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 14 Mar 2018 17:10:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-14:/linux swap.html</guid><category>swap</category></item><item><title>Türetici Olmak</title><link>/bir-dosta-cevaben.html</link><description>&lt;p&gt;Bu yazıda, dönüşümün tek yolunun, bireylerin, tercihlerinin sorumluluğunu
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Wed, 14 Mar 2018 17:10:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-03-14:/linux swap.html</guid><category>linux</category><category>swap</category></item><item><title>Türetici Olmak</title><link>/bir-dosta-cevaben.html</link><description>&lt;p&gt;Bu yazıda, dönüşümün tek yolunun, bireylerin, tercihlerinin sorumluluğunu
 almaları olduğunu savunacağım. Kollektif dönüşüm konusunu tartışmayacağım, o
 konudaki fikrim, bireylerin sorumluluk alma imkanlarını ve bilinçlerini
 genişlettiği ölçüde faydalı, aksi durumda zararlı olduğudur.&lt;/p&gt;
@@ -619,7 +506,7 @@ türeticilik ve bireyin kendi sorumluluğunu alması, deneyimle gelişen
 bilinçlenme meselesi. Önceleri yapması zor veya çok uzak gelen şeyleri zamanla,
 denemeler yaparak uygulanabilir hale sokuyor insan. İnsanları eleştirmektense,
 bu deneyimleri edinmelerini sağlayacak imkanları onlara hatırlatmak, bunun için
-de sakin olmam ve bana yapacakları eleştirilere bağışık olmak gerekiyor.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/bir-dosta-cevaben.html</guid><category>tureticilik</category><category>elestiri</category></item><item><title>Pelican'la blog'luyorum</title><link>/ilk-yazi.html</link><description>&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
+de sakin olmam ve bana yapacakları eleştirilere bağışık olmak gerekiyor.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/bir-dosta-cevaben.html</guid><category>yasam</category><category>tureticilik</category><category>elestiri</category></item><item><title>Pelican'la blog'luyorum</title><link>/ilk-yazi.html</link><description>&lt;p&gt;Uzun zamandır blog yazısı yazmak isteyip yazmamamın faturasını jekyll'e kestim,
 her ne kadar kendisi çok iyi bir blog framework'u olsa da, yeni aldığım
 makinaya ruby, gems, rvm, bundle kurmak ve bilumum konfigürasyonuyla
 uğraşmaktansa python'a 5 tane bileşen kurarak daha rahat blog yazacağıma kanaat getirdim. Her defasında
@@ -645,7 +532,7 @@ anlamasını sağlayan iki önemli etmeni barındırıyor blog tutmak;&lt;/p&gt;
   yaratıcı bir şekilde onunla uğraşılmış, sonucunda bir deneyim oluşmuşsa bundan
   bir blog yazısı çıkar. Dolayısıyla diğer metinlerden farklı olarak, blog metni,
   tecrübe aktarımını sağlaması bakımından, değer üretir, bu sebepten biriciktir.&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/ilk-yazi.html</guid><category>misc</category></item><item><title>Sağlıklı Yaşamak</title><link>/saglikli-yasamak.html</link><description>&lt;p&gt;Dr. Mosley'in BBC Knowledge'daki tv programlarini izleme firsati buldum.
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">orkung</dc:creator><pubDate>Fri, 23 Feb 2018 10:06:00 +0300</pubDate><guid isPermaLink="false">tag:None,2018-02-23:/ilk-yazi.html</guid><category>misc</category><category>misc</category></item><item><title>Sağlıklı Yaşamak</title><link>/saglikli-yasamak.html</link><description>&lt;p&gt;Dr. Mosley'in BBC Knowledge'daki tv programlarini izleme firsati buldum.
 Bolumlerle ilgili notlarimi paylasiyorum;&lt;/p&gt;
 &lt;ol class="upperalpha simple"&gt;
 &lt;li&gt;intermittent fasting (aralıklı oruç) &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[*]&lt;/a&gt;&lt;/li&gt;
@@ -720,7 +607,7 @@ Bu ikisini birarada yapabilirsek sağlıklı kalabiliriz.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://thefastdiet.co.uk/r"&gt;Dr. Mosley'in fastdiet sitesi:&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mercola.com"&gt;Yukaridaki alintiyi yaptigim Mercola'nin sitesi:&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Orkung</dc:creator><pubDate>Sun, 04 Jan 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2015-01-04:/saglikli-yasamak.html</guid><category>sağlık</category></item><item><title>Kullandığım Terminal Uygulamaları</title><link>/kullandigim-terminal-uygulamalari.html</link><description>&lt;p&gt;Kullanım alışkanlığını edinirseniz hayatınızı kolaylaştıran terminal
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Orkung</dc:creator><pubDate>Sun, 04 Jan 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2015-01-04:/saglikli-yasamak.html</guid><category>misc</category><category>sağlık</category></item><item><title>Kullandığım Terminal Uygulamaları</title><link>/kullandigim-terminal-uygulamalari.html</link><description>&lt;p&gt;Kullanım alışkanlığını edinirseniz hayatınızı kolaylaştıran terminal
 uygulamalarını paylaşmak istedim. Liste eksik eklemeler yapacağım.&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/amix/autojump"&gt;autojump kendi kendine ogrenen cd komutu&lt;/a&gt;:
@@ -739,4 +626,4 @@ anything), this tool is for you.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://taskwarrior.org/projects/show/taskwarrior"&gt;Taskwarrior&lt;/a&gt;:
 Gorev yoneticisi.&lt;/li&gt;
 &lt;/ul&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Orkung</dc:creator><pubDate>Mon, 21 Oct 2013 00:41:00 +0300</pubDate><guid isPermaLink="false">tag:None,2013-10-21:/kullandigim-terminal-uygulamalari.html</guid><category>apps</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Orkung</dc:creator><pubDate>Mon, 21 Oct 2013 00:41:00 +0300</pubDate><guid isPermaLink="false">tag:None,2013-10-21:/kullandigim-terminal-uygulamalari.html</guid><category>misc</category><category>apps</category></item></channel></rss>

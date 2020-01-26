@@ -58,8 +58,8 @@
         <ul>
 <li>Sunucularda iscsi initiatorname'ler oluşturulup storage admin'e iletilir:</li>
 </ul>
-<div class="highlight"><pre><span></span>yum install iscsi-initiator-utils
-cat /etc/iscsi/initiatorname.iscsi
+<div class="highlight"><pre><span></span><span class="err">yum install iscsi-initiator-utils</span>
+<span class="err">cat /etc/iscsi/initiatorname.iscsi</span>
 </pre></div>
 
 
@@ -68,27 +68,27 @@ cat /etc/iscsi/initiatorname.iscsi
   interface'lere eklenir. İscsi initiator target ip’ler ping'lendiğinde <code>no
   route to host</code> alınıyorsa interface/ip adresi eşleşmesi değiştirilir.</li>
 </ul>
-<div class="highlight"><pre><span></span>TYPE=Ethernet
-PROXY_METHOD=none
-BOOTPROTO=static
-DEFROUTE=no
-NAME=&lt;&gt;
-UUID=&lt;&gt;
-DEVICE=&lt;&gt;
-ONBOOT=yes
-IPADDR=&lt;&gt;
-NETMASK=255.255.255.0
-USERCTL=no
-ZONE=public
+<div class="highlight"><pre><span></span><span class="err">TYPE=Ethernet</span>
+<span class="err">PROXY_METHOD=none</span>
+<span class="err">BOOTPROTO=static</span>
+<span class="err">DEFROUTE=no</span>
+<span class="err">NAME=&lt;&gt;</span>
+<span class="err">UUID=&lt;&gt;</span>
+<span class="err">DEVICE=&lt;&gt;</span>
+<span class="err">ONBOOT=yes</span>
+<span class="err">IPADDR=&lt;&gt;</span>
+<span class="err">NETMASK=255.255.255.0</span>
+<span class="err">USERCTL=no</span>
+<span class="err">ZONE=public</span>
 </pre></div>
 
 
 <ul>
 <li>Iscsi initiator target ip’leri discover edilir. Dönen targetname'ler eklenir:</li>
 </ul>
-<div class="highlight"><pre><span></span>iscsiadm -m discovery -t sendtargets --portal &lt;IP&gt;
-iscsiadm --mode node --targetname &lt;name&gt; --portal &lt;ip&gt; \
--o update -n node.startup -v automatic
+<div class="highlight"><pre><span></span><span class="err">iscsiadm -m discovery -t sendtargets --portal &lt;IP&gt;</span>
+<span class="err">iscsiadm --mode node --targetname &lt;name&gt; --portal &lt;ip&gt; \</span>
+<span class="err">-o update -n node.startup -v automatic</span>
 </pre></div>
 
 
@@ -96,53 +96,53 @@ iscsiadm --mode node --targetname &lt;name&gt; --portal &lt;ip&gt; \
 <li>Multipath ile birden çokmuş gibi görünen disk ortamı işletim sistemine tek
   disk olarak gösterilir.</li>
 </ul>
-<div class="highlight"><pre><span></span>yum -y install device-mapper-multipath
-syst/emctl enable multipathd
-cat /etc/multipath/wwids
-cp /usr/share/doc/device-mapper-multipath-0.4.9/multipath.conf /etc/multipath.conf 
-vi  /etc/multipath.conf
-defaults {
-    user_friendly_names yes
-    find_multipaths yes
-}
-blacklist {
-    devnode &quot;^sd[abc]&quot;
-}
-multipaths {
-        multipath {
-                uid 0
-                gid 0
-                wwid &quot;&quot;
-                mode 0600
-        }
-        multipath {
-                uid 0
-                gid 0
-                wwid &quot;&quot;
-                mode 0600
-        }
-}
-systemctl start multipathd
+<div class="highlight"><pre><span></span><span class="n">yum</span><span class="w"> </span><span class="o">-</span><span class="n">y</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="n">device</span><span class="o">-</span><span class="n">mapper</span><span class="o">-</span><span class="n">multipath</span><span class="w"></span>
+<span class="n">syst</span><span class="o">/</span><span class="n">emctl</span><span class="w"> </span><span class="n">enable</span><span class="w"> </span><span class="n">multipathd</span><span class="w"></span>
+<span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">multipath</span><span class="o">/</span><span class="n">wwids</span><span class="w"></span>
+<span class="n">cp</span><span class="w"> </span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">doc</span><span class="o">/</span><span class="n">device</span><span class="o">-</span><span class="n">mapper</span><span class="o">-</span><span class="n">multipath</span><span class="o">-</span><span class="mf">0.4.9</span><span class="o">/</span><span class="n">multipath</span><span class="p">.</span><span class="n">conf</span><span class="w"> </span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">multipath</span><span class="p">.</span><span class="n">conf</span><span class="w"> </span>
+<span class="n">vi</span><span class="w">  </span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">multipath</span><span class="p">.</span><span class="n">conf</span><span class="w"></span>
+<span class="n">defaults</span><span class="w"> </span><span class="err">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">user_friendly_names</span><span class="w"> </span><span class="n">yes</span><span class="w"></span>
+<span class="w">    </span><span class="n">find_multipaths</span><span class="w"> </span><span class="n">yes</span><span class="w"></span>
+<span class="err">}</span><span class="w"></span>
+<span class="n">blacklist</span><span class="w"> </span><span class="err">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">devnode</span><span class="w"> </span><span class="ss">&quot;^sd[abc]&quot;</span><span class="w"></span>
+<span class="err">}</span><span class="w"></span>
+<span class="n">multipaths</span><span class="w"> </span><span class="err">{</span><span class="w"></span>
+<span class="w">        </span><span class="n">multipath</span><span class="w"> </span><span class="err">{</span><span class="w"></span>
+<span class="w">                </span><span class="n">uid</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
+<span class="w">                </span><span class="n">gid</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
+<span class="w">                </span><span class="n">wwid</span><span class="w"> </span><span class="ss">&quot;&quot;</span><span class="w"></span>
+<span class="w">                </span><span class="n">mode</span><span class="w"> </span><span class="mi">0600</span><span class="w"></span>
+<span class="w">        </span><span class="err">}</span><span class="w"></span>
+<span class="w">        </span><span class="n">multipath</span><span class="w"> </span><span class="err">{</span><span class="w"></span>
+<span class="w">                </span><span class="n">uid</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
+<span class="w">                </span><span class="n">gid</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
+<span class="w">                </span><span class="n">wwid</span><span class="w"> </span><span class="ss">&quot;&quot;</span><span class="w"></span>
+<span class="w">                </span><span class="n">mode</span><span class="w"> </span><span class="mi">0600</span><span class="w"></span>
+<span class="w">        </span><span class="err">}</span><span class="w"></span>
+<span class="err">}</span><span class="w"></span>
+<span class="n">systemctl</span><span class="w"> </span><span class="k">start</span><span class="w"> </span><span class="n">multipathd</span><span class="w"></span>
 </pre></div>
 
 
 <ul>
 <li>Firewall kurallari eklenir</li>
 </ul>
-<div class="highlight"><pre><span></span>firewall-cmd --permanent --add-port=3260/tcp
-firewall-cmd --permanent --add-service iscsi-target
-firewall-cmd --reload
+<div class="highlight"><pre><span></span><span class="err">firewall-cmd --permanent --add-port=3260/tcp</span>
+<span class="err">firewall-cmd --permanent --add-service iscsi-target</span>
+<span class="err">firewall-cmd --reload</span>
 </pre></div>
 
 
 <ul>
 <li>Disk'ler formatlanir, mount edilir, fstab guncellenir.</li>
 </ul>
-<div class="highlight"><pre><span></span>mkfs.xfs -f /dev/mapper/mpatha
-mkfs.xfs -f /dev/mapper/mpathb
-mount /dev/mapper/mpatha &lt;dizin&gt;
-mount /dev/mapper/mpathb &lt;dizin&gt;
-/dev/mapper/mpathb       &lt;dizin&gt; xfs     _netdev 0 0
+<div class="highlight"><pre><span></span><span class="err">mkfs.xfs -f /dev/mapper/mpatha</span>
+<span class="err">mkfs.xfs -f /dev/mapper/mpathb</span>
+<span class="err">mount /dev/mapper/mpatha &lt;dizin&gt;</span>
+<span class="err">mount /dev/mapper/mpathb &lt;dizin&gt;</span>
+<span class="err">/dev/mapper/mpathb       &lt;dizin&gt; xfs     _netdev 0 0</span>
 </pre></div>
       </div>
 <!-- /.entry-content -->
